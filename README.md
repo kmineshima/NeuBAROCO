@@ -1,6 +1,6 @@
 # NeuBAROCO
 
-Evaluating the ability of machine learning models to make logical inferences
+Datasets and scripts for the ACL2024 Findings paper: "Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset".
 
 ## Contents
 
