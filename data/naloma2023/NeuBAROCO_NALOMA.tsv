@@ -1,0 +1,376 @@
+premises_ja	hypothesis_ja	premises_en	hypothesis_en	gold	figure	conversion	content-type	atmosphere	syllogism-type
+あるAはBである。すべてのBはCである。	すべてのAはCである。	Some A are B. All B are C.	All A are C.	neutral	IAA	no	symbol	no	syllogism
+あるAはBである。すべてのBはCである。	あるAはCである。	Some A are B. All B are C.	Some A are C.	entailment	IAI	no	symbol	no	syllogism
+あるAはBである。すべてのBはCである。	どのAもCでない。	Some A are B. All B are C.	No A are C.	contradiction	IAE	no	symbol	no	syllogism
+すべてのAはBである。すべてのBはCである。	すべてのAはCである。	All A are B. All B are C.	All A are C.	entailment	AAA	no	symbol	no	syllogism
+すべてのAはBである。すべてのBはCである。	あるAはCでない。	All A are B. All B are C.	Some A are not C.	contradiction	AAO	no	symbol	no	syllogism
+すべてのAはBである。すべてのBはCである。	すべてのCはAである。	All A are B. All B are C.	All C are A.	neutral	AAA	yes	symbol	no	syllogism
+あるAはBである。どのBもCでない。	あるAはCでない。	Some A are B. No B are C.	Some A are not C.	entailment	IEO	no	symbol	no	syllogism
+あるAはBである。どのBもCでない。	どのAもCでない。	Some A are B. No B are C.	No A are C.	neutral	IEE	no	symbol	no	syllogism
+あるAはBである。どのBもCでない。	あるAはCである。	Some A are B. No B are C.	Some A are C.	neutral	IEI	no	symbol	yes	syllogism
+すべてのAはBである。どのBもCでない。	すべてのAはCである。	All A are B. No B are C.	All A are C.	contradiction	AEA	no	symbol	no	syllogism
+すべてのAはBである。どのBもCでない。	あるAはCである。	All A are B. No B are C.	Some A are C.	contradiction	AEI	no	symbol	no	syllogism
+すべてのAはBである。どのBもCでない。	どのAもCでない。	All A are B. No B are C.	No A are C.	entailment	AEE	no	symbol	no	syllogism
+あるBはAである。どのBもCでない。	あるAはCである。	Some B are A. No B are C.	Some A are C.	neutral	IEI	no	symbol	yes	syllogism
+あるBはAである。どのBもCでない。	あるAはCでない。	Some B are A. No B are C.	Some A are not C.	entailment	IEO	no	symbol	no	syllogism
+あるBはAである。どのBもCでない。	どのAもCでない。	Some B are A. No B are C.	No A are C.	neutral	IEE	no	symbol	no	syllogism
+すべてのBはAである。あるBはCである。	すべてのAはCである。	All B are A. Some B are C.	All A are C.	neutral	AIA	no	symbol	no	syllogism
+すべてのBはAである。あるBはCである。	あるAはCである。	All B are A. Some B are C.	Some A are C.	entailment	AII	no	symbol	no	syllogism
+すべてのBはAである。あるBはCである。	あるAはCでない。	All B are A. Some B are C.	Some A are not C.	neutral	AIO	no	symbol	yes	syllogism
+すべてのBはAである。あるBはCでない。	あるAはCである。	All B are A. Some B are not C.	Some A are C.	neutral	AOI	no	symbol	yes	syllogism
+すべてのBはAである。あるBはCでない。	あるAはCでない。	All B are A. Some B are not C.	Some A are not C.	entailment	AOO	no	symbol	no	syllogism
+すべてのBはAである。あるBはCでない。	どのAもCでない。	All B are A. Some B are not C.	No A are C.	neutral	AOE	no	symbol	yes	syllogism
+すべてのAはBである。あるCはBでない。	あるAはCである。	All A are B. Some C are not B.	Some A are C.	neutral	AOE	no	symbol	yes	syllogism
+すべてのAはBである。あるCはBでない。	どのAもCでない。	All A are B. Some C are not B.	No A are C.	neutral	AOE	no	symbol	yes	syllogism
+すべてのAはBである。あるCはBでない。	あるCはAでない。	All A are B. Some C are not B.	Some C are not A.	entailment	AOO	no	symbol	no	syllogism
+あるAはBでない。すべてのCはBである。	あるAはCである。	Some A are not B. All C are B.	Some A are C.	neutral	OAI	no	symbol	yes	syllogism
+あるAはBでない。すべてのCはBである。	あるAはCでない。	Some A are not B. All C are B.	Some A are not C.	entailment	OAO	no	symbol	no	syllogism
+あるAはBでない。すべてのCはBである。	どのAもCでない。	Some A are not B. All C are B.	No A are C.	neutral	OAE	no	symbol	yes	syllogism
+すべてのAはBである。どのCもBでない。	すべてのAはCである。	All A are B. No C are B.	All A are C.	contradiction	AEA	no	symbol	no	syllogism
+すべてのAはBである。どのCもBでない。	あるAはCである。	All A are B. No C are B.	Some A are C.	contradiction	AEI	no	symbol	no	syllogism
+すべてのAはBである。どのCもBでない。	どのAもCでない。	All A are B. No C are B.	No A are C.	entailment	AEE	no	symbol	no	syllogism
+すべてのBはAである。あるCはBである。	あるCはAである。	All B are A. Some C are B.	Some C are A.	entailment	AEE	no	symbol	no	syllogism
+すべてのBはAである。あるCはBである。	すべてのCはAである。	All B are A. Some C are B.	All C are A.	neutral	AEA	no	symbol	no	syllogism
+すべてのBはAである。あるCはBである。	あるCはAでない。	All B are A. Some C are B.	Some C are not A.	neutral	AEO	no	symbol	no	syllogism
+すべてのBはAである。すべてのCはBである。	すべてのCはAである。	All B are A. All C are B.	All C are A.	entailment	AAA	no	symbol	no	syllogism
+すべてのBはAである。すべてのCはBである。	すべてのAはCである。	All B are A. All C are B.	All A are C.	neutral	AAA	yes	symbol	no	syllogism
+すべてのBはAである。すべてのCはBである。	どのCもAでない。	All B are A. All C are B.	No C are A.	contradiction	AAE	no	symbol	no	syllogism
+どのBもAでない。すべてのCはBである。	すべてのCはAである。	No B are A. All C are B.	All C are A.	contradiction	EAA	no	symbol	no	syllogism
+どのBもAでない。すべてのCはBである。	あるCはAである。	No B are A. All C are B.	Some C are A.	contradiction	EAO	no	symbol	no	syllogism
+どのBもAでない。すべてのCはBである。	どのCもAでない。	No B are A. All C are B.	No C are A.	entailment	EAE	no	symbol	no	syllogism
+AまたはBであるものはすべてCである。どのCもDでない。	すべてのAはDである。	All A or B are C. No C are D.	All A are D.	contradiction	extended	no	symbol	no	extended
+AまたはBであるものはすべてCである。どのCもDでない。	すべてのCはDである。	All A or B are C. No C are D.	All C are D.	contradiction	extended	no	symbol	no	extended
+AまたはBであるものはすべてCである。どのCもDでない。	どのBもDでない。	All A or B are C. No C are D.	No B are D.	entailment	extended	no	symbol	no	extended
+すべてのAはBかCである。どのAもBでない。	どのAもCでない。	All A are B or C. No A are B.	No A are C.	contradiction	extended	no	symbol	no	extended
+すべてのAはBかCである。どのAもBでない。	すべてのBはCである。	All A are B or C. No A are B.	All B are C.	neutral	extended	no	symbol	no	extended
+すべてのAはBかCである。どのAもBでない。	すべてのAはCである。	All A are B or C. No A are B.	All A are C.	entailment	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのCもDでない。	どのDもAでないかBでない。	All A and B are C. No C are D.	No D are A or B.	entailment	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのCもDでない。	すべてのDはAかBである。	All A and B are C. No C are D.	All D are A or B.	neutral	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのCもDでない。	AまたはBであるものはすべてDである。	All A and B are C. No C are D.	All A or B are D.	neutral	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのAもCでない。	どのAもBでない。	All A and B are C. No A are C.	No A are B.	entailment	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのAもCでない。	すべてのAはBである。	All A and B are C. No A are C.	All A are B.	contradiction	extended	no	symbol	no	extended
+AでありかつBであるものはすべてCである。どのAもCでない。	どのBもCでない。	All A and B are C. No A are C.	No B are C.	neutral	extended	no	symbol	no	extended
+すべてのAはBである。すべてのCはDである。	AかCであるものはすべてBである。	All A are B. All C are D.	All A or C are B.	neutral	extended	no	symbol	no	extended
+すべてのAはBである。すべてのCはDである。	AかCであるものはすべてBかDである。	All A are B. All C are D.	All A or C are B or D.	entailment	extended	no	symbol	no	extended
+すべてのAはBである。すべてのCはDである。	AでありかつCであるものはすべてBである。	All A are B. All C are D.	All those that are A and C are B.	entailment	extended	no	symbol	no	extended
+どのBもCでない。あるAはBである。	あるAはCでない。	No B are C. Some A are B.	Some A are not C.	entailment	EIO	no	symbol	no	syllogism
+どのBもCでない。あるAはBである。	どのAもCでない。	No B are C. Some A are B.	No A are C.	neutral	EIE	no	symbol	no	syllogism
+どのBもCでない。あるAはBである。	あるAはCである。	No B are C. Some A are B.	Some A are C.	neutral	EII	no	symbol	yes	syllogism
+どのBもCでない。あるBはAである。	あるAはCである。	No B are C. Some B are A.	Some A are C.	neutral	EII	no	symbol	yes	syllogism
+どのBもCでない。あるBはAである。	あるAはCでない。	No B are C. Some B are A.	Some A are not C.	entailment	EIO	no	symbol	no	syllogism
+どのBもCでない。あるBはAである。	どのAもCでない。	No B are C. Some B are A.	No A are C.	neutral	EIE	no	symbol	no	syllogism
+あるBはCである。すべてのBはAである。	すべてのAはCである。	Some B are C. All B are A.	All A are C.	neutral	IAA	no	symbol	no	syllogism
+あるBはCである。すべてのBはAである。	あるAはCである。	Some B are C. All B are A.	Some A are C.	entailment	IAI	no	symbol	no	syllogism
+あるBはCである。すべてのBはAである。	あるAはCでない。	Some B are C. All B are A.	Some A are not C.	neutral	IAO	no	symbol	yes	syllogism
+あるBはCでない。すべてのBはAである。	あるAはCである。	Some B are not C. All B are A.	Some A are C.	neutral	OAI	no	symbol	yes	syllogism
+あるBはCでない。すべてのBはAである。	あるAはCでない。	Some B are not C. All B are A.	Some A are not C.	entailment	OAO	no	symbol	no	syllogism
+あるBはCでない。すべてのBはAである。	どのAもCでない。	Some B are not C. All B are A.	No A are C.	neutral	OAE	no	symbol	yes	syllogism
+どのCもBでない。すべてのAはBである。	すべてのAはCである。	No C are B. All A are B.	All A are C.	contradiction	EAA	no	symbol	no	syllogism
+どのCもBでない。すべてのAはBである。	あるAはCである。	No C are B. All A are B.	Some A are C.	contradiction	EAI	no	symbol	no	syllogism
+どのCもBでない。すべてのAはBである。	どのAもCでない。	No C are B. All A are B.	No A are C.	entailment	EAE	no	symbol	no	syllogism
+あるCはBである。すべてのBはAである。	あるCはAである。	Some C are B. All B are A.	Some C are A.	entailment	IAI	no	symbol	no	syllogism
+あるCはBである。すべてのBはAである。	すべてのCはAである。	Some C are B. All B are A.	All C are A.	neutral	IAA	no	symbol	no	syllogism
+あるCはBである。すべてのBはAである。	あるCはAでない。	Some C are B. All B are A.	Some C are not A.	neutral	IAO	no	symbol	yes	syllogism
+どのBもCでない。すべてのAはBである。	すべてのAはCである。	No B are C. All A are B.	All A are C.	contradiction	EAA	no	symbol	no	syllogism
+どのBもCでない。すべてのAはBである。	あるAはCである。	No B are C. All A are B.	Some A are C.	contradiction	EAE	no	symbol	no	syllogism
+どのBもCでない。すべてのAはBである。	どのAもCでない。	No B are C. All A are B.	No A are C.	entailment	EAA	no	symbol	no	syllogism
+すべてのCはBである。すべてのBはAである。	すべてのCはAである。	All C are B. All B are A.	All C are A.	entailment	AAA	no	symbol	no	syllogism
+すべてのCはBである。すべてのBはAである。	すべてのAはCである。	All C are B. All B are A.	All A are C.	neutral	AAA	yes	symbol	no	syllogism
+すべてのCはBである。すべてのBはAである。	どのCもAでない。	All C are B. All B are A.	No C are A.	contradiction	AAE	no	symbol	no	syllogism
+すべてのCはBである。どのBもAでない。	すべてのCはAである。	All C are B. No B are A.	All C are A.	contradiction	AEA	no	symbol	no	syllogism
+すべてのCはBである。どのBもAでない。	あるCはAである。	All C are B. No B are A.	Some C are A.	contradiction	AEI	no	symbol	no	syllogism
+すべてのCはBである。どのBもAでない。	どのCもAでない。	All C are B. No B are A.	No C are A.	entailment	AEE	no	symbol	no	syllogism
+太郎のある友人はポールの友人である。 ポールのすべての友人はドイツ人である。	太郎のすべての友人はドイツ人である。	One friend of Taro is a friend of Paul. All of Paul's friends are German.	All of Taro's friends are German.	neutral	IAA	no	consistent	no	syllogism
+太郎のある友人はポールの友人である。 ポールのすべての友人はドイツ人である。	太郎のある友人はドイツ人である。	One friend of Taro is a friend of Paul. All of Paul's friends are German.	One of Taro's friends is German.	entailment	IAI	no	consistent	no	syllogism
+太郎のある友人はポールの友人である。 ポールのすべての友人はドイツ人である。	太郎のどの友人もドイツ人でない。	One friend of Taro is a friend of Paul. All of Paul's friends are German.	None of Taro's friends are German.	contradiction	IAE	no	consistent	no	syllogism
+すべての太郎の友人はポールの友人である。 すべてのポールの友人はドイツ人である。	太郎のすべての友人はドイツ人である。	All Taro's friends are Paul's friends. All Paul's friends are German.	All of Taro's friends are German.	entailment	AAA	no	consistent	no	syllogism
+すべての太郎の友人はポールの友人である。 すべてのポールの友人はドイツ人である。	太郎のある友人はドイツ人でない。	All Taro's friends are Paul's friends. All Paul's friends are German.	One friend of Taro's is not German.	contradiction	AAO	no	consistent	no	syllogism
+すべての太郎の友人はポールの友人である。 すべてのポールの友人はドイツ人である。	すべてのドイツ人は太郎の友人である。	All Taro's friends are Paul's friends. All Paul's friends are German.	All Germans are friends of Taro.	neutral	AAA	yes	consistent	no	syllogism
+太郎のある友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のある友人はドイツ人でない。	One friend of Taro is a friend of Paul's. None of Paul's friends are German.	One friend of Taro's is not German.	entailment	IEO	no	consistent	no	syllogism
+太郎のある友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のどの友人もドイツ人でない。	One friend of Taro is a friend of Paul's. None of Paul's friends are German.	None of Taro's friends are German.	neutral	IEE	no	consistent	no	syllogism
+太郎のある友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のある友人はドイツ人である。	One friend of Taro is a friend of Paul's. None of Paul's friends are German.	One of Taro's friends is German.	neutral	IEI	no	consistent	yes	syllogism
+太郎のすべての友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のすべての友人はドイツ人である。	All of Taro's friends are friends of Paul. None of Paul's friends are German.	All of Taro's friends are German.	contradiction	AEA	no	consistent	no	syllogism
+太郎のすべての友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のある友人はドイツ人である。	All of Taro's friends are friends of Paul. None of Paul's friends are German.	One of Taro's friends is German.	contradiction	AEI	no	consistent	no	syllogism
+太郎のすべての友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のどの友人もドイツ人でない。	All of Taro's friends are friends of Paul. None of Paul's friends are German.	None of Taro's friends are German.	entailment	AEE	no	consistent	no	syllogism
+ナメクジ共和国のある同盟国はカエル帝国の同盟国である。 ナメクジ共和国のどの同盟国もアメ国の同盟国でない。	カエル帝国のある同盟国はアメ国の同盟国である。	Certain allies of the Slug Republic are allies of the Frog Empire. None of the allies of the Slug Republic are allies of the American Empire.	Certain allies of the Frog Empire are allies of the Amer.	neutral	IEI	no	consistent	yes	syllogism
+ナメクジ共和国のある同盟国はカエル帝国の同盟国である。 ナメクジ共和国のどの同盟国もアメ国の同盟国でない。	カエル帝国のある同盟国はアメ国の同盟国でない。	Certain allies of the Slug Republic are allies of the Frog Empire. None of the allies of the Slug Republic are allies of the American Empire.	Certain allies of the Frog Empire are not allies of the American state.	entailment	IEI	no	consistent	no	syllogism
+ナメクジ共和国のある同盟国はカエル帝国の同盟国である。 ナメクジ共和国のどの同盟国もアメ国の同盟国でない。	カエル帝国のどの同盟国もアメ国の同盟国でない。	Certain allies of the Slug Republic are allies of the Frog Empire. None of the allies of the Slug Republic are allies of the American Empire.	None of the Frog Empire's allies are allies of the American state.	neutral	IEE	no	consistent	no	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先である。	イヌ会社のすべての取引先はクジラ社の取引先である。	All clients of the Cat Company are clients of the Canine Company. Certain business partners of the Cat Company are business partners of the Whale Company.	All of the canine company's clients are clients of the Whale Company.	neutral	AIA	no	consistent	no	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先である。	イヌ会社のある取引先はクジラ社の取引先である。	All clients of the Cat Company are clients of the Canine Company. Certain business partners of the Cat Company are business partners of the Whale Company.	One of the canine company's clients is a client of the Whale Company.	entailment	AII	no	consistent	no	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先である。	イヌ会社のある取引先はクジラ社の取引先でない。	All clients of the Cat Company are clients of the Canine Company. Certain business partners of the Cat Company are business partners of the Whale Company.	Certain clients of the Canine Company are not clients of the Whale Company.	neutral	AII	no	consistent	yes	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先でない。	イヌ会社のある取引先はクジラ社の取引先である。	All suppliers of the Cat Company are suppliers of the Canine Company. Certain business partners of the Cat Company are not business partners of the Whale Company.	One of the canine company's clients is a client of the Whale Company.	neutral	AII	no	consistent	yes	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先でない。	イヌ会社のある取引先はクジラ社の取引先でない。	All suppliers of the Cat Company are suppliers of the Canine Company. Certain business partners of the Cat Company are not business partners of the Whale Company.	Certain clients of the Canine Company are not clients of the Whale Company.	entailment	AIO	no	consistent	no	syllogism
+ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先でない。	イヌ会社のどの取引先もクジラ社の取引先でない。	All suppliers of the Cat Company are suppliers of the Canine Company. Certain business partners of the Cat Company are not business partners of the Whale Company.	None of the canine company's clients are clients of the Whale Company.	neutral	AIE	no	consistent	no	syllogism
+ナメクジ共和国のすべての同盟国はカエル帝国の同盟国である。 アメ国のある同盟国はカエル帝国の同盟国でない。	ナメクジ共和国のある同盟国はアメ国の同盟国である。	All allies of the Slug Republic are allies of the Frog Empire. Certain allies of the Ame State are not allies of the Frog Empire.	Certain allies of the slug republics are allies of the Amer.	neutral	AOI	no	consistent	yes	syllogism
+ナメクジ共和国のすべての同盟国はカエル帝国の同盟国である。 アメ国のある同盟国はカエル帝国の同盟国でない。	ナメクジ共和国のどの同盟国もアメ国の同盟国でない。	All allies of the Slug Republic are allies of the Frog Empire. Certain allies of the Ame State are not allies of the Frog Empire.	None of the allies of the slug republics are allies of the American state.	neutral	AOE	no	consistent	yes	syllogism
+ナメクジ共和国のすべての同盟国はカエル帝国の同盟国である。 アメ国のある同盟国はカエル帝国の同盟国でない。	アメ国のある同盟国はナメクジ共和国の同盟国でない。	All allies of the Slug Republic are allies of the Frog Empire. Certain allies of the Ame State are not allies of the Frog Empire.	Certain allies of the American States are not allies of the Slug Republic.	entailment	AOO	no	consistent	no	syllogism
+太郎のある友人はドイツ人でない。 ポールのすべての友人はドイツ人である。	太郎のある友人はポールの友人である。	Certain friends of Taro are not German. All of Paul's friends are German.	One friend of Taro is a friend of Paul's.	neutral	OAI	no	consistent	yes	syllogism
+太郎のある友人はドイツ人でない。 ポールのすべての友人はドイツ人である。	太郎のある友人はポールの友人でない。	Certain friends of Taro are not German. All of Paul's friends are German.	Certain friends of Taro are not friends of Paul.	entailment	OAO	no	consistent	no	syllogism
+太郎のある友人はドイツ人でない。 ポールのすべての友人はドイツ人である。	太郎のどの友人もポールの友人でない。	Certain friends of Taro are not German. All of Paul's friends are German.	None of Taro's friends are friends of Paul's.	neutral	OAE	no	consistent	yes	syllogism
+カエル帝国のすべての同盟国はナメクジ共和国の同盟国である。 アメ国のどの同盟国もナメクジ共和国の同盟国でない。	カエル帝国のすべての同盟国はアメ国の同盟国である。	All allies of the Frog Empire are allies of the Slug Republic. None of the allies of the AMERICANS are allies of the SLUG REPUBLIC.	All allies of the Frog Empire are allies of the Amer.	contradiction	AEI	no	consistent	no	syllogism
+カエル帝国のすべての同盟国はナメクジ共和国の同盟国である。 アメ国のどの同盟国もナメクジ共和国の同盟国でない。	カエル帝国のある同盟国はアメ国の同盟国である。	All allies of the Frog Empire are allies of the Slug Republic. None of the allies of the AMERICANS are allies of the SLUG REPUBLIC.	Certain allies of the Frog Empire are allies of the Amer.	contradiction	AEI	no	consistent	no	syllogism
+カエル帝国のすべての同盟国はナメクジ共和国の同盟国である。 アメ国のどの同盟国もナメクジ共和国の同盟国でない。	カエル帝国のどの同盟国もアメ国の同盟国でない。	All allies of the Frog Empire are allies of the Slug Republic. None of the allies of the AMERICANS are allies of the SLUG REPUBLIC.	None of the Frog Empire's allies are allies of the American state.	entailment	AEE	no	consistent	no	syllogism
+イヌ会社のすべての取引先はクジラ社の取引先である。 ネコカンパニーのある取引先はイヌ会社の取引先である。	ネコカンパニーのある取引先はクジラ社の取引先である。	All clients of the Canine Company are clients of the Whale Company. Certain clients of the Cat Company are clients of the Canine Company.	One of the Cat Company's clients is a client of the Whale Company.	entailment	AII	no	consistent	no	syllogism
+イヌ会社のすべての取引先はクジラ社の取引先である。 ネコカンパニーのある取引先はイヌ会社の取引先である。	ネコカンパニーのすべての取引先はクジラ社の取引先である。	All clients of the Canine Company are clients of the Whale Company. Certain clients of the Cat Company are clients of the Canine Company.	All of the Neko Company's clients are clients of the Whale Company.	neutral	AIA	no	consistent	no	syllogism
+イヌ会社のすべての取引先はクジラ社の取引先である。 ネコカンパニーのある取引先はイヌ会社の取引先である。	ネコカンパニーのある取引先はクジラ社の取引先でない。	All clients of the Canine Company are clients of the Whale Company. Certain clients of the Cat Company are clients of the Canine Company.	Certain clients of the Cat Company are not clients of the Whale Company.	neutral	AIO	no	consistent	yes	syllogism
+ポールのすべての友人はドイツ人である。 太郎のすべての友人はポールの友人である。	太郎のすべての友人はドイツ人である。	All friends of Paul are German. All friends of Taro are friends of Paul.	All of Taro's friends are German.	entailment	AAA	no	consistent	no	syllogism
+ポールのすべての友人はドイツ人である。 太郎のすべての友人はポールの友人である。	すべてのドイツ人は太郎の友人である。	All friends of Paul are German. All friends of Taro are friends of Paul.	All Germans are friends of Taro.	neutral	AAA	yes	consistent	no	syllogism
+ポールのすべての友人はドイツ人である。 太郎のすべての友人はポールの友人である。	太郎のどの友人もドイツ人でない。	All friends of Paul are German. All friends of Taro are friends of Paul.	None of Taro's friends are German.	contradiction	AAE	no	consistent	no	syllogism
+ナメクジ共和国のどの同盟国もカエル帝国の同盟国でない。 アメ国のすべての同盟国はナメクジ共和国の同盟国である。	アメ国のすべての同盟国はカエル帝国の同盟国である。	None of the allies of the Slug Republic are allies of the Frog Empire. All allies of the Amerika are allies of the Slug Republic.	All allies of the Amerindian state are allies of the Frog Empire.	contradiction	EAA	no	consistent	no	syllogism
+ナメクジ共和国のどの同盟国もカエル帝国の同盟国でない。 アメ国のすべての同盟国はナメクジ共和国の同盟国である。	アメ国のある同盟国はカエル帝国の同盟国である。	None of the allies of the Slug Republic are allies of the Frog Empire. All allies of the Amerika are allies of the Slug Republic.	Certain allies of the American state are allies of the Frog Empire.	contradiction	EAI	no	consistent	no	syllogism
+ナメクジ共和国のどの同盟国もカエル帝国の同盟国でない。 アメ国のすべての同盟国はナメクジ共和国の同盟国である。	アメ国のどの同盟国もカエル帝国の同盟国でない。	None of the allies of the Slug Republic are allies of the Frog Empire. All allies of the Amerika are allies of the Slug Republic.	None of the American allies are allies of the Frog Empire.	entailment	EAE	no	consistent	no	syllogism
+リサのどの友人も日本人でない。 太郎のある友人はリサの友人である。	太郎のある友人は日本人でない。	None of Lisa's friends are Japanese. One friend of Taro is a friend of Lisa's.	A certain friend of Taro's is not Japanese.	entailment	EIO	no	consistent	no	syllogism
+リサのどの友人も日本人でない。 太郎のある友人はリサの友人である。	太郎のどの友人も日本人でない	None of Lisa's friends are Japanese. One friend of Taro is a friend of Lisa's.	None of Taro's friends are Japanese.	neutral	EIE	no	consistent	no	syllogism
+リサのどの友人も日本人でない。 太郎のある友人はリサの友人である。	太郎のある友人は日本人である。	None of Lisa's friends are Japanese. One friend of Taro is a friend of Lisa's.	One of Taro's friends is Japanese.	neutral	EII	no	consistent	yes	syllogism
+ネズミ共和国のどの同盟国もヘビ国の同盟国でない。 ネズミ共和国のある同盟国はカエル帝国の同盟国である。	カエル帝国のある同盟国はヘビ国の同盟国である。	None of the allies of the Rat Republic are allies of the Snake State. Certain allies of the Rat Republic are allies of the Frog Empire.	Certain allies of the Frog Empire are allies of the Snake State.	neutral	EII	no	consistent	yes	syllogism
+ネズミ共和国のどの同盟国もヘビ国の同盟国でない。 ネズミ共和国のある同盟国はカエル帝国の同盟国である。	カエル帝国のある同盟国はヘビ国の同盟国でない。	None of the allies of the Rat Republic are allies of the Snake State. Certain allies of the Rat Republic are allies of the Frog Empire.	Certain allies of the Frog Empire are not allies of the Snake State.	entailment	EIO	no	consistent	no	syllogism
+ネズミ共和国のどの同盟国もヘビ国の同盟国でない。 ネズミ共和国のある同盟国はカエル帝国の同盟国である。	カエル帝国のどの同盟国もヘビ国の同盟国でない。	None of the allies of the Rat Republic are allies of the Snake State. Certain allies of the Rat Republic are allies of the Frog Empire.	None of the Frog Empire's allies are allies of the Snake State.	neutral	EIE	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先である。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のすべての取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	All of the Bird Company's clients are clients of Whale Inc.	neutral	IAA	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先である。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のある取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	One of the Bird Company's clients is a client of the Whale Company.	entailment	IAI	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先である。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のある取引先はクジラ社の取引先でない。	Certain clients of the Sheep Company are clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	One client of the Bird Company is not a client of Whale Company.	neutral	IAO	no	consistent	yes	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先でない。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のある取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are not clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	One of the Bird Company's clients is a client of the Whale Company.	neutral	OAI	no	consistent	yes	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先でない。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のある取引先はクジラ社の取引先でない。	Certain clients of the Sheep Company are not clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	One client of the Bird Company is not a client of Whale Company.	entailment	OAO	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はクジラ社の取引先でない。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のどの取引先もクジラ社の取引先でない。	Certain clients of the Sheep Company are not clients of the Whale Company. All clients of the Sheep Company are clients of the Bird Company.	None of the Bird Company's clients are clients of Whale Company.	neutral	OAE	no	consistent	yes	syllogism
+ヘビ国のどの同盟国もネズミ共和国の同盟国でない。 カエル帝国のすべての同盟国はネズミ共和国の同盟国である。	カエル帝国のすべての同盟国はヘビ国の同盟国である。	None of the allies of the Snake Kingdom are allies of the Rat Republic. All allies of the Frog Empire are allies of the Rat Republic.	All allies of the Frog Empire are allies of the Snake State.	contradiction	EAA	no	consistent	no	syllogism
+ヘビ国のどの同盟国もネズミ共和国の同盟国でない。 カエル帝国のすべての同盟国はネズミ共和国の同盟国である。	カエル帝国のある同盟国はヘビ国の同盟国である。	None of the allies of the Snake Kingdom are allies of the Rat Republic. All allies of the Frog Empire are allies of the Rat Republic.	Certain allies of the Frog Empire are allies of the Snake State.	contradiction	EAI	no	consistent	no	syllogism
+ヘビ国のどの同盟国もネズミ共和国の同盟国でない。 カエル帝国のすべての同盟国はネズミ共和国の同盟国である。	カエル帝国のどの同盟国もヘビ国の同盟国でない。	None of the allies of the Snake Kingdom are allies of the Rat Republic. All allies of the Frog Empire are allies of the Rat Republic.	None of the Frog Empire's allies are allies of the Snake State.	entailment	EAE	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はトリ会社の取引先である。 トリ会社のすべての取引先はクジラ社の取引先である。	ヒツジカンパニーのある取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are clients of the bird Company. All of Tori Company's clients are clients of Whale Company.	One client of the Sheep Company is a client of the Whale Company.	entailment	IAI	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はトリ会社の取引先である。 トリ会社のすべての取引先はクジラ社の取引先である。	ヒツジカンパニーのすべての取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are clients of the Tori Company. All of Tori Company's clients are clients of Whale Company.	All of the Sheep Company's clients are clients of the Whale Company.	neutral	IAA	no	consistent	no	syllogism
+ヒツジカンパニーのある取引先はトリ会社の取引先である。 トリ会社のすべての取引先はクジラ社の取引先である。	ヒツジカンパニーのある取引先はクジラ社の取引先でない。	Certain clients of the Sheep Company are clients of the Tori Company. All of Tori Company's clients are clients of Whale Company.	Certain clients of the Sheep Company are not clients of the Whale Company.	neutral	IAO	no	consistent	yes	syllogism
+リサのどの友人も日本人ではない。 太郎のすべての友人はリサの友人である。	太郎のすべての友人は日本人である。	None of Lisa's friends are Japanese. All of Taro's friends are friends of Lisa.	All of Taro's friends are Japanese.	contradiction	EAA	no	consistent	no	syllogism
+リサのどの友人も日本人ではない。 太郎のすべての友人はリサの友人である。	太郎のある友人は日本人である。	None of Lisa's friends are Japanese. All of Taro's friends are friends of Lisa.	One of Taro's friends is Japanese.	contradiction	EAI	no	consistent	no	syllogism
+リサのどの友人も日本人ではない。 太郎のすべての友人はリサの友人である。	太郎のどの友人も日本人でない。	None of Lisa's friends are Japanese. All of Taro's friends are friends of Lisa.	None of Taro's friends are Japanese.	entailment	EAE	no	consistent	no	syllogism
+太郎のすべての友人はリサの友人である。 リサのすべての友人は日本人である。	太郎のすべての友人は日本人である。	All of Taro's friends are friends of Lisa. All of Lisa's friends are Japanese.	All of Taro's friends are Japanese.	entailment	AAA	no	consistent	no	syllogism
+太郎のすべての友人はリサの友人である。 リサのすべての友人は日本人である。	すべての日本人は太郎の友人である。	All of Taro's friends are friends of Lisa. All of Lisa's friends are Japanese.	All Japanese are friends of Taro.	neutral	AAA	yes	consistent	no	syllogism
+太郎のすべての友人はリサの友人である。 リサのすべての友人は日本人である。	太郎のどの友人も日本人でない。	All of Taro's friends are friends of Lisa. All of Lisa's friends are Japanese.	None of Taro's friends are Japanese.	contradiction	AAE	no	consistent	no	syllogism
+ヘビ国のすべての同盟国はネズミ共和国の同盟国である。 ネズミ共和国のどの同盟国もカエル帝国の同盟国でない。	ヘビ国のすべての同盟国はカエル帝国の同盟国である。	All allies of the Snake Kingdom are allies of the Rat Republic. None of the allies of the Rat Republic are allies of the Frog Empire.	All allies of the Snake State are allies of the Frog Empire.	contradiction	AEA	no	consistent	no	syllogism
+ヘビ国のすべての同盟国はネズミ共和国の同盟国である。 ネズミ共和国のどの同盟国もカエル帝国の同盟国でない。	ヘビ国のある同盟国はカエル帝国の同盟国である。	All allies of the Snake Kingdom are allies of the Rat Republic. None of the allies of the Rat Republic are allies of the Frog Empire.	Certain allies of the Snake State are allies of the Frog Empire.	contradiction	AEI	no	consistent	no	syllogism
+ヘビ国のすべての同盟国はネズミ共和国の同盟国である。 ネズミ共和国のどの同盟国もカエル帝国の同盟国でない。	ヘビ国のどの同盟国もカエル帝国の同盟国でない。	All allies of the Snake Kingdom are allies of the Rat Republic. None of the allies of the Rat Republic are allies of the Frog Empire.	None of the snake nations are allies of the Frog Empire.	entailment	AEE	no	consistent	no	syllogism
+あるロボットは機械である。 すべての機械は壊れる。	すべてのロボットは壊れる。	Some robots are machines. All machines break.	All robots break.	neutral	IAA	no	consistent	no	syllogism
+あるロボットは機械である。 すべての機械は壊れる。	あるロボットは壊れる。	Some robots are machines. All machines break.	Some robots break.	entailment	IAI	no	consistent	no	syllogism
+あるロボットは機械である。 すべての機械は壊れる。	どのロボットも壊れない。	Some robots are machines. All machines break.	None of the robots are broken.	contradiction	IAE	no	consistent	no	syllogism
+すべての動物は哺乳類である。 すべての哺乳類は人間である。	すべての動物は人間である。	All animals are mammals. All mammals are human beings.	All animals are human.	entailment	AAA	no	consistent	no	syllogism
+すべての動物は哺乳類である。 すべての哺乳類は人間である。	ある動物は人間でない。	All animals are mammals. All mammals are human beings.	Some animals are not human.	contradiction	AAO	no	consistent	no	syllogism
+すべての動物は哺乳類である。 すべての哺乳類は人間である。	すべての人間は動物である。	All animals are mammals. All mammals are human beings.	All humans are animals.	neutral	AAA	yes	consistent	no	syllogism
+ある教員は男性である。 どの男性も女性でない。	ある教員は女性でない。	One faculty member is male. None of the men are women.	One faculty member is not a woman.	entailment	IEO	no	consistent	no	syllogism
+ある教員は男性である。 どの男性も女性でない。	どの教員も女性でない。	One faculty member is male. None of the men are women.	None of the faculty members are women.	neutral	IEE	no	consistent	no	syllogism
+ある教員は男性である。 どの男性も女性でない。	ある教員は女性である。	One faculty member is male. None of the men are women.	One faculty member is a woman.	neutral	IEI	no	consistent	yes	syllogism
+すべての人間は哺乳類である。 どの哺乳類もワニでない。	すべてのワニは人間である。	All humans are mammals. No mammal is a crocodile.	All crocodiles are human.	contradiction	AEA	no	inconsistent	no	syllogism
+すべての人間は哺乳類である。 どの哺乳類もワニでない。	あるワニは人間である。	All humans are mammals. No mammal is a crocodile.	Some crocodiles are human.	contradiction	AEI	no	inconsistent	no	syllogism
+すべての人間は哺乳類である。 どの哺乳類もワニでない。	どのワニも人間でない。	All humans are mammals. No mammal is a crocodile.	None of the crocodiles are human.	entailment	AEE	no	consistent	no	syllogism
+あるイヌはペットである。 どのイヌもネコでない。	あるペットはネコである。	Some canines are pets. Every canine is not a cat.	One pet is a cat.	neutral	IEI	no	consistent	yes	syllogism
+あるイヌはペットである。 どのイヌもネコでない。	あるペットはネコでない。	Some canines are pets. Every canine is not a cat.	One pet is not a cat.	entailment	IEO	no	consistent	no	syllogism
+あるイヌはペットである。 どのイヌもネコでない。	どのペットもネコでない。	Some canines are pets. Every canine is not a cat.	None of the pets are cats.	neutral	IEE	no	consistent	no	syllogism
+すべての金属は液体である。 ある金属は石である。	すべての石は液体である。	All metals are liquids. Some metals are stones.	All stones are liquid.	neutral	AIA	no	inconsistent	no	syllogism
+すべての金属は液体である。 ある金属は石である。	ある石は液体である。	All metals are liquids. Some metals are stones.	Some stones are liquid.	entailment	AII	no	inconsistent	no	syllogism
+すべての金属は液体である。 ある金属は石である。	ある石は液体でない。	All metals are liquids. Some metals are stones.	Some stones are not liquid.	neutral	AIO	no	inconsistent	yes	syllogism
+すべてのロボットは機械である。 あるロボットは商品でない。	ある機械は商品である。	All robots are machines. Some robots are not commodities.	Some machines are commodities.	neutral	AOI	no	consistent	yes	syllogism
+すべてのロボットは機械である。 あるロボットは商品でない。	ある機械は商品でない。	All robots are machines. Some robots are not commodities.	Some machines are not commodities.	entailment	AOO	no	consistent	no	syllogism
+すべてのロボットは機械である。 あるロボットは商品でない。	どの機械も商品でない。	All robots are machines. Some robots are not commodities.	No machine is a commodity.	neutral	AOE	no	consistent	yes	syllogism
+すべての動物は生物である。 ある人間は生物でない。	ある動物は人間である。	All animals are living things. Some humans are not living things.	One animal is a human being.	neutral	AOI	no	inconsistent	yes	syllogism
+すべての動物は生物である。 ある人間は生物でない。	どの動物も人間でない。	All animals are living things. Some humans are not living things.	None of the animals are human.	neutral	AOE	no	inconsistent	yes	syllogism
+すべての動物は生物である。 ある人間は生物でない。	ある人間は動物でない。	All animals are living things. Some humans are not living things.	Some humans are not animals.	entailment	AOO	no	inconsistent	no	syllogism
+ある警察官は公務員でない。 すべての人間は公務員である。	ある警察官は人間である。	A certain police officer is not a public servant. All human beings are public servants.	One police officer is a human being.	neutral	OAI	no	inconsistent	yes	syllogism
+ある警察官は公務員でない。 すべての人間は公務員である。	ある警察官は人間でない。	A certain police officer is not a public servant. All human beings are public servants.	One police officer is not a human being.	entailment	OAO	no	inconsistent	no	syllogism
+ある警察官は公務員でない。 すべての人間は公務員である。	どの警察官も人間でない。	A certain police officer is not a public servant. All human beings are public servants.	None of the police officers are human.	neutral	OAE	no	inconsistent	yes	syllogism
+すべての人間は親切である。 どの医者も親切でない。	すべての医者は人間である。	All men are kind. No doctor is kind.	All doctors are human beings.	contradiction	AEA	no	consistent	no	syllogism
+すべての人間は親切である。 どの医者も親切でない。	ある医者は人間である。	All men are kind. No doctor is kind.	One doctor is a human being.	contradiction	AEI	no	consistent	no	syllogism
+すべての人間は親切である。 どの医者も親切でない。	どの医者も人間でない。	All men are kind. No doctor is kind.	None of the doctors are human.	entailment	AEE	no	inconsistent	no	syllogism
+すべての店員は男性である。 ある女性は店員である。	ある女性は男性である。	All clerks are male. Some women are shopkeepers.	One woman is a man.	entailment	AII	no	inconsistent	no	syllogism
+すべての店員は男性である。 ある女性は店員である。	すべての女性は男性である。	All clerks are male. Some women are shopkeepers.	All women are men.	neutral	AIA	no	inconsistent	no	syllogism
+すべての店員は男性である。 ある女性は店員である。	ある女性は男性でない。	All clerks are male. Some women are shopkeepers.	Some women are not men.	neutral	AIO	no	consistent	yes	syllogism
+すべての生物はロボットである。 すべてのネコは生物である。	すべてのネコはロボットである。	All living things are robots. All cats are living things.	All cats are robots.	entailment	AAA	no	inconsistent	no	syllogism
+すべての生物はロボットである。 すべてのネコは生物である。	すべてのロボットはネコである。	All living things are robots. All cats are living things.	All robots are cats.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての生物はロボットである。 すべてのネコは生物である。	どのネコもロボットでない。	All living things are robots. All cats are living things.	No cat is a robot.	contradiction	AAE	no	inconsistent	no	syllogism
+どの食べ物も本でない。 すべての果物は食べ物である。	すべての果物は本である。	No food is a book. All fruits are food.	Every fruit is a book.	contradiction	EAA	no	inconsistent	no	syllogism
+どの食べ物も本でない。 すべての果物は食べ物である。	ある果物は本である。	No food is a book. All fruits are food.	Some fruits are books.	contradiction	EAI	no	inconsistent	no	syllogism
+どの食べ物も本でない。 すべての果物は食べ物である。	どの果物も本でない。	No food is a book. All fruits are food.	None of the fruits are books.	entailment	EAE	no	consistent	no	syllogism
+どのオスもメスでない。 ある昆虫はオスである。	ある昆虫はメスでない。	None of the males are female. Some insects are male.	Some insects are not female.	entailment	EIO	no	consistent	no	syllogism
+どのオスもメスでない。 ある昆虫はオスである。	どの昆虫もメスでない。	None of the males are female. Some insects are male.	None of the insects are female.	neutral	EIE	no	inconsistent	no	syllogism
+どのオスもメスでない。 ある昆虫はオスである。	ある昆虫はメスである。	None of the males are female. Some insects are male.	Some insects are female.	neutral	EII	no	consistent	yes	syllogism
+どのトリもイヌでない。 あるトリはペットである。	あるペットはイヌである。	None of the  are cabirdnines. Some birds are pets.	One pet is a canine.	neutral	EII	no	consistent	yes	syllogism
+どのトリもイヌでない。 あるトリはペットである。	あるペットはイヌでない。	None of the bird are canines. Some birds are pets.	Certain pets are not canines.	entailment	EIO	no	consistent	no	syllogism
+どのトリもイヌでない。 あるトリはペットである。	どのペットもイヌでない。	None of the bird are canines. Some birds are pets.	None of the pets are canines.	neutral	EIE	no	consistent	no	syllogism
+ある金属は砂である。 すべての金属は空気である。	すべての砂は空気である。	Some metals are sand. All metals are air.	All sand is air.	neutral	IAA	no	inconsistent	no	syllogism
+ある金属は砂である。 すべての金属は空気である。	ある砂は空気である。	Some metals are sand. All metals are air.	Some sand is air.	neutral	IAI	no	inconsistent	yes	syllogism
+ある金属は砂である。 すべての金属は空気である。	ある砂は空気でない。	Some metals are sand. All metals are air.	Some sand is not air.	entailment	IAO	no	inconsistent	no	syllogism
+あるロボットは売り物でない。 すべてのロボットは機械である。	ある機械は売り物である。	Some robots are not for sale. All robots are machines.	Some machines are for sale.	neutral	OAI	no	consistent	yes	syllogism
+あるロボットは売り物でない。 すべてのロボットは機械である。	ある機械は売り物でない。	Some robots are not for sale. All robots are machines.	Certain machines are not for sale.	entailment	OAO	no	consistent	no	syllogism
+あるロボットは売り物でない。 すべてのロボットは機械である。	どの機械も売り物でない。	Some robots are not for sale. All robots are machines.	None of the machines are for sale.	neutral	OAE	no	consistent	yes	syllogism
+どの教員も親切でない。 すべての動物は親切である。	すべての教員は動物である。	None of the teachers are kind. All animals are kind.	All teachers are animals.	contradiction	EAA	no	consistent	no	syllogism
+どの教員も親切でない。 すべての動物は親切である。	ある教員は動物である。	None of the teachers are kind. All animals are kind.	Some faculty members are animals.	contradiction	EAI	no	consistent	no	syllogism
+どの教員も親切でない。 すべての動物は親切である。	どの教員も動物でない。	None of the teachers are kind. All animals are kind.	None of the faculty members are animals.	entailment	EAE	no	inconsistent	no	syllogism
+ある女性は泥棒である。 すべての泥棒は男性である。	ある女性は男性である。	Some women are thieves. Every thief is a man.	One woman is a man.	entailment	IAI	no	inconsistent	no	syllogism
+ある女性は泥棒である。 すべての泥棒は男性である。	すべての女性は男性である。	Some women are thieves. Every thief is a man.	All women are men.	neutral	IAA	no	inconsistent	no	syllogism
+ある女性は泥棒である。 すべての泥棒は男性である。	ある女性は男性でない。	Some women are thieves. Every thief is a man.	Some women are not men.	neutral	IAO	no	consistent	yes	syllogism
+どの鳥類もワニでない。 すべてのカラスは鳥類である。	すべてのワニはカラスである。	Every bird is not a crocodile. All crows are birds.	All crocodiles are crows.	contradiction	EAA	no	inconsistent	no	syllogism
+どの鳥類もワニでない。 すべてのカラスは鳥類である。	あるワニはカラスである。	Every bird is not a crocodile. All crows are birds.	Some crocodiles are crows.	contradiction	EAI	no	inconsistent	no	syllogism
+どの鳥類もワニでない。 すべてのカラスは鳥類である。	どのワニもカラスでない。	Every bird is not a crocodile. All crows are birds.	None of the crocodiles are crows.	entailment	EAE	no	consistent	no	syllogism
+すべてのイヌは動物である。 すべての動物はロボットである。	すべてのイヌはロボットである。	All canines are animals. All animals are robots.	All canines are robots.	entailment	AAA	no	inconsistent	no	syllogism
+すべてのイヌは動物である。 すべての動物はロボットである。	すべてのロボットはイヌである。	All canines are animals. All animals are robots.	All robots are canines.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのイヌは動物である。 すべての動物はロボットである。	どのイヌもロボットでない。	All canines are animals. All animals are robots.	No canine is a robot.	contradiction	AAE	no	inconsistent	no	syllogism
+すべての果物は食べ物である。 どの食べ物も石でない。	すべての果物は石である。	Every fruit is food. No food is a stone.	All fruits are stone.	contradiction	AEA	no	inconsistent	no	syllogism
+すべての果物は食べ物である。 どの食べ物も石でない。	ある果物は石である。	Every fruit is food. No food is a stone.	Some fruits are stones.	contradiction	AEI	no	inconsistent	no	syllogism
+すべての果物は食べ物である。 どの食べ物も石でない。	どの果物も石でない。	Every fruit is food. No food is a stone.	None of the fruits are stones.	entailment	AEE	no	consistent	no	syllogism
+もし花子がO型であるなら花子の娘はB型である。花子の娘はB型でない。	花子はO型である。	"If Hanako has blood type O, then Hanako's daughter has blood type B. Hanako's daughter does not have blood type B."	Hanako has blood type O.	contradiction	propositional	no	consistent	no	extended
+もし花子がO型であるなら花子の娘はB型である。花子の娘はB型でない。	花子はO型でない。	"If Hanako has blood type O, then Hanako's daughter has blood type B. Hanako's daughter does not have blood type B."	Hanako does not have blood type O.	entailment	propositional	no	consistent	no	extended
+太郎が高校生であるなら太郎はジュースをもらえる。太郎はジュースをもらえない。	太郎は高校生である。	"If Taro is a high school student, Taro gets juice. Taro does not get juice."	Taro is a high school student.	contradiction	propositional	no	consistent	no	extended
+太郎が高校生であるなら太郎はジュースをもらえる。太郎はジュースをもらえない。	太郎は高校生でない。	"If Taro is a high school student, Taro gets juice. Taro does not get juice."	Taro is not a high school student.	entailment	propositional	no	consistent	no	extended
+悪魔が存在するか神が存在する。悪魔が存在するならば、神も存在する。	神が存在する。	"Either the devil exists or God exists. If the devil exists, God exists."	God exists.	entailment	propositional	no	others	no	extended
+悪魔が存在するか神が存在する。悪魔が存在するならば、神も存在する。	神は存在しない。	"Either the devil exists or God exists. If the devil exists, God exists."	God does not exist.	contradiction	propositional	no	others	no	extended
+悪魔が存在するか神が存在する。悪魔が存在するならば、神も存在する。	悪魔が存在する。	"Either the devil exists or God exists. If the devil exists, God exists."	The devil exists.	neutral	propositional	no	others	no	extended
+花子がO型であるか花子の娘がB型である。花子がO型ならば、花子の娘はB型である。	花子の娘はB型である。	"Hanako has blood type O or Hanako's daughter has blood type B. If Hanako has blood type O, then Hanako's daughter has blood type B."	Hanako's daughter has blood type B.	entailment	propositional	no	consistent	no	extended
+花子がO型であるか花子の娘がB型である。花子がO型ならば、花子の娘はB型である。	花子の娘はB型でない。	"Hanako has blood type O or Hanako's daughter has blood type B. If Hanako has blood type O, then Hanako's daughter has blood type B."	Hanako's daughter does not have blood type B.	contradiction	propositional	no	consistent	no	extended
+花子がO型であるか花子の娘がB型である。花子がO型ならば、花子の娘はB型である。	花子の娘はO型である。	"Hanako has blood type O or Hanako's daughter has blood type B. If Hanako has blood type O, then Hanako's daughter has blood type B."	Hanako's daughter has blood type O.	contradiction	propositional	no	consistent	no	extended
+人類が存続するか地球が滅びるかのどちらかである。 人類は存続しない。	地球は滅びない。	Either humanity will survive or the earth will perish. Humanity will not survive.	The earth will not perish.	contradiction	propositional	no	others	no	extended
+人類が存続するか地球が滅びるかのどちらかである。 人類は存続しない。	地球は滅びる。	Either humanity will survive or the earth will perish. Humanity will not survive.	The earth will perish.	entailment	propositional	no	others	no	extended
+人類が存続するか地球が滅びるかのどちらかである。 人類は存続しない。	人類は存続する。	Either humanity will survive or the earth will perish. Humanity will not survive.	Humanity will survive.	contradiction	propositional	no	others	no	extended
+花子はA型かB型である。 花子はA型でない。	花子はB型である。	Hanako has blood type A or B. Hanako does not have blood type A.	Hanako has blood type B.	entailment	propositional	no	consistent	no	extended
+花子はA型かB型である。 花子はA型でない。	花子はB型でない。	Hanako has blood type A or B. Hanako does not have blood type A.	Hanako does not have blood type B.	contradiction	propositional	no	consistent	no	extended
+花子はA型かB型である。 花子はA型でない。	花子はA型である。	Hanako has blood type A or B. Hanako does not have blood type A.	Hanako has blood type A.	contradiction	propositional	no	consistent	no	extended
+太郎が高校生なら太郎はジュースをもらえる。 太郎が高校生でないなら太郎はジュースをもらえる。	太郎はジュースをもらえる。	"If Taro is a high school student, Taro gets juice. If Taro is not a high school student, Taro gets juice."	Taro gets juice.	entailment	propositional	no	consistent	no	extended
+太郎が高校生なら太郎はジュースをもらえる。 太郎が高校生でないなら太郎はジュースをもらえる。	太郎はジュースをもらえない。	"If Taro is a high school student, Taro gets juice. If Taro is not a high school student, Taro gets juice."	Taro does not get juice.	contradiction	propositional	no	consistent	no	extended
+太郎がO型なら太郎の息子はB型である。太郎がO型でないなら太郎の息子はB型である。	太郎の息子はB型である。	"If Taro has blood type O, then Taro's son has blood type B. If Taro does not have blood type O, then Taro's son has blood type B."	Taro's son has blood type B.	entailment	propositional	no	consistent	no	extended
+太郎がO型なら太郎の息子はB型である。太郎がO型でないなら太郎の息子はB型である。	太郎の息子はB型でない。	"If Taro has blood type O, then Taro's son has blood type B. If Taro does not have type O, then Taro's son has blood type B."	Taro's son does not have blood type B.	contradiction	propositional	no	consistent	no	extended
+彼は韓国人か中国人である。彼が中国人なら彼は中国語を話せる。彼は中国語を話せない。	彼は韓国人である。	"He is either Korean or Chinese. If he is Chinese, he speaks Chinese. He does not speak Chinese."	He is Korean.	entailment	propositional	no	consistent	no	extended
+彼は韓国人か中国人である。彼が中国人なら彼は中国語を話せる。彼は中国語を話せない。	彼は中国人である。	"He is either Korean or Chinese. If he is Chinese, he speaks Chinese. He does not speak Chinese."	He is Chinese.	contradiction	propositional	no	consistent	no	extended
+彼は韓国人か中国人である。彼が中国人なら彼は中国語を話せる。彼は中国語を話せない。	彼は韓国人でない。	"He is either Korean or Chinese. If he is Chinese, he speaks Chinese. He does not speak Chinese."	He is not Korean.	contradiction	propositional	no	consistent	no	extended
+この液体には化学物質Aか化学物質Bが入っている。この液体に化学物質Bが入っているなら、必ず化学物質Cも入っている。この液体に化学物質Cが入っていない。	この液体には化学物質Aが入っている。	"This liquid contains either chemical A or chemical B. If this liquid contains chemical B, it must also contain chemical C. This liquid does not contain chemical C."	This liquid contains chemical A.	entailment	propositional	no	consistent	no	extended
+この液体には化学物質Aか化学物質Bが入っている。この液体に化学物質Bが入っているなら、必ず化学物質Cも入っている。この液体に化学物質Cが入っていない。	この液体には化学物質Bが入っている。	"This liquid contains either chemical A or chemical B. If this liquid contains chemical B, it must also contain chemical C. This liquid does not contain chemical C."	This liquid contains chemical B.	contradiction	propositional	no	consistent	no	extended
+この液体には化学物質Aか化学物質Bが入っている。この液体に化学物質Bが入っているなら、必ず化学物質Cも入っている。この液体に化学物質Cが入っていない。	この液体には化学物質Aが入っていない。	"This liquid contains either chemical A or chemical B. If this liquid contains chemical B, it must also contain chemical C. This liquid does not contain chemical C."	This liquid does not contain chemical A.	contradiction	propositional	no	consistent	no	extended
+もし太郎が幸せならば、太郎は金と暇がある。太郎は暇があると金がない。	太郎は幸せである。	"If Taro is happy, Taro has money and leisure time. If Taro has leisure time, he has no money."	Taro is happy.	contradiction	propositional	no	consistent	no	extended
+もし太郎が幸せならば、太郎は金と暇がある。太郎は暇があると金がない。	太郎は幸せでない。	"If Taro is happy, Taro has money and leisure time. If Taro has leisure time, he has no money."	Taro is not happy.	entailment	propositional	no	consistent	no	extended
+この液体に化学物質Aが入っているならば化学物質Bも化学物質Cも入っている。この液体に化学物質Cが入っているならば化学物質Bは入っていない。	この液体には化学物質Aが入っている。	"If this liquid contains chemical A, then it also contains chemical B and chemical C. If this liquid contains chemical C, then it does not contain chemical B."	This liquid contains chemical A.	contradiction	propositional	no	consistent	no	extended
+この液体に化学物質Aが入っているならば化学物質Bも化学物質Cも入っている。この液体に化学物質Cが入っているならば化学物質Bは入っていない。	この液体には化学物質Aが入っていない。	"If this liquid contains chemical A, then it also contains chemical B and chemical C. If this liquid contains chemical C, then it does not contain chemical B."	This liquid does not contain chemical A.	entailment	propositional	no	consistent	no	extended
+太郎は金を持っていて暇ならば、太郎は幸せである。太郎は金を持っている。	太郎は暇ならば幸せである。	"If Taro has money and is not busy, Taro is happy. Taro has money."	Taro is happy if he is not busy.	entailment	propositional	no	consistent	no	extended
+太郎は金を持っていて暇ならば、太郎は幸せである。太郎は金を持っている。	太郎は暇ならば幸せでない。	"If Taro has money and is not busy, Taro is happy. Taro has money."	Taro is not happy if he is not busy.	contradiction	propositional	no	consistent	no	extended
+太郎は金を持っていて暇ならば、太郎は幸せである。太郎は金を持っている。	太郎は暇でないならば幸せでない。	"If Taro has money and is not busy, Taro is happy. Taro has money."	Taro is not happy if he is busy.	neutral	propositional	no	consistent	no	extended
+この液体に化学物質AとBが入っていれば、Cも入っている。この液体には化学物質Aが入っている。	この液体に化学物質Bが入っていればCが入っている。	"If this liquid contains chemicals A and B, it also contains C. This liquid contains chemical A."	"If this liquid contains chemical B, it contains C."	entailment	propositional	no	consistent	no	extended
+この液体に化学物質AとBが入っていれば、Cも入っている。この液体には化学物質Aが入っている。	この液体に化学物質Bが入っていればCは入っていない。	"If this liquid contains chemicals A and B, it also contains C. This liquid contains chemical A."	"If this liquid contains chemical B, it does not contain C."	contradiction	propositional	no	consistent	no	extended
+この液体に化学物質AとBが入っていれば、Cも入っている。この液体には化学物質Aが入っている。	この液体に化学物質Bが入っていなければCも入っていない。	"If this liquid contains chemicals A and B, it also contains C. This liquid contains chemical A."	"If this liquid does not contain chemical B, it does not contain C either."	neutral	propositional	no	consistent	no	extended
+化学実験である液体の化学成分を調べた。最初の実験ではこの液体は化学物質Bが入っていないか、化学物質Aが入っていることが分かった。次の実験でCが入っていないか、Bが入っていることが分かった。	この液体には化学物質Cが入っているかBが入っている。	"We examined the chemical composition of a certain liquid in a chemistry experiment. The first experiment showed that this liquid either did not contain chemical B or contained chemical A. In the next experiment, we found that it either did not contain C or contained B."	This liquid contains chemical C or B.	neutral	propositional	no	consistent	no	extended
+化学実験である液体の化学成分を調べた。最初の実験ではこの液体は化学物質Bが入っていないか、化学物質Aが入っていることが分かった。次の実験でCが入っていないか、Bが入っていることが分かった。	この液体には化学物質Aが入っているかBが入っている。	"We examined the chemical composition of a certain liquid in a chemistry experiment. The first experiment showed that this liquid either did not contain chemical B or contained chemical A. In the next experiment, we found that it either did not contain C or contained B."	This liquid contains chemical A or B.	neutral	propositional	no	consistent	no	extended
+化学実験である液体の化学成分を調べた。最初の実験ではこの液体は化学物質Bが入っていないか、化学物質Aが入っていることが分かった。次の実験でCが入っていないか、Bが入っていることが分かった。	この液体には化学物質Cが入っていないかAが入っている。	"We examined the chemical composition of a certain liquid in a chemistry experiment. The first experiment showed that this liquid either did not contain chemical B or contained chemical A. In the next experiment, we found that it either did not contain C or contained B."	This liquid does not contain chemical C or A.	entailment	propositional	no	consistent	no	extended
+もし花子が留守ならば、太郎か次郎が家にいる。もし太郎が留守ならば次郎も留守である。	花子が留守ならば太郎が家にいる。	"If Hanako is not home, then Taro or Jiro is home. If Taro is not home, then Jiro is also not home."	"If Hanako is not home, Taro is home."	entailment	propositional	no	consistent	no	extended
+もし花子が留守ならば、太郎か次郎が家にいる。もし太郎が留守ならば次郎も留守である。	花子が留守ならば次郎が家にいる。	"If Hanako is not home, then Taro or Jiro is home. If Taro is not home, then Jiro is also not home."	"If Hanako is not home, Jiro is home."	neutral	propositional	no	consistent	no	extended
+もし花子が留守ならば、太郎か次郎が家にいる。もし太郎が留守ならば次郎も留守である。	花子が留守ならば太郎も次郎も家にいる。	"If Hanako is not home, then Taro or Jiro is home. If Taro is not home, then Jiro is also not home."	"If Hanako is not home, Taro and Jiro are home."	neutral	propositional	no	consistent	no	extended
+すべての膜タンパク質は血漿膜である。どの血漿膜も血小板膜でない。	どの膜タンパク質も血小板膜でない。	All membrane proteins are plasma membranes. None of the plasma membranes are platelet membranes.	None of the membrane proteins are platelet membranes.	entailment	AEE	no	others	no	syllogism
+すべてのβ受容体は感光性色素である。どの感光性色素もフィトクラム分子でない。	どのフィトクラム分子もβ受容体でない。	All β-receptors are photosensitive dyes. None of the photosensitive dyes are phytoclam molecules.	None of the phytoclam molecules are β-receptors.	entailment	AEE	no	others	no	syllogism
+すべてのアンモニアは塩基である。あるアンモニアは溶媒である。	ある溶媒は塩基である。	All ammonia is a base. Some ammonia is a solvent.	Some solvents are bases.	entailment	AII	no	others	no	syllogism
+すべての不可知論者はストア主義者である。ある不可知論者は懐疑的である。	すべてのストア主義者は懐疑的である。	All agnostics are stoics. Some agnostics are skeptical.	All Stoics are skeptical.	neutral	AIA	no	others	no	syllogism
+すべての超空間はエルミート空間である。ある超空間はベクトル空間でない。	あるベクトル空間はエルミート空間でない。	All hyperspaces are Hermitian spaces. Some hyperspaces are not vector spaces.	Some vector spaces are not Hermitian.	neutral	AOO	no	others	yes	syllogism
+すべてのAはBである。どのCもBでない。	どのAもCでない。	All A are B. No C are B.	No A are C.	entailment	AEE	no	symbol	no	syllogism
+すべてのBはAである。あるCはBである。	あるCはAである。	All B are A. Some C are B.	Some C are A.	entailment	AII	no	symbol	no	syllogism
+すべてのBはAである。すべてのCはBである。	すべてのCはAである。	All B are A. All C are B.	All C are A.	entailment	AAA	no	symbol	no	syllogism
+どのBもAでない。すべてのCはBである。	どのCもAでない。	No B are A. All C are B.	No C are A.	entailment	EAE	no	symbol	no	syllogism
+すべてのチンパンジーは動物である。チンパンジーのあるものは霊長類である。	動物のあるものは霊長類でない。	All chimpanzees are animals. Some chimpanzees are primates.	Some animals are not primates.	neutral	AIO	no	inconsistent	yes	syllogism
+どの学生も馬でない。 人間のある者は学生である。	馬のあるものは人間でない。	No student is a horse. Some human being is a student.	A horse is not a human being.	neutral	EIO	no	consistent	yes	syllogism
+どの人間も昆虫でない。 昆虫のあるものはオスである。	人間のある者はオスでない。	No human being is an insect. Certain insects are males.	Some humans are not males.	neutral	EIO	no	inconsistent	yes	syllogism
+どの嗜好品も高価でない。 タバコのあるものは高価でない。	嗜好品のあるものはタバコでない。	None of the luxury items are expensive. Some cigarettes are not expensive.	Some luxury items are not cigarettes.	neutral	EIO	no	inconsistent	yes	syllogism
+すべてのスズメは鳥である。 どの石もスズメでない。	どの鳥も石でない。	Every sparrow is a bird. No stone is a sparrow.	No bird is a stone.	neutral	AEE	no	consistent	no	syllogism
+すべての人間はロボットである。 すべてのロボットは機械である。	すべての人間は機械である。	All humans are robots. All robots are machines.	All humans are machines.	entailment	AAA	no	inconsistent	no	syllogism
+ワニのあるものは爬虫類である。 すべての爬虫類は人間である。	ワニのあるものは人間である。	Some crocodile is reptile. All reptiles are human.	A crocodile is human.	entailment	IAI	no	inconsistent	no	syllogism
+すべてのハトは鳥である。 ハトのあるものは猫である。	鳥のあるものは猫である。	All pigeons are birds. Some pigeons are cats.	Some birds are cats.	entailment	AII	no	inconsistent	no	syllogism
+すべてのプードルはイヌである。 どのプードルもタバコを吸わない。	どのイヌもタバコを吸わない。	All poodles are canines. No poodles smoke.	None of the canines smoke.	neutral	AEE	yes	consistent	no	syllogism
+哺乳類のあるものは手を持つ。 どの鳥も哺乳類でない。	鳥のあるものは手を持たない。	Some mammals have hands. None of the birds are mammals.	Some birds do not have hands.	neutral	IEO	no	consistent	yes	syllogism
+どのロボットも人間でない。 すべての人間は生物である。	生物のあるものはロボットでない。	No robot is human. Every human being is a living organism.	A living organism is not a robot.	neutral	EAO	yes	consistent	no	syllogism
+野球選手のある者はスポーツマンである。 すべてのスポーツマンは人間である。	すべての野球選手は人間である。	Some baseball player is a sportsman. All sportsmen are human beings.	All baseball players are human beings.	neutral	IAA	no	symbol	no	syllogism
+すべてのトマトは植物である。 動物のあるものはトマトである。	動物のあるものは植物である。	All tomatoes are plants. Some animals are tomatos.	Some animals are plants.	entailment	AII	no	inconsistent	no	syllogism
+どの人間も植物でない。 草のあるものは人間である。	草のあるものは植物でない。	No human being is a plant. Some grass is a human being.	Some grass is not a plant.	entailment	EIO	no	inconsistent	no	syllogism
+学生のある者は幽霊である。 どの幽霊も人間でない。	学生のある者は人間でない。	Some student is a ghost. None of the ghosts are human.	Some students are not human.	entailment	IEO	no	inconsistent	no	syllogism
+すべてのチンパンジーは霊長類である。チンパンジーのあるものは動物である。	霊長類のあるものは動物でない。	All chimpanzees are primates. Certain chimpanzees are animals.	Some primates are not animals.	neutral	AIO	no	inconsistent	yes	syllogism
+どのカラスもペンギンでない。鳥のあるものはカラスである。	ペンギンのあるものは鳥でない。	No crow is a penguin. Some bird is a crow.	Some penguins are not birds.	neutral	EIO	no	inconsistent	yes	syllogism
+どのパリ市民も東京都民でない。東京都民のある者は人間である。	パリ市民のある者は人間でない。	No citizen of Paris is a citizen of Tokyo. Some Tokyo citizen is a human being.	One Parisian citizen is not a human being.	neutral	EIO	no	inconsistent	yes	syllogism
+どの警察官も銀行員でない。公務員のある者は銀行員でない。	警察のある者は公務員でない。	No police officer is a banker.  Some public official is not a banker.	A police officer is not a public official.	neutral	EOO	no	inconsistent	yes	syllogism
+すべてのスズメは鳥である。どのカラスもスズメでない。	どの鳥もカラスでない。	Every sparrow is a bird. No crow is a sparrow.	None of the birds are crows.	neutral	AEE	yes	inconsistent	no	syllogism
+すべての木は植物である。すべての植物は生物である。	すべての木は生物である。	Every tree is a plant. All plants are living beings.	All trees are living organisms.	entailment	AAA	no	consistent	no	syllogism
+野球チームのあるものはプロチームである。すべてのプロチームは有名である。	野球チームのあるものは有名である。	Some baseball teams are professional teams. All professional teams are famous.	Some baseball teams are famous.	entailment	IAI	no	consistent	no	syllogism
+すべてのPCはコンピュータである。PCのあるものは中国製である。	コンピュータのあるものは中国製である。	Every PC is a computer.  Some PC is made in China.	Some computers are made in China.	entailment	AII	no	consistent	no	syllogism
+すべてのトランペットは楽器である。どのトランペットも弦楽器でない。	どの楽器も弦楽器でない。	Every trumpet is an instrument. No trumpet is a stringed instrument.	None of the instruments are string instruments.	neutral	AEE	yes	inconsistent	no	syllogism
+日本人のある者は宇宙人である。どの火星人も日本人でない。	火星人のある者は宇宙人でない。	Some Japanese are aliens. No Martian is Japanese.	Some Martians are not aliens.	neutral	IEO	no	inconsistent	yes	syllogism
+どのマグロもサメでない。サメのあるものは魚類である。	マグロのあるものは魚類でない。	No tuna is a shark. Some shark is a fish.	Some tuna is not a fish.	neutral	EIO	no	inconsistent	yes	syllogism
+人間のある者は哺乳類である。すべての哺乳類は馬である。	すべての人間は馬である。	Some humans are mammals. All mammals are horses.	All humans are horses.	neutral	IAA	no	inconsistent	no	syllogism
+すべての店員は親切である。女性のある者は店員である。	女性のある者は親切である。	All shopkeepers are kind. Some women are shopkeepers.	Some women are kind.	entailment	AII	no	inconsistent	no	syllogism
+どの女性も男性でない。学生のある者は女性である。	学生のある者は男性でない。	None of the women are men. Some students are women.	Some students are not male.	entailment	EIO	no	consistent	no	syllogism
+人間のある者は哺乳類である。どの哺乳類もワニでない。	人間のある者はワニでない。	Some humans are mammals. No mammal is a crocodile.	Some humans are not crocodiles.	entailment	IEO	no	consistent	no	syllogism
+ある東大生は学生である。すべての東大生は人間である。	ある学生は人間である。	Some Todai students are students. All Todai students are human beings.	Some students are human.	entailment	IAI	no	consistent	no	syllogism
+ある太鼓は打楽器である。すべての太鼓は楽器である。	ある打楽器は楽器である。	Some drums are percussion instruments. Every drum is a musical instrument.	Certain percussion instruments are musical instruments.	entailment	IAI	no	consistent	no	syllogism
+すべてのカブトムシは昆虫である。ある生物はカブトムシである。	ある昆虫は生物である。	All beetles are insects. Some creatures are beetles.	Some insects are creatures.	entailment	AII	no	consistent	no	syllogism
+すべてのビールは酒である。ある飲み物はビールである。	ある酒は飲み物である。	All beer is liquor. Some drinks are beer.	Some liquor is a drink.	entailment	AII	no	consistent	no	syllogism
+すべての男性は動物である。ある男性は人間である。	ある人間は動物である。	All men are animals. Some men are human beings.	Some humans are animals.	entailment	AII	no	consistent	no	syllogism
+すべてのお菓子は甘い。あるお菓子はケーキである。	あるケーキは甘い。	All sweets are sweet. Some sweets are cakes.	Some cakes are sweet.	entailment	AII	no	consistent	no	syllogism
+ある動物は人間である。すべての動物はトマトである。	ある人間はトマトである。	Some animals are human beings. All animals are tomatoes.	Some humans are tomatoes.	entailment	IAI	no	inconsistent	no	syllogism
+すべての店員は男性である。ある女性は店員である。	ある女性は男性である。	All shopkeepers are male. Some women are shopkeepers.	Some women are men.	entailment	AII	no	inconsistent	no	syllogism
+すべての金属は液体である。ある金属は石である。	ある石は液体である。	All metals are liquids. Some metals are stones.	Some stones are liquid.	entailment	AII	no	inconsistent	no	syllogism
+ある金属は水である。すべての鉄は金属である。	ある鉄は水である。	Some metals are water. All iron is metal.	Some iron is water.	neutral	IAI	yes	inconsistent	yes	syllogism
+すべての人間は動物である。あるロボットは動物である。	ある人間はロボットである。	All humans are animals. Some robots are animals.	Some humans are robots.	neutral	AII	yes	inconsistent	yes	syllogism
+ある液体は食塩水である。ある金属は液体である。	ある金属は食塩水である。	Some liquid is salt water. A metal is a liquid.	Some metal is salt warter.	neutral	III	no	inconsistent	yes	syllogism
+あるイヌはペットである。あるペットは賢い。	あるイヌは賢い。	Some canines are pets. Some pets are smart.	Some canines are smart.	neutral	III	no	consistent	yes	syllogism
+ある10円玉は金属である。すべての銅は金属である。	ある銅は10円玉である。	A certain ten-yen coin is a metal. All copper is metal.	One copper is a ten-yen coin.	neutral	IAI	yes	consistent	yes	syllogism
+すべてのロボットは機械である。ある機械は壊れる。	あるロボットは壊れる。	All robots are machines. Some machines break.	Some robots break.	neutral	AII	yes	consistent	yes	syllogism
+ある警察官は男性である。すべての警察官は公務員である。	ある男性は公務員である。	Some police officers are men. All police officers are civil servants.	One man is a civil servant.	entailment	IAI	no	consistent	no	syllogism
+ある野菜はトマトである。すべての野菜は植物である。	ある植物はトマトである。	Some vegetables are tomatoes. All vegetables are plants.	One plant is a tomato.	entailment	IAI	no	consistent	no	syllogism
+すべての女性は人間である。ある女性は教員である。	ある人間は教員である。	Every woman is a human being. Some women are teachers.	One human being is a teacher.	entailment	AII	no	consistent	no	syllogism
+すべての木は植物である。すべての植物は生物である。	ある木は生物である。	Every tree is a plant. All plants are living organisms.	Some trees are living organisms.	entailment	AAI	no	consistent	no	syllogism
+すべての悪人は人間である。すべての泥棒は悪人である。	ある泥棒は人間である。	Every wicked man is a man. Every thief is a wicked man.	Some thieves are human.	entailment	AAI	no	consistent	no	syllogism
+ある木は植物である。すべての植物は生物である。	ある木は植物でない。	Some tree is a plant. Every plant is a living thing.	Some trees are not plants.	neutral	IAO	no	inconsistent	yes	syllogism
+ある動物は死ぬ。すべての生物は死ぬ。	ある動物は生物でない。	Some animals die. All living things die.	Some animals are not living things.	neutral	IAO	no	inconsistent	yes	syllogism
+すべての魚は動物である。すべてのマグロは魚である。	あるマグロは動物である。	All fish are animals. All tuna are fish.	A certain tuna is an animal.	entailment	AAI	no	consistent	no	syllogism
+ある警察官は公務員である。すべての公務員は人間である。	ある警察官は人間でない。	Some police officers are public servants. All public servants are human beings.	Certain police officers are not human.	neutral	IAO	no	inconsistent	yes	syllogism
+すべてのチンパンジーは動物である。チンパンジーのあるものは霊長類である。	動物のあるものは霊長類でない。	All chimpanzees are animals. Certain chimpanzees are primates.	Some animals are not primates.	neutral	AIO	no	consistent	yes	syllogism
+どの学生も馬でない。人間のある者は学生である。	馬のあるものは人間でない。	No student is a horse. Some human being is a student.	Some horse is not a human being.	neutral	EIO	no	consistent	yes	syllogism
+すべてのスズメは鳥である。どの石もスズメでない。	どの鳥も石でない。	Every sparrow is a bird. No stone is a sparrow.	No bird is a stone.	neutral	AIE	yes	consistent	no	syllogism
+すべてのチンパンジーは霊長類である。チンパンジーのあるものは動物である。	霊長類のあるものは動物でない。	All chimpanzees are primates. Certain chimpanzees are animals.	Some primates are not animals.	neutral	AIO	no	inconsistent	yes	syllogism
+どのカラスもペンギンでない。鳥のあるものはカラスである。	ペンギンのあるものは鳥でない。	No crow is a penguin. Some bird is a crow.	Some penguin is not a bird.	neutral	EIO	no	inconsistent	yes	syllogism
+すべてのスズメは鳥である。どのカラスもスズメでない。	どの鳥もカラスでない。	Every sparrow is a bird. No crow is a sparrow.	None of the birds are crows.	neutral	AEE	yes	inconsistent	no	syllogism
+すべてのBはAである。すべてのBはCである。	すべてのAはCである。	All B are A. All B are C.	All A are C.	neutral	AAA	yes	symbol	no	syllogism
+すべてのAはBである。すべてのCはBである。	すべてのAはCである。	All A are B. All C are B.	All A are C.	neutral	AAA	yes	symbol	no	syllogism
+すべてのBはAである。すべてのCはBである。	すべてのAはCである。	All B are A. All C are B.	All A are C.	neutral	AAA	yes	symbol	no	syllogism
+すべてのBはAである。あるCはBでない。	あるCはAでない。	All B are A. Some C are not B.	Some C are not A.	neutral	AOO	yes	symbol	yes	syllogism
+すべてのAはBである。あるBはCでない。	あるCはAでない。	All A are B. Some B are not C.	Some C are not A.	neutral	AOO	yes	symbol	yes	syllogism
+すべてのBはAである。あるBはCでない。	あるCはAでない。	All B are A. Some B are not C.	Some C are not A.	neutral	AOO	yes	symbol	yes	syllogism
+あるBはAでない。すべてのAはCである	あるCはBでない。	Some B are not A. All A are C.	Some C are not B.	neutral	OAO	yes	symbol	yes	syllogism
+あるAはBでない。すべてのCはAである。	あるCはBでない。	Some A are not B. All C are A.	Some C are not B.	neutral	OAO	yes	symbol	yes	syllogism
+あるBはAでない。すべてのCはAである。	あるCはBでない。	Some B are not A. All C are A.	Some C are not B.	neutral	OAO	yes	symbol	yes	syllogism
+すべての動物はチンパンジーである。ある霊長類は動物でない。	ある霊長類はチンパンジーでない。	All animals are chimpanzees. Some primates are not animals.	Some primates are not chimpanzees.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべてのチンパンジーは動物である。ある動物は霊長類でない。	ある霊長類はチンパンジーでない。	All chimpanzees are animals. Some animals are not primates.	Some primates are not chimpanzees.	neutral	AOO	yes	consistent	yes	syllogism
+すべての動物はチンパンジーである。ある動物は霊長類でない。	ある霊長類はチンパンジーでない。	All animals are chimpanzees. Some animals are not primates.	Some primates are not chimpanzees.	neutral	AOO	yes	inconsistent	yes	syllogism
+ある昆虫は人間でない。すべての人間は男性である。	ある男性は昆虫でない。	Some insects are not humans. All humans are males.	Some males are not insects.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある人間は昆虫でない。すべての男性は人間である。	ある男性は昆虫でない。	Some humans are not insects. All males are humans.	Some males are not insects.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある昆虫は人間でない。すべての男性は人間である。	ある男性は昆虫でない。	Some insects are not humans. All males are humans.	Some males are not insects.	neutral	OAO	yes	inconsistent	yes	syllogism
+すべての鳥はスズメである。すべての鳥は石である。	すべてのすずめは石である。	All birds are sparrows. All birds are stones.	All sparrows are stones.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのすずめは鳥である。すべての石は鳥である。	すべてのすずめは石である。	All sparrows are birds. All stones are birds.	All sparrows are stones.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての鳥はスズメである。すべての石は鳥である。	すべてのすずめは石である。	All birds are sparrows. All stones are birds.	All sparrows are stones.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての馬は生徒である。すべての馬は人間である。	すべての学生は人間である。	All horses are students. All horses are humans.	All students are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての学生は馬である。すべての人間は馬である。	すべての学生は人間である。	All students are horses. All humans are horses.	All students are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての馬は生徒である。すべての人間は馬である。	すべての学生は人間である。	All horses are students. All humans are horses.	All students are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのロボットは人間である。ある機械はロボットでない。	ある機械は人間でない。	All robots are humans. Some machines are not robots.	Some machines are not humans.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべての人間はロボットである。あるロボットは機械でない。	ある機械は人間でない。	All humans are robots. Some robots are not machines.	Some machines are not humans.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべてのロボットは人間である。あるロボットは機械でない。	ある機械は人間でない。	All robots are humans. Some robots are not machines.	Some machines are not humans.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべての爬虫類はワニである。すべての爬虫類は人間である。	すべてのワニは人間である。	All reptiles are crocodiles. All reptiles are humans.	All crocodiles are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのワニは爬虫類である。すべての人間は爬虫類である。	すべてのワニは人間である。	All crocodiles are reptiles. All humans are reptiles.	All crocodiles are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての爬虫類はワニである。すべての人間は爬虫類である。	すべてのワニは人間である。	All reptiles are crocodiles. All humans are reptiles.	All crocodiles are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての鳥は鳩である。ある猫は鳥でない。	ある猫は鳩でない。	All birds are pigeons. Some cats are not birds.	Some cats are not pigeons.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべての鳩は鳥である。ある鳥は猫でない。	ある猫は鳩でない。	All pigeons are birds. Some birds are not cats.	Some cats are not pigeons.	neutral	AOO	yes	consistent	yes	syllogism
+すべての鳥は鳩である。ある鳥は猫でない。	ある猫は鳩でない。	All birds are pigeons. Some birds are not cats.	Some cats are not pigeons.	neutral	AOO	yes	inconsistent	yes	syllogism
+ある人間はロボットでない。すべてのロボットは生き物である。	ある生物は人間でない。	Some humans are not robots. All robots are living organisms.	Some living organisms are not humans.	neutral	OAO	yes	inconsistent	yes	syllogism
+あるロボットは人間でない。すべての生物はロボットである。	ある生物は人間でない。	Some robots are not humans. All living organisms are robots.	Some living organisms are not humans.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある人間はロボットでない。すべての生物はロボットである。	ある生物は人間でない。	Some humans are not robots. All living organisms are robots.	Some living organisms are not humans.	neutral	OAO	yes	inconsistent	yes	syllogism
+すべてのスポーツ選手は野球選手である。すべてのスポーツ選手は人間である。	すべての野球選手は人間である。	All sportsmen are baseball players. All sportsmen are humans.	All baseball players are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての野球選手はスポーツマンである。すべての人間はスポーツマンである。	すべての野球選手は人間である。	All baseball players are sportsmen. All humans are sportsmen.	All baseball players are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのスポーツ選手は野球選手である。すべての人間はスポーツ選手である。	すべての野球選手は人間である。	All sportsmen are baseball players. All humans are sportsmen.	All baseball players are humans.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての植物はトマトである。ある動物は植物でない。	ある動物はトマトでない。	All plants are tomatos. Some animals are not plants.	Some animals are not tomatos.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべてのトマトは植物である。ある植物は動物でない。	ある動物はトマトでない。	All tomatos are plants. Some plants are not animals.	Some animals are not tomatos.	neutral	AOO	yes	consistent	yes	syllogism
+すべての植物はトマトである。ある植物は動物でない。	ある動物はトマトでない。	All plants are tomatos. Some plants are not animals.	Some animals are not tomatos.	neutral	AOO	yes	inconsistent	yes	syllogism
+ある幽霊は生徒でない。すべての生徒は人間である。	ある人間は幽霊でない。	Some ghosts are not students. All students are humans.	Some humans are not ghosts.	neutral	OAO	yes	consistent	yes	syllogism
+ある生徒は幽霊でない。すべての人間は生徒である	ある人間は幽霊でない。	Some students are not ghosts. All humans are students.	Some humans are not ghosts.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある幽霊は生徒でない。すべての人間は生徒である。	ある人間は幽霊でない。	Some ghosts are not students. All humans are students.	Some humans are not ghosts.	neutral	OAO	yes	inconsistent	yes	syllogism
+すべての銀行家は警察官である。すべての銀行家は公務員である。	すべての警察官は公務員である。	All bankers are police officers. All bankers are public officials.	All police officers are public officials.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての警察官は銀行家である。すべての公務員は銀行家である。	すべての警察官は公務員である。	All police officers are bankers. All public officials are bankers.	All police officers are public officials.	neutral	AAA	yes	inconsistent	no	syllogism
+すべての銀行家は警察官である。すべての公務員は銀行家である。	すべての警察官は公務員である。	All bankers are police officers. All public officials are bankers.	All police officers are public officials.	neutral	AAA	yes	inconsistent	no	syllogism
+すべてのサメはマグロである。ある魚はサメでない。	ある魚はマグロでない。	All sharks are tunas. Some fishies are not sharks.	Some fishies are not tunas.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべてのマグロはサメである。あるサメは魚でない。	ある魚はマグロでない。	All tunas are sharks. Some sharks are not fishies.	Some fishies are not tunas.	neutral	AOO	yes	inconsistent	yes	syllogism
+すべてのサメはマグロである。あるサメは魚でない。	ある魚はマグロでない。	All sharks are tunas. Some sharks are not fishies.	Some fishies are not tunas.	neutral	AOO	yes	inconsistent	yes	syllogism
+いくつかの哺乳類は人間でない。すべての人間は馬である。	ある馬は哺乳類でない。	Some mammals are not humans. All humans are horses.	Some horses are not mammals.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある人間は哺乳類でない。すべての馬は人間である。	ある馬は哺乳類でない。	Some humans are not mammals. All horses are humans.	Some horses are not mammals.	neutral	OAO	yes	inconsistent	yes	syllogism
+ある哺乳類は人間でない。すべての馬は人間である。	ある馬は哺乳類でない。	Some mammals are not humans. All horses are humans.	Some horses are not mammals.	neutral	OAO	yes	inconsistent	yes	syllogism

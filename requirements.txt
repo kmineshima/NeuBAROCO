@@ -1,0 +1,17 @@
+openai>=1.0.0
+pandas
+scikit-learn
+tenacity
+
+# for extra LLMs
+litellm
+
+# for reporter
+jinja2
+matplotlib
+
+# for cost estimator
+tiktoken
+
+# for progress bar, etc.
+rich

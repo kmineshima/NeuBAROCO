@@ -1,0 +1,91 @@
+ID	ORIGINAL_ID	premises_ja	hypothesis_ja	premises_en	hypothesis_en	gold	mood	inference-type	content-type	conversion	atmosphere
+101	167	すべてのロボットは機械である。 あるロボットは商品でない。	ある機械は商品でない。	All robots are machines. Some robots are not commodities.	Some machines are not commodities.	entailment	AOO	syllogism	congruent	no	no
+40	106	太郎のある友人はドイツ人でない。 ポールのすべての友人はドイツ人である。	太郎のある友人はポールの友人である。	Certain friends of Taro are not German. All of Paul's friends are German.	One friend of Taro is a friend of Paul's.	neutral	OAI	syllogism	congruent	no	yes
+229	299	すべての男性は動物である。ある男性は人間である。	ある人間は動物である。	All men are animals. Some men are human beings.	Some humans are animals.	entailment	AII	syllogism	congruent	no	no
+51	117	ポールのすべての友人はドイツ人である。 太郎のすべての友人はポールの友人である。	太郎のどの友人もドイツ人でない。	All friends of Paul are German. All friends of Taro are friends of Paul.	None of Taro's friends are German.	contradiction	AAE	syllogism	congruent	no	no
+64	130	ヒツジカンパニーのある取引先はクジラ社の取引先でない。 ヒツジカンパニーのすべての取引先はトリ会社の取引先である。	トリ会社のある取引先はクジラ社の取引先である。	Certain clients of the Sheep Company are not clients of the Whale Corporation. All clients of the Sheep Company are clients of the Bird Corporation.	One of the Bird Corporation's clients is a client of the Whale Corporation.	neutral	OAI	syllogism	congruent	no	yes
+90	156	ある教員は男性である。 どの男性も女性でない。	ある教員は女性である。	Some teacher is male. No men are women.	Some teacher is a woman.	neutral	IEI	syllogism	congruent	no	yes
+47	113	イヌ会社のすべての取引先はクジラ社の取引先である。 ネコカンパニーのある取引先はイヌ会社の取引先である。	ネコカンパニーのすべての取引先はクジラ社の取引先である。	All clients of the Dog Corporation are clients of the Whale Corporation. Certain clients of the Cat Company are clients of the Dog Corporation.	All of the Cat Company's clients are clients of the Whale Corporation.	neutral	AIA	syllogism	congruent	no	no
+34	100	ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先でない。	イヌ会社のある取引先はクジラ社の取引先である。	All suppliers of the Cat Company are suppliers of the Dog Corporation. Certain suppliers of the Cat Company are not suppliers of the Whale Corporation.	One of the Dog Corporation's suppliers is a supplier of the Whale Corporation.	neutral	AII	syllogism	congruent	no	yes
+57	123	リサのどの友人も日本人でない。 太郎のある友人はリサの友人である。	太郎のある友人は日本人である。	None of Lisa's friends are Japanese. One friend of Taro is a friend of Lisa's.	One of Taro's friends is Japanese.	neutral	EII	syllogism	congruent	no	yes
+239	310	ある警察官は男性である。すべての警察官は公務員である。	ある男性は公務員である。	Some police officers are men. All police officers are civil servants.	Some man is a civil servant.	entailment	IAI	syllogism	congruent	no	no
+243	314	すべての悪人は人間である。すべての泥棒は悪人である。	ある泥棒は人間である。	All wicked people are human. Every thief is a wicked person.	Some thieves are human.	entailment	AAI	syllogism	congruent	no	no
+44	110	カエル帝国のすべての同盟国はナメクジ共和国の同盟国である。 アメ国のどの同盟国もナメクジ共和国の同盟国でない。	カエル帝国のある同盟国はアメ国の同盟国である。	All allies of the Frog Empire are allies of the Slug Republic. No allies of the State of Candy are allies of the Slug Rebublic.	Certain allies of the Frog Empire are allies of the State of Candy.	contradiction	AEI	syllogism	congruent	no	no
+52	118	ナメクジ共和国のどの同盟国もカエル帝国の同盟国でない。 アメ国のすべての同盟国はナメクジ共和国の同盟国である。	アメ国のすべての同盟国はカエル帝国の同盟国である。	No allies of the Slug Republic are allies of the Frog Empire. All allies of the State of Candy are allies of the Slug Republic.	All allies of the State of Candy are allies of the Frog Empire.	contradiction	EAA	syllogism	congruent	no	no
+24	90	太郎のある友人はポールの友人である。 ポールのどの友人もドイツ人でない。	太郎のある友人はドイツ人である。	One friend of Taro is a friend of Paul's. None of Paul's friends are German.	One of Taro's friends is German.	neutral	IEI	syllogism	congruent	no	yes
+215	285	すべての木は植物である。すべての植物は生物である。	すべての木は生物である。	Every tree is a plant. All plants are living things.	All trees are living things.	entailment	AAA	syllogism	congruent	no	no
+45	111	カエル帝国のすべての同盟国はナメクジ共和国の同盟国である。 アメ国のどの同盟国もナメクジ共和国の同盟国でない。	カエル帝国のどの同盟国もアメ国の同盟国でない。	All allies of the Frog Empire are allies of the Slug Republic. No allies of the State of Candy are allies of the Slug Republic.	No Frog Empire's allies are allies of the State of Candy.	entailment	AEE	syllogism	congruent	no	no
+125	191	どのトリもイヌでない。 あるトリはペットである。	あるペットはイヌでない。	No bird are canines. Some birds are pets.	Certain pets are not canines.	entailment	EIO	syllogism	congruent	no	no
+216	286	野球チームのあるものはプロチームである。すべてのプロチームは有名である。	野球チームのあるものは有名である。	Some baseball teams are professional teams. All professional teams are famous.	Some baseball teams are famous.	entailment	IAI	syllogism	congruent	no	no
+49	115	ポールのすべての友人はドイツ人である。 太郎のすべての友人はポールの友人である。	太郎のすべての友人はドイツ人である。	All friends of Paul are German. All friends of Taro are friends of Paul.	All of Taro's friends are German.	entailment	AAA	syllogism	congruent	no	no
+88	154	ある教員は男性である。 どの男性も女性でない。	ある教員は女性でない。	Some teacher is male. No men are women.	Some teacher is not a woman.	entailment	IEO	syllogism	congruent	no	no
+36	102	ネコカンパニーのすべての取引先はイヌ会社の取引先である。 ネコカンパニーのある取引先はクジラ社の取引先でない。	イヌ会社のどの取引先もクジラ社の取引先でない。	All suppliers of the Cat Company are suppliers of the Dog Corporation. Certain suppliers of the Cat Company are not suppliers of the Whale Corporation.	No Dog Corporation's suppliers are suppliers of the Whale Corporation.	neutral	AIE	syllogism	congruent	no	no
+48	114	イヌ会社のすべての取引先はクジラ社の取引先である。 ネコカンパニーのある取引先はイヌ会社の取引先である。	ネコカンパニーのある取引先はクジラ社の取引先でない。	All clients of the Dog Corporation are clients of the Whale Corporation. Certain clients of the Cat Company are clients of the Dog Corporation.	Certain clients of the Cat Company are not clients of the Whale Corporation.	neutral	AIO	syllogism	congruent	no	yes
+55	121	リサのどの友人も日本人でない。 太郎のある友人はリサの友人である。	太郎のある友人は日本人でない。	None of Lisa's friends are Japanese. One friend of Taro is a friend of Lisa's.	A certain friend of Taro's is not Japanese.	entailment	EIO	syllogism	congruent	no	no
+73	139	リサのどの友人も日本人ではない。 太郎のすべての友人はリサの友人である。	太郎のすべての友人は日本人である。	None of Lisa's friends are Japanese. All of Taro's friends are friends of Lisa.	All of Taro's friends are Japanese.	contradiction	EAA	syllogism	congruent	no	no
+132	198	あるロボットは売り物でない。 すべてのロボットは機械である。	どの機械も売り物でない。	Some robots are not for sale. All robots are machines.	No machines are for sale.	neutral	OAE	syllogism	congruent	no	yes
+110	176	すべての人間は親切である。 どの医者も親切でない。	ある医者は人間である。	All human beings are kind. No doctor is kind.	Some doctor is a human being.	contradiction	AEI	syllogism	congruent	no	no
+223	293	どの女性も男性でない。学生のある者は女性である。	学生のある者は男性でない。	No women are men. Some students are women.	Some students are not male.	entailment	EIO	syllogism	congruent	no	no
+98	164	すべての金属は液体である。 ある金属は石である。	ある石は液体である。	All metals are liquids. Some metals are stones.	Some stones are liquid.	entailment	AII	syllogism	incongruent	no	no
+231	301	ある動物は人間である。すべての動物はトマトである。	ある人間はトマトである。	Some animals are human beings. All animals are tomatoes.	Some humans are tomatoes.	entailment	IAI	syllogism	incongruent	no	no
+103	169	すべての動物は生物である。 ある人間は生物でない。	ある動物は人間である。	All animals are living things. Some humans are not living things.	Some animal is a human being.	neutral	AOI	syllogism	incongruent	no	yes
+118	184	どの食べ物も本でない。 すべての果物は食べ物である。	すべての果物は本である。	No food is a book. All fruits are food.	Every fruit is a book.	contradiction	EAA	syllogism	incongruent	no	no
+106	172	ある警察官は公務員でない。 すべての人間は公務員である。	ある警察官は人間である。	A certain police officer is not a public servant. All human beings are public servants.	Some police officer is a human being.	neutral	OAI	syllogism	incongruent	no	yes
+201	271	ワニのあるものは爬虫類である。 すべての爬虫類は人間である。	ワニのあるものは人間である。	Some crocodile is reptile. All reptiles are human.	A crocodile is human.	entailment	IAI	syllogism	incongruent	no	no
+139	205	どの鳥類もワニでない。 すべてのカラスは鳥類である。	すべてのワニはカラスである。	Every bird is not a crocodile. All crows are birds.	All crocodiles are crows.	contradiction	EAA	syllogism	incongruent	no	no
+212	282	どのパリ市民も東京都民でない。東京都民のある者は人間である。	パリ市民のある者は人間でない。	No citizen of Paris is a citizen of Tokyo. Some Tokyo citizen is a human being.	Some Parisian citizen is not a human being.	neutral	EIO	syllogism	incongruent	no	yes
+247	318	ある警察官は公務員である。すべての公務員は人間である。	ある警察官は人間でない。	Some police officers are public servants. All public servants are human beings.	Certain police officers are not human.	neutral	IAO	syllogism	incongruent	no	yes
+755	835	すべての店員は男性である。ある女性は店員である。	ある女性は男性である。	All clerks are male. Some women are clerks.	Some women are men.	entailment	AII	syllogism	incongruent	no	no
+245	316	ある動物は死ぬ。すべての生物は死ぬ。	ある動物は生物でない。	Some animals die. All living things die.	Some animals are not living things.	neutral	IAO	syllogism	incongruent	no	yes
+232	303	すべての金属は液体である。ある金属は石である。	ある石は液体である。	All metals are liquids. Some metals are stones.	Some stones are liquid.	entailment	AII	syllogism	incongruent	no	no
+211	281	どのカラスもペンギンでない。鳥のあるものはカラスである。	ペンギンのあるものは鳥でない。	No crow is a penguin. Some bird is a crow.	Some penguin is not a bird.	neutral	EIO	syllogism	incongruent	no	yes
+111	177	すべての人間は親切である。 どの医者も親切でない。	どの医者も人間でない。	All human beings are kind. No doctor is kind.	No doctors are human beings.	entailment	AEE	syllogism	incongruent	no	no
+92	158	すべての人間は哺乳類である。 どの哺乳類もワニでない。	あるワニは人間である。	All humans are mammals. No mammal is a crocodile.	Some crocodiles are human.	contradiction	AEI	syllogism	incongruent	no	no
+117	183	すべての生物はロボットである。 すべてのネコは生物である。	どのネコもロボットでない。	All living things are robots. All cats are living things.	No cat is a robot.	contradiction	AAE	syllogism	incongruent	no	no
+97	163	すべての金属は液体である。 ある金属は石である。	すべての石は液体である。	All metals are liquids. Some metals are stones.	All stones are liquid.	neutral	AIA	syllogism	incongruent	no	no
+219	289	日本人のある者は宇宙人である。どの火星人も日本人でない。	火星人のある者は宇宙人でない。	Some Japanese are aliens. No Martian is Japanese.	Some Martians are not aliens.	neutral	IEO	syllogism	incongruent	no	yes
+140	206	どの鳥類もワニでない。 すべてのカラスは鳥類である。	あるワニはカラスである。	Every bird is not a crocodile. All crows are birds.	Some crocodiles are crows.	contradiction	EAI	syllogism	incongruent	no	no
+108	174	ある警察官は公務員でない。 すべての人間は公務員である。	どの警察官も人間でない。	A certain police officer is not a public servant. All human beings are public servants.	No police officers are human.	neutral	OAE	syllogism	incongruent	no	yes
+144	210	すべてのイヌは動物である。 すべての動物はロボットである。	どのイヌもロボットでない。	All canines are animals. All animals are robots.	No canine is a robot.	contradiction	AAE	syllogism	incongruent	no	no
+197	267	どの人間も昆虫でない。 昆虫のあるものはオスである。	人間のある者はオスでない。	No human being is an insect. Certain insects are males.	Some humans are not males.	neutral	EIO	syllogism	incongruent	no	yes
+137	203	ある女性は泥棒である。 すべての泥棒は男性である。	すべての女性は男性である。	Some women are thieves. Every thief is a man.	All women are men.	neutral	IAA	syllogism	incongruent	no	no
+146	212	すべての果物は食べ物である。 どの食べ物も石でない。	ある果物は石である。	Every fruit is food. No food is a stone.	Some fruits are stones.	contradiction	AEI	syllogism	incongruent	no	no
+202	272	すべてのハトは鳥である。 ハトのあるものは猫である。	鳥のあるものは猫である。	All pigeons are birds. Some pigeons are cats.	Some birds are cats.	entailment	AII	syllogism	incongruent	no	no
+105	171	すべての動物は生物である。 ある人間は生物でない。	ある人間は動物でない。	All animals are living things. Some humans are not living things.	Some humans are not animals.	entailment	AOO	syllogism	incongruent	no	no
+620	700	すべてのBはAである。あるCはBである。	あるCはAである。	All B are A. Some C are B.	Some C are A.	entailment	AII	syllogism	symbolic	no	no
+648	728	どのBもCでない。あるBはAである。	あるAはCでない。	No B are C. Some B are A.	Some A are not C.	entailment	EIO	syllogism	symbolic	no	no
+661	741	あるCはBである。すべてのBはAである。	あるCはAでない。	Some C are B. All B are A.	Some C are not A.	neutral	IAO	syllogism	symbolic	no	yes
+627	707	どのBもAでない。すべてのCはBである。	あるCはAである。	No B are A. All C are B.	Some C are A.	contradiction	EAO	syllogism	symbolic	no	no
+654	734	あるBはCでない。すべてのBはAである。	あるAはCでない。	Some B are not C. All B are A.	Some A are not C.	entailment	OAO	syllogism	symbolic	no	no
+619	699	すべてのAはBである。どのCもBでない。	どのAもCでない。	All A are B. No C are B.	No A are C.	entailment	AEE	syllogism	symbolic	no	no
+618	698	すべてのAはBである。どのCもBでない。	あるAはCである。	All A are B. No C are B.	Some A are C.	contradiction	AEI	syllogism	symbolic	no	no
+656	736	どのCもBでない。すべてのAはBである。	すべてのAはCである。	No C are B. All A are B.	All A are C.	contradiction	EAA	syllogism	symbolic	no	no
+658	738	どのCもBでない。すべてのAはBである。	どのAもCでない。	No C are B. All A are B.	No A are C.	entailment	EAE	syllogism	symbolic	no	no
+657	737	どのCもBでない。すべてのAはBである。	あるAはCである。	No C are B. All A are B.	Some A are C.	contradiction	EAI	syllogism	symbolic	no	no
+617	697	すべてのAはBである。どのCもBでない。	すべてのAはCである。	All A are B. No C are B.	All A are C.	contradiction	AEA	syllogism	symbolic	no	no
+605	685	すべてのAはBである。あるCはBでない。	あるAはCである。	All A are B. Some C are not B.	Some A are C.	neutral	AOE	syllogism	symbolic	no	yes
+596	676	あるAはBである。どのBもCでない。	あるAはCでない。	Some A are B. No B are C.	Some A are not C.	entailment	IEO	syllogism	symbolic	no	no
+597	677	あるAはBである。どのBもCでない。	どのAもCでない。	Some A are B. No B are C.	No A are C.	neutral	IEE	syllogism	symbolic	no	no
+624	704	すべてのBはAである。すべてのCはBである。	すべてのAはCである。	All B are A. All C are B.	All A are C.	neutral	AAA	syllogism	symbolic	no	no
+667	747	すべてのCはBである。すべてのBはAである。	どのCもAでない。	All C are B. All B are A.	No C are A.	contradiction	AAE	syllogism	symbolic	no	no
+606	686	すべてのAはBである。あるCはBでない。	どのAもCでない。	All A are B. Some C are not B.	No A are C.	neutral	AOE	syllogism	symbolic	no	yes
+645	725	どのBもCでない。あるAはBである。	どのAもCでない。	No B are C. Some A are B.	No A are C.	neutral	EIE	syllogism	symbolic	no	no
+649	729	どのBもCでない。あるBはAである。	どのAもCでない。	No B are C. Some B are A.	No A are C.	neutral	EIE	syllogism	symbolic	no	no
+653	733	あるBはCでない。すべてのBはAである。	あるAはCである。	Some B are not C. All B are A.	Some A are C.	neutral	OAI	syllogism	symbolic	no	yes
+598	678	あるAはBである。どのBもCでない。	あるAはCである。	Some A are B. No B are C.	Some A are C.	neutral	IEI	syllogism	symbolic	no	yes
+13	73	どのBもCでない。すべてのAはBである。	すべてのAはCである。	No B are C. All A are B.	All A are C.	contradiction	EAA	syllogism	symbolic	no	no
+665	745	すべてのCはBである。すべてのBはAである。	すべてのCはAである。	All C are B. All B are A.	All C are A.	entailment	AAA	syllogism	symbolic	no	no
+615	695	あるAはBでない。すべてのCはBである。	あるAはCでない。	Some A are not B. All C are B.	Some A are not C.	entailment	OAO	syllogism	symbolic	no	no
+646	726	どのBもCでない。あるAはBである。	あるAはCである。	No B are C. Some A are B.	Some A are C.	neutral	EII	syllogism	symbolic	no	yes
+659	739	あるCはBである。すべてのBはAである。	あるCはAである。	Some C are B. All B are A.	Some C are A.	entailment	IAI	syllogism	symbolic	no	no
+608	688	すべてのAはBである。どのBもCでない。	すべてのAはCである。	All A are B. No B are C.	All A are C.	contradiction	AEA	syllogism	symbolic	no	no
+12	21	すべてのBはAである。あるBはCでない。	どのAもCでない。	All B are A. Some B are not C.	No A are C.	neutral	AOE	syllogism	symbolic	no	yes
+666	746	すべてのCはBである。すべてのBはAである。	すべてのAはCである。	All C are B. All B are A.	All A are C.	neutral	AAA	syllogism	symbolic	no	no
+611	691	あるBはAである。どのBもCでない。	あるAはCである。	Some B are A. No B are C.	Some A are C.	neutral	IEI	syllogism	symbolic	no	yes
+203	273	すべてのプードルはイヌである。 どのプードルもタバコを吸わない。	どのイヌもタバコを吸わない。	All poodles are canines. No poodles smoke.	No canines smoke.	neutral	AEE	syllogism	congruent	yes	no
+199	269	すべてのスズメは鳥である。 どの石もスズメでない。	どの鳥も石でない。	Every sparrow is a bird. No stone is a sparrow.	No bird is a stone.	neutral	AEE	syllogism	congruent	yes	no
+249	321	すべてのスズメは鳥である。どの石もスズメでない。	どの鳥も石でない。	Every sparrow is a bird. No stone is a sparrow.	No bird is a stone.	neutral	AIE	syllogism	congruent	yes	no
+143	209	すべてのイヌは動物である。 すべての動物はロボットである。	すべてのロボットはイヌである。	All canines are animals. All animals are robots.	All robots are canines.	neutral	AAA	syllogism	incongruent	yes	no
+234	305	すべての人間は動物である。あるロボットは動物である。	ある人間はロボットである。	All humans are animals. Some robots are animals.	Some humans are robots.	neutral	AII	syllogism	incongruent	yes	yes
+214	284	すべてのスズメは鳥である。どのカラスもスズメでない。	どの鳥もカラスでない。	Every sparrow is a bird. No crow is a sparrow.	No birds are crows.	neutral	AEE	syllogism	incongruent	yes	no
+233	304	ある金属は水である。すべての鉄は金属である。	ある鉄は水である。	Some metals are water. All iron is metal.	Some iron is water.	neutral	IAI	syllogism	incongruent	yes	yes

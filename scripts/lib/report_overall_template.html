@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{timestamp}}</title>
+  <!-- prettier-ignore -->
+  <style>
+  /* https://www.joshwcomeau.com/css/custom-css-reset/ */*,*::before,*::after{box-sizing:border-box}*{margin:0}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
+  </style>
+  <style>
+    body,
+    html {
+      font-size: 11pt;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin-top: 2rem;
+      margin-bottom: 1.15rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      margin-bottom: 1.15rem;
+      border-bottom: 1px solid #c9c9c9;
+    }
+
+    dt {
+      font-weight: bold;
+    }
+
+    dd {
+      white-space: pre-wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    pre {
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .pre-wrapper {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #f5f5f5;
+      overflow: auto;
+      max-height: 85vh;
+    }
+
+    table.dataframe {
+      font-size: 0.9rem;
+      border-collapse: collapse;
+      border-style: hidden;
+      /* border: 1px solid #ccc; */
+    }
+
+    table.dataframe th,
+    table.dataframe td {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+    }
+
+    table.dataframe th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+
+<body style="padding: 1rem 0 4rem 0">
+  <main style="margin: 0 auto; width: 80%; max-width: 1000px">
+    <h1>{{timestamp}}</h1>
+    <h2>Runs</h2>
+    <ul>
+      {% for item in runs %}
+      <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% if dataset_stats %}
+    <h2>Test Data Statistics</h2>
+    <details>
+    <summary>Show</summary>
+    <div style="display:flex;flex-wrap:nowrap;gap:2rem;overflow-x:auto;padding:1rem 0;">
+      {% for key, value in dataset_stats.items() %}
+      <div>
+        <div>{{ key }}</div>
+        <div>{{ value }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    </details>
+    {% endif %}
+    <h2>Results</h2>
+    <div style="overflow: auto; border: 1px solid #ccc; max-height: 85vh">
+      {{table_html|safe}}
+    </div>
+    {{plot_html|safe}}
+  </main>
+</body>
+
+</html>
