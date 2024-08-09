@@ -7,7 +7,7 @@ Datasets and scripts for the ACL2024 Findings paper: "Exploring Reasoning Biases
 - [Datasets](#datasets)
   - [NLI (Natural Language Inference) Task Format](#nli-natural-language-inference-task-format)
   - [Multiple-Choice Task Format](#multiple-choice-task-format)
-  - [Data used in the NAROMA2023 experiments](#data-used-in-the-naroma2023-experiments)
+  - [Data used in the NALOMA2023 experiments](#data-used-in-the-naloma2023-experiments)
 - [Running scripts](#running-scripts)
 - [Citation](#citation)
 
@@ -69,7 +69,7 @@ Datasets and scripts for the ACL2024 Findings paper: "Exploring Reasoning Biases
 
 - **NOTE:** One of the five hypotheses is "none of them".
 
-### Data used in the NAROMA2023 experiments
+### Data used in the NALOMA2023 experiments
 
 #### File
 
