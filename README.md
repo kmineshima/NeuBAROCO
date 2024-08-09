@@ -126,7 +126,14 @@ python -m scripts.experiments.acl2024 choice5 --test_n=all --lang en ja --model 
 
 If you use this data in any published research, please cite the following:
 
-- Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset.
+- ACL Anthology: TBA
+- [arXiv preprint](https://arxiv.org/abs/2408.04403v1)
 
 ```
+@article{ozeki2024exploring,
+  title={Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset},
+  author={Kentaro Ozeki and Risako Ando and Takanobu Morishita and Hirohiko Abe and Koji Mineshima and Mitsuhiro Okada},
+  journal={arXiv preprint arXiv:2408.04403},
+  year={2024}
+}
 ```
