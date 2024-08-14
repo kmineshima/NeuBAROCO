@@ -126,14 +126,27 @@ python -m scripts.experiments.acl2024 choice5 --test_n=all --lang en ja --model 
 
 If you use this data in any published research, please cite the following:
 
-- ACL Anthology: TBA
+- ACL Anthology: [Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset](https://aclanthology.org/2024.findings-acl.950) (Ozeki et al., Findings 2024)
 - [arXiv preprint](https://arxiv.org/abs/2408.04403v1)
 
 ```
-@article{ozeki2024exploring,
-  title={Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset},
-  author={Kentaro Ozeki and Risako Ando and Takanobu Morishita and Hirohiko Abe and Koji Mineshima and Mitsuhiro Okada},
-  journal={arXiv preprint arXiv:2408.04403},
-  year={2024}
+@inproceedings{ozeki-etal-2024-exploring,
+    title = "Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the {N}eu{BAROCO} Dataset",
+    author = "Ozeki, Kentaro  and
+      Ando, Risako  and
+      Morishita, Takanobu  and
+      Abe, Hirohiko  and
+      Mineshima, Koji  and
+      Okada, Mitsuhiro",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.950",
+    pages = "16063--16077",
 }
 ```
