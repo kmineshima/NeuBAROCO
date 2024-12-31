@@ -150,3 +150,12 @@ If you use this data in any published research, please cite the following:
     pages = "16063--16077",
 }
 ```
+
+## License
+
+This work is licensed under Creative Commons Attribution 4.0 International.
+
+[![CC4](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+
+
