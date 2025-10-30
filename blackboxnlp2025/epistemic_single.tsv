@@ -1,0 +1,481 @@
+ID	premise_en	hypothesis_en	gold	content-type	inference-pattern	modal
+1	It is not certain that the new policy will reduce crime rates.	The new policy might not reduce crime rates.	entailment	congruent	NotMu-MiNot	epistemic
+2	It is not necessarily the case that the defendant is guilty.	The defendant might not be guilty.	entailment	congruent	NotMu-MiNot	epistemic
+3	It is not known that the universe is infinite.	The universe might not be infinite.	entailment	congruent	NotMu-MiNot	epistemic
+4	It is not established that the vaccine prevents all variants of the virus.	There's a chance the vaccine does not prevent all variants of the virus.	entailment	congruent	NotMu-MiNot	epistemic
+5	It is not the case that the ancient city must have been destroyed by an earthquake.	The ancient city might not have been destroyed by an earthquake.	entailment	congruent	NotMu-MiNot	epistemic
+6	It is not certain that the company will meet its financial targets this year.	There is a possibility that the company will not meet its financial targets this year.	entailment	congruent	NotMu-MiNot	epistemic
+7	It is not necessarily the case that the painting is authentic.	The painting might not be authentic.	entailment	congruent	NotMu-MiNot	epistemic
+8	It is not known that dark matter exists.	Dark matter might not exist.	entailment	congruent	NotMu-MiNot	epistemic
+9	It is not established that bilingualism improves cognitive function.	It is possible that bilingualism does not improve cognitive function.	entailment	congruent	NotMu-MiNot	epistemic
+10	It is not the case that the manuscript must have been written in the 15th century.	The manuscript might not have been written in the 15th century.	entailment	congruent	NotMu-MiNot	epistemic
+11	It is not certain that the economy will recover quickly.	The economy might not recover quickly.	entailment	congruent	NotMu-MiNot	epistemic
+12	It is not necessarily the case that the suspect is cooperating with the investigation.	The suspect might not be cooperating with the investigation.	entailment	congruent	NotMu-MiNot	epistemic
+13	It is not known that extraterrestrial life exists.	Extraterrestrial life might not exist.	entailment	congruent	NotMu-MiNot	epistemic
+14	It is not established that the treatment is effective for all patients.	There is a possibility that the treatment is not effective for all patients.	entailment	congruent	NotMu-MiNot	epistemic
+15	It is not the case that the bridge must have been designed by that architect.	The bridge might not have been designed by that architect.	entailment	congruent	NotMu-MiNot	epistemic
+16	It is not certain that the government will implement the proposed reforms.	The government might not implement the proposed reforms.	entailment	congruent	NotMu-MiNot	epistemic
+17	It is not necessarily the case that the witness is telling the truth.	The witness might not be telling the truth.	entailment	congruent	NotMu-MiNot	epistemic
+18	It is not known that the lost city is located in that region.	The lost city might not be located in that region.	entailment	congruent	NotMu-MiNot	epistemic
+19	It is not established that the theory is supported by the available evidence.	It is possible that the theory is not supported by the available evidence.	entailment	congruent	NotMu-MiNot	epistemic
+20	It is not the case that the artifact must have been made of gold.	The artifact might not have been made of gold.	entailment	congruent	NotMu-MiNot	epistemic
+21	It is not certain that the sun emits light.	The sun might not emit light.	entailment	incongruent	NotMu-MiNot	epistemic
+22	It is not necessarily the case that water is wet.	Water might not be wet.	entailment	incongruent	NotMu-MiNot	epistemic
+23	It is not known that fire is hot.	There's a chance fire is not hot.	entailment	incongruent	NotMu-MiNot	epistemic
+24	It is not established that ice is cold.	There is a possibility that ice is not cold.	entailment	incongruent	NotMu-MiNot	epistemic
+25	It is not the case that humans must have been bipedal.	Humans might not have been bipedal.	entailment	incongruent	NotMu-MiNot	epistemic
+26	It is not certain that plants need water to survive.	Plants might not need water to survive.	entailment	incongruent	NotMu-MiNot	epistemic
+27	It is not necessarily the case that the earth revolves around the sun.	The earth might not revolve around the sun.	entailment	incongruent	NotMu-MiNot	epistemic
+28	It is not known that fish can breathe underwater.	Fish might not be able to breathe underwater.	entailment	incongruent	NotMu-MiNot	epistemic
+29	It is not established that birds can fly.	There's a chance birds cannot fly.	entailment	incongruent	NotMu-MiNot	epistemic
+30	It is not the case that mammals must have been warm-blooded.	Mammals might not have been warm-blooded.	entailment	incongruent	NotMu-MiNot	epistemic
+31	It is not certain that sugar is sweet.	Sugar might not be sweet.	entailment	incongruent	NotMu-MiNot	epistemic
+32	It is not necessarily the case that lemons are sour.	Lemons might not be sour.	entailment	incongruent	NotMu-MiNot	epistemic
+33	It is not known that the sky is blue.	There is a possibility that the sky is not blue.	entailment	incongruent	NotMu-MiNot	epistemic
+34	It is not established that grass is green.	Grass might not be green.	entailment	incongruent	NotMu-MiNot	epistemic
+35	It is not the case that deserts must have been dry.	Deserts might not have been dry.	entailment	incongruent	NotMu-MiNot	epistemic
+36	It is not certain that computers require electricity to function.	Computers might not require electricity to function.	entailment	incongruent	NotMu-MiNot	epistemic
+37	It is not necessarily the case that phones need batteries.	Phones might not need batteries.	entailment	incongruent	NotMu-MiNot	epistemic
+38	It is not known that airplanes can fly.	There's a chance airplanes cannot fly.	entailment	incongruent	NotMu-MiNot	epistemic
+39	It is not established that trains run on rails.	There is a possibility that trains do not run on rails.	entailment	incongruent	NotMu-MiNot	epistemic
+40	It is not the case that bicycles must have had two wheels.	Bicycles might not have had two wheels.	entailment	incongruent	NotMu-MiNot	epistemic
+41	It is not certain that the flooglehorp is grimbling the zizzle.	The flooglehorp might not be grimbling the zizzle.	entailment	nonsense	NotMu-MiNot	epistemic
+42	It is not necessarily the case that the quango is fizzbinning the grommet.	The quango might not be fizzbinning the grommet.	entailment	nonsense	NotMu-MiNot	epistemic
+43	It is not known that the wibble is frabjous.	The wibble might not be frabjous.	entailment	nonsense	NotMu-MiNot	epistemic
+44	It is not established that the gardyloo is galumphing the bandersnatch.	There's a chance the gardyloo is not galumphing the bandersnatch.	entailment	nonsense	NotMu-MiNot	epistemic
+45	It is not the case that the yargle must have been squiffling the jubjub.	The yargle might not have been squiffling the jubjub.	entailment	nonsense	NotMu-MiNot	epistemic
+46	It is not certain that the flummox is outgrabing the slithy tove.	There is a possibility that the flummox is not outgrabing the slithy tove.	entailment	nonsense	NotMu-MiNot	epistemic
+47	It is not necessarily the case that the grockle is gyring the mome rath.	The grockle might not be gyring the mome rath.	entailment	nonsense	NotMu-MiNot	epistemic
+48	It is not known that the chortle is mimsy.	The chortle might not be mimsy.	entailment	nonsense	NotMu-MiNot	epistemic
+49	It is not established that the uffish thought is calloohing the bandersnatch.	It is possible that the uffish thought is not calloohing the bandersnatch.	entailment	nonsense	NotMu-MiNot	epistemic
+50	It is not the case that the tulgey wood must have been whiffling the jubjub bird.	The tulgey wood might not have been whiffling the jubjub bird.	entailment	nonsense	NotMu-MiNot	epistemic
+51	It is not certain that the frabjous bandersnatch is gimbling the rathe.	The frabjous bandersnatch might not be gimbling the rathe.	entailment	nonsense	NotMu-MiNot	epistemic
+52	It is not necessarily the case that the callay is outgrabing the uffish thought.	The callay might not be outgrabing the uffish thought.	entailment	nonsense	NotMu-MiNot	epistemic
+53	It is not known that the slithy toves is frabjous.	The slithy toves might not be frabjous.	entailment	nonsense	NotMu-MiNot	epistemic
+54	It is not established that the mome raths is galumphing the bandersnatch.	There's a chance the mome raths is not galumphing the bandersnatch.	entailment	nonsense	NotMu-MiNot	epistemic
+55	It is not the case that the jubjub bird must have been squiffling the jubjub.	The jubjub bird might not have been squiffling the jubjub.	entailment	nonsense	NotMu-MiNot	epistemic
+56	It is not certain that the whiffling pig is outgrabing the slithy tove.	There is a possibility that the whiffling pig is not outgrabing the slithy tove.	entailment	nonsense	NotMu-MiNot	epistemic
+57	It is not necessarily the case that the mimsy borogove is gyring the mome rath.	The mimsy borogove might not be gyring the mome rath.	entailment	nonsense	NotMu-MiNot	epistemic
+58	It is not known that the rathe is mimsy.	The rathe might not be mimsy.	entailment	nonsense	NotMu-MiNot	epistemic
+59	It is not established that the bandersnatch is calloohing the bandersnatch.	It is possible that the bandersnatch is not calloohing the bandersnatch.	entailment	nonsense	NotMu-MiNot	epistemic
+60	It is not the case that the jubjub must have been whiffling the jubjub bird.	The jubjub might not have been whiffling the jubjub bird.	entailment	nonsense	NotMu-MiNot	epistemic
+61	It is not possible that a person can learn to play a musical instrument perfectly in a week.	It is certain that a person cannot learn to play a musical instrument perfectly in a week.	entailment	congruent	NotMi-MuNot	epistemic
+62	It is not the case that the feeling of anger might have been solely caused by a lack of sleep.	It is necessarily the case that the feeling of anger is not solely caused by a lack of sleep.	entailment	congruent	NotMi-MuNot	epistemic
+63	It is impossible that a complex habit, like quitting smoking, can be fully formed in just three days.	It is known that a complex habit, like quitting smoking, cannot be fully formed in just three days.	entailment	congruent	NotMi-MuNot	epistemic
+64	There's no chance that a hurricane's path can be predicted with complete accuracy a month in advance.	It is established that a hurricane's path cannot be predicted with complete accuracy a month in advance.	entailment	congruent	NotMi-MuNot	epistemic
+65	There is no possibility that the Renaissance was solely triggered by the rediscovery of ancient Greek texts.	The Renaissance could not have been solely triggered by the rediscovery of ancient Greek texts.	entailment	congruent	NotMi-MuNot	epistemic
+66	It is not possible that a country's economic growth can be solely attributed to its natural resources.	It is certain that a country's economic growth cannot be solely attributed to its natural resources.	entailment	congruent	NotMi-MuNot	epistemic
+67	It is not the case that the invention of the automobile might have led to a decrease in urban populations.	It is necessarily the case that the invention of the automobile did not lead to a decrease in urban populations.	entailment	congruent	NotMi-MuNot	epistemic
+68	It is impossible that a person's moral values are entirely determined by their cultural background.	It is known that a person's moral values are not entirely determined by their cultural background.	entailment	congruent	NotMi-MuNot	epistemic
+69	There's no chance that unemployment can be completely eliminated from a developed economy.	It is established that unemployment cannot be completely eliminated from a developed economy.	entailment	congruent	NotMi-MuNot	epistemic
+70	There is no possibility that all languages evolved from a single proto-language spoken in Africa.	All languages could not have evolved from a single proto-language spoken in Africa.	entailment	congruent	NotMi-MuNot	epistemic
+71	It is not possible that a person can read a 500-page book in one hour.	It is certain that a person cannot read a 500-page book in one hour.	entailment	congruent	NotMi-MuNot	epistemic
+72	It is not the case that the development of writing might have led to a decline in oral storytelling traditions.	It is necessarily the case that the development of writing did not lead to a decline in oral storytelling traditions.	entailment	congruent	NotMi-MuNot	epistemic
+73	It is impossible that a society can function without any form of leadership or authority.	It is known that a society cannot function without any form of leadership or authority.	entailment	congruent	NotMi-MuNot	epistemic
+74	There's no chance that deforestation can be completely reversed in the next ten years.	It is established that deforestation cannot be completely reversed in the next ten years.	entailment	congruent	NotMi-MuNot	epistemic
+75	There is no possibility that the human brain can perform calculations as fast as a supercomputer.	The human brain could not have performed calculations as fast as a supercomputer.	entailment	congruent	NotMi-MuNot	epistemic
+76	It is not possible that a person's emotions can be perfectly controlled through medication.	It is certain that a person's emotions cannot be perfectly controlled through medication.	entailment	congruent	NotMi-MuNot	epistemic
+77	It is not the case that the discovery of fire might have led to a decrease in human cooperation.	It is necessarily the case that the discovery of fire did not lead to a decrease in human cooperation.	entailment	congruent	NotMi-MuNot	epistemic
+78	It is impossible that a single scientific theory can explain all phenomena in the universe.	It is known that a single scientific theory cannot explain all phenomena in the universe.	entailment	congruent	NotMi-MuNot	epistemic
+79	There's no chance that poverty can be completely eradicated globally in the next two decades.	It is established that poverty cannot be completely eradicated globally in the next two decades.	entailment	congruent	NotMi-MuNot	epistemic
+80	There is no possibility that all human creativity stems from a single area of the brain.	All human creativity could not have stemmed from a single area of the brain.	entailment	congruent	NotMi-MuNot	epistemic
+81	It is not possible that the sun orbits the Earth.	It is certain that the sun does not orbit the Earth.	entailment	incongruent	NotMi-MuNot	epistemic
+82	It is not the case that water might have been dry.	It is necessarily the case that water is not dry.	entailment	incongruent	NotMi-MuNot	epistemic
+83	It is impossible that fire produces ice.	It is known that fire does not produce ice.	entailment	incongruent	NotMi-MuNot	epistemic
+84	There's no chance that birds can fly.	It is established that birds cannot fly.	entailment	incongruent	NotMi-MuNot	epistemic
+85	There is no possibility that humans need oxygen to breathe.	Humans could not have been breathing oxygen.	entailment	incongruent	NotMi-MuNot	epistemic
+86	It is not possible that plants need sunlight to grow.	It is certain that plants do not need sunlight to grow.	entailment	incongruent	NotMi-MuNot	epistemic
+87	It is not the case that sugar might have been sweet.	It is necessarily the case that sugar is not sweet.	entailment	incongruent	NotMi-MuNot	epistemic
+88	It is impossible that computers can process information.	It is known that computers cannot process information.	entailment	incongruent	NotMi-MuNot	epistemic
+89	There's no chance that the Earth is round.	It is established that the Earth is not round.	entailment	incongruent	NotMi-MuNot	epistemic
+90	There is no possibility that exercise is good for health.	Exercise could not have been good for health.	entailment	incongruent	NotMi-MuNot	epistemic
+91	It is not possible that fish live underwater.	It is certain that fish do not live underwater.	entailment	incongruent	NotMi-MuNot	epistemic
+92	It is not the case that the sky might have been blue.	It is necessarily the case that the sky is not blue.	entailment	incongruent	NotMi-MuNot	epistemic
+93	It is impossible that deserts are dry.	It is known that deserts are not dry.	entailment	incongruent	NotMi-MuNot	epistemic
+94	There's no chance that ice cream is cold.	It is established that ice cream is not cold.	entailment	incongruent	NotMi-MuNot	epistemic
+95	There is no possibility that education is important.	Education could not have been important.	entailment	incongruent	NotMi-MuNot	epistemic
+96	It is not possible that historical events happened in the past.	It is certain that historical events did not happen in the past.	entailment	incongruent	NotMi-MuNot	epistemic
+97	It is not the case that art might have been expressive.	It is necessarily the case that art is not expressive.	entailment	incongruent	NotMi-MuNot	epistemic
+98	It is impossible that music has rhythm.	It is known that music does not have rhythm.	entailment	incongruent	NotMi-MuNot	epistemic
+99	There's no chance that literature tells stories.	It is established that literature does not tell stories.	entailment	incongruent	NotMi-MuNot	epistemic
+100	There is no possibility that sleep is necessary for rest.	Sleep could not have been necessary for rest.	entailment	incongruent	NotMi-MuNot	epistemic
+101	It is not possible that a flibbertigibbet can be zozzled.	It is certain that a flibbertigibbet cannot be zozzled.	entailment	nonsense	NotMi-MuNot	epistemic
+102	It is not the case that a quango might have been fizzbinned.	It is necessarily the case that a quango is not fizzbinned.	entailment	nonsense	NotMi-MuNot	epistemic
+103	It is impossible that a wibble can be frabjous.	It is known that a wibble cannot be frabjous.	entailment	nonsense	NotMi-MuNot	epistemic
+104	There's no chance that a gardyloo can be galumphing.	It is established that a gardyloo cannot be galumphing.	entailment	nonsense	NotMi-MuNot	epistemic
+105	There is no possibility that a yargle can be squiffling.	A yargle could not have been squiffling.	entailment	nonsense	NotMi-MuNot	epistemic
+106	It is not possible that a flummox can be outgrabing.	It is certain that a flummox cannot be outgrabing.	entailment	nonsense	NotMi-MuNot	epistemic
+107	It is not the case that a grockle might have been gyring.	It is necessarily the case that a grockle is not gyring.	entailment	nonsense	NotMi-MuNot	epistemic
+108	It is impossible that a chortle can be mimsy.	It is known that a chortle cannot be mimsy.	entailment	nonsense	NotMi-MuNot	epistemic
+109	There's no chance that an uffish thought can be calloohing.	It is established that an uffish thought cannot be calloohing.	entailment	nonsense	NotMi-MuNot	epistemic
+110	There is no possibility that a tulgey wood can be whiffling.	A tulgey wood could not have been whiffling.	entailment	nonsense	NotMi-MuNot	epistemic
+111	It is not possible that a frabjous bandersnatch can be gimbling.	It is certain that a frabjous bandersnatch cannot be gimbling.	entailment	nonsense	NotMi-MuNot	epistemic
+112	It is not the case that a callay might have been outgrabing.	It is necessarily the case that a callay is not outgrabing.	entailment	nonsense	NotMi-MuNot	epistemic
+113	It is impossible that a slithy toves can be frabjous.	It is known that a slithy toves cannot be frabjous.	entailment	nonsense	NotMi-MuNot	epistemic
+114	There's no chance that a mome raths can be galumphing.	It is established that a mome raths cannot be galumphing.	entailment	nonsense	NotMi-MuNot	epistemic
+115	There is no possibility that a jubjub bird can be squiffling.	A jubjub bird could not have been squiffling.	entailment	nonsense	NotMi-MuNot	epistemic
+116	It is not possible that a whiffling pig can be outgrabing.	It is certain that a whiffling pig cannot be outgrabing.	entailment	nonsense	NotMi-MuNot	epistemic
+117	It is not the case that a mimsy borogove might have been gyring.	It is necessarily the case that a mimsy borogove is not gyring.	entailment	nonsense	NotMi-MuNot	epistemic
+118	It is impossible that a rathe can be mimsy.	It is known that a rathe cannot be mimsy.	entailment	nonsense	NotMi-MuNot	epistemic
+119	There's no chance that a bandersnatch can be calloohing.	It is established that a bandersnatch cannot be calloohing.	entailment	nonsense	NotMi-MuNot	epistemic
+120	There is no possibility that a jubjub can be whiffling.	A jubjub could not have been whiffling.	entailment	nonsense	NotMi-MuNot	epistemic
+121	The recently discovered planet might not harbor life.	It is not certain that the recently discovered planet harbors life.	entailment	congruent	MiNot-NotMu	epistemic
+122	The lost city of Atlantis might not have existed.	It is not necessarily the case that the lost city of Atlantis existed.	entailment	congruent	MiNot-NotMu	epistemic
+123	There's a chance the universe is not contracting.	It is not known that the universe is contracting.	entailment	congruent	MiNot-NotMu	epistemic
+124	There is a possibility that faster-than-light travel is not achievable.	It is not established that faster-than-light travel is achievable.	entailment	congruent	MiNot-NotMu	epistemic
+125	Artificial intelligence might not surpass human intelligence in the next decade.	It is not the case that artificial intelligence must have surpassed human intelligence in the next decade.	entailment	congruent	MiNot-NotMu	epistemic
+126	The ancient civilization might not have used advanced technology.	It is not certain that the ancient civilization used advanced technology.	entailment	congruent	MiNot-NotMu	epistemic
+127	Dinosaurs might not have survived the extinction event.	It is not necessarily the case that dinosaurs survived the extinction event.	entailment	congruent	MiNot-NotMu	epistemic
+128	It is possible that the Earth's core is not made of cheese.	It is not known that the Earth's core is made of cheese.	entailment	congruent	MiNot-NotMu	epistemic
+129	Telepathy might not be a real phenomenon.	It is not established that telepathy is a real phenomenon.	entailment	congruent	MiNot-NotMu	epistemic
+130	Humans might not colonize Mars by the end of the century.	It is not the case that humans must have colonized Mars by the end of the century.	entailment	congruent	MiNot-NotMu	epistemic
+131	It is possible that the painting is not a forgery.	It is not certain that the painting is a forgery.	entailment	congruent	MiNot-NotMu	epistemic
+132	The manuscript might not have been written by a different author.	It is not necessarily the case that the manuscript was written by a different author.	entailment	congruent	MiNot-NotMu	epistemic
+133	There's a chance the economy will not experience hyperinflation.	It is not known that the economy will experience hyperinflation.	entailment	congruent	MiNot-NotMu	epistemic
+134	The government might not implement universal basic income.	It is not established that the government will implement universal basic income.	entailment	congruent	MiNot-NotMu	epistemic
+135	There is a possibility that the company will not be acquired by its competitor.	It is not the case that the company must have been acquired by its competitor.	entailment	congruent	MiNot-NotMu	epistemic
+136	The new drug might not have no side effects.	It is not certain that the new drug will have no side effects.	entailment	congruent	MiNot-NotMu	epistemic
+137	The experiment might not have been flawed.	It is not necessarily the case that the experiment was flawed.	entailment	congruent	MiNot-NotMu	epistemic
+138	It is possible that the theory will not be proven wrong.	It is not known that the theory will be proven wrong.	entailment	congruent	MiNot-NotMu	epistemic
+139	There's a chance the policy will not be successful.	It is not established that the policy will be successful.	entailment	congruent	MiNot-NotMu	epistemic
+140	There is a possibility that the project will not be completed on time.	It is not the case that the project must have been completed on time.	entailment	congruent	MiNot-NotMu	epistemic
+141	It is possible that the sun not rise in the east.	It is not certain that the sun rises in the east.	entailment	incongruent	MiNot-NotMu	epistemic
+142	There's a chance that cats not be mammals.	It is not necessarily the case that cats are mammals.	entailment	incongruent	MiNot-NotMu	epistemic
+143	There is a possibility that water not be wet.	It is not known that water is wet.	entailment	incongruent	MiNot-NotMu	epistemic
+144	It is possible that fire not be hot.	It is not established that fire is hot.	entailment	incongruent	MiNot-NotMu	epistemic
+145	It is possible that the earth not revolve around the sun.	It is not the case that the earth must have been revolving around the sun.	entailment	incongruent	MiNot-NotMu	epistemic
+146	There's a chance that birds not have wings.	It is not certain that birds have wings.	entailment	incongruent	MiNot-NotMu	epistemic
+147	There is a possibility that fish not be able to breathe underwater.	It is not necessarily the case that fish are able to breathe underwater.	entailment	incongruent	MiNot-NotMu	epistemic
+148	It is possible that plants not need water to survive.	It is not known that plants need water to survive.	entailment	incongruent	MiNot-NotMu	epistemic
+149	It is possible that the sky not be blue.	It is not established that the sky is blue.	entailment	incongruent	MiNot-NotMu	epistemic
+150	It is possible that humans not need oxygen to breathe.	It is not the case that humans must have been needing oxygen to breathe.	entailment	incongruent	MiNot-NotMu	epistemic
+151	There's a chance that sugar not be sweet.	It is not certain that sugar is sweet.	entailment	incongruent	MiNot-NotMu	epistemic
+152	There is a possibility that ice not be cold.	It is not necessarily the case that ice is cold.	entailment	incongruent	MiNot-NotMu	epistemic
+153	It is possible that the moon not orbit the earth.	It is not known that the moon orbits the earth.	entailment	incongruent	MiNot-NotMu	epistemic
+154	It is possible that spiders not have eight legs.	It is not established that spiders have eight legs.	entailment	incongruent	MiNot-NotMu	epistemic
+155	It is possible that elephants not be the largest land animals.	It is not the case that elephants must have been the largest land animals.	entailment	incongruent	MiNot-NotMu	epistemic
+156	There's a chance that bicycles not have two wheels.	It is not certain that bicycles have two wheels.	entailment	incongruent	MiNot-NotMu	epistemic
+157	There is a possibility that trains not run on rails.	It is not necessarily the case that trains run on rails.	entailment	incongruent	MiNot-NotMu	epistemic
+158	It is possible that airplanes not fly.	It is not known that airplanes fly.	entailment	incongruent	MiNot-NotMu	epistemic
+159	It is possible that computers not use electricity.	It is not established that computers use electricity.	entailment	incongruent	MiNot-NotMu	epistemic
+160	It is possible that books not have pages.	It is not the case that books must have been having pages.	entailment	incongruent	MiNot-NotMu	epistemic
+161	A flibbertigibbet might not be zozzled.	It is not certain that a flibbertigibbet is zozzled.	entailment	nonsense	MiNot-NotMu	epistemic
+162	A quango might not have been fizzbinned.	It is not necessarily the case that a quango was fizzbinned.	entailment	nonsense	MiNot-NotMu	epistemic
+163	It is possible that a wibble is not frabjous.	It is not known that a wibble is frabjous.	entailment	nonsense	MiNot-NotMu	epistemic
+164	There's a chance a gardyloo is not galumphing.	It is not established that a gardyloo is galumphing.	entailment	nonsense	MiNot-NotMu	epistemic
+165	A yargle might not have been squiffling.	It is not the case that a yargle must have been squiffling.	entailment	nonsense	MiNot-NotMu	epistemic
+166	A flummox might not be outgrabing.	It is not certain that a flummox is outgrabing.	entailment	nonsense	MiNot-NotMu	epistemic
+167	A grockle might not have been gyring.	It is not necessarily the case that a grockle was gyring.	entailment	nonsense	MiNot-NotMu	epistemic
+168	It is possible that a chortle is not mimsy.	It is not known that a chortle is mimsy.	entailment	nonsense	MiNot-NotMu	epistemic
+169	There's a chance an uffish thought is not calloohing.	It is not established that an uffish thought is calloohing.	entailment	nonsense	MiNot-NotMu	epistemic
+170	A tulgey wood might not have been whiffling.	It is not the case that a tulgey wood must have been whiffling.	entailment	nonsense	MiNot-NotMu	epistemic
+171	A frabjous bandersnatch might not be gimbling.	It is not certain that a frabjous bandersnatch is gimbling.	entailment	nonsense	MiNot-NotMu	epistemic
+172	A callay might not have been outgrabing.	It is not necessarily the case that a callay was outgrabing.	entailment	nonsense	MiNot-NotMu	epistemic
+173	It is possible that a slithy toves is not frabjous.	It is not known that a slithy toves is frabjous.	entailment	nonsense	MiNot-NotMu	epistemic
+174	There's a chance a mome raths is not galumphing.	It is not established that a mome raths is galumphing.	entailment	nonsense	MiNot-NotMu	epistemic
+175	A jubjub bird might not have been squiffling.	It is not the case that a jubjub bird must have been squiffling.	entailment	nonsense	MiNot-NotMu	epistemic
+176	A whiffling pig might not be outgrabing.	It is not certain that a whiffling pig is outgrabing.	entailment	nonsense	MiNot-NotMu	epistemic
+177	A mimsy borogove might not have been gyring.	It is not necessarily the case that a mimsy borogove was gyring.	entailment	nonsense	MiNot-NotMu	epistemic
+178	It is possible that a rathe is not mimsy.	It is not known that a rathe is mimsy.	entailment	nonsense	MiNot-NotMu	epistemic
+179	There's a chance a bandersnatch is not calloohing.	It is not established that a bandersnatch is calloohing.	entailment	nonsense	MiNot-NotMu	epistemic
+180	A jubjub might not have been whiffling.	It is not the case that a jubjub must have been whiffling.	entailment	nonsense	MiNot-NotMu	epistemic
+181	It is certain that regular exercise can improve cardiovascular health.	It is possible that regular exercise can improve cardiovascular health.	entailment	congruent	Mu-Mi	epistemic
+182	It is necessarily the case that emotions influence decision-making.	Emotions might influence decision-making.	entailment	congruent	Mu-Mi	epistemic
+183	It is known that prolonged stress can negatively impact physical health.	Prolonged stress might negatively impact physical health.	entailment	congruent	Mu-Mi	epistemic
+184	It is established that the Earth's climate is changing.	There's a chance that the Earth's climate is changing.	entailment	congruent	Mu-Mi	epistemic
+185	The invention of the printing press must have been a major catalyst for the spread of knowledge.	There is a possibility that the invention of the printing press was a major catalyst for the spread of knowledge.	entailment	congruent	Mu-Mi	epistemic
+186	It is certain that social media has transformed the way people communicate.	It is possible that social media has transformed the way people communicate.	entailment	congruent	Mu-Mi	epistemic
+187	It is necessarily the case that economic inequality can lead to social unrest.	Economic inequality might lead to social unrest.	entailment	congruent	Mu-Mi	epistemic
+188	It is known that early childhood experiences can have a lasting impact on personality development.	Early childhood experiences might have a lasting impact on personality development.	entailment	congruent	Mu-Mi	epistemic
+189	It is established that the human brain is capable of remarkable feats of learning and memory.	There's a chance that the human brain is capable of remarkable feats of learning and memory.	entailment	congruent	Mu-Mi	epistemic
+190	The development of agriculture must have been a turning point in human history.	There is a possibility that the development of agriculture was a turning point in human history.	entailment	congruent	Mu-Mi	epistemic
+191	It is certain that bilingualism can enhance cognitive flexibility.	It is possible that bilingualism can enhance cognitive flexibility.	entailment	congruent	Mu-Mi	epistemic
+192	It is necessarily the case that cultural values shape individual behavior.	Cultural values might shape individual behavior.	entailment	congruent	Mu-Mi	epistemic
+193	It is known that exposure to nature can have positive effects on mental well-being.	Exposure to nature might have positive effects on mental well-being.	entailment	congruent	Mu-Mi	epistemic
+194	It is established that technological advancements can both solve and create new problems.	There's a chance that technological advancements can both solve and create new problems.	entailment	congruent	Mu-Mi	epistemic
+195	The discovery of DNA must have revolutionized the field of biology.	There is a possibility that the discovery of DNA revolutionized the field of biology.	entailment	congruent	Mu-Mi	epistemic
+196	It is certain that music can evoke strong emotional responses.	It is possible that music can evoke strong emotional responses.	entailment	congruent	Mu-Mi	epistemic
+197	It is necessarily the case that political systems evolve over time.	Political systems might evolve over time.	entailment	congruent	Mu-Mi	epistemic
+198	It is known that sleep plays a crucial role in memory consolidation.	Sleep might play a crucial role in memory consolidation.	entailment	congruent	Mu-Mi	epistemic
+199	It is established that human behavior is influenced by both conscious and unconscious factors.	There's a chance that human behavior is influenced by both conscious and unconscious factors.	entailment	congruent	Mu-Mi	epistemic
+200	The invention of the internet must have had a profound impact on global communication.	There is a possibility that the invention of the internet had a profound impact on global communication.	entailment	congruent	Mu-Mi	epistemic
+201	It is certain that the sun rises in the west.	There is a possibility that the sun rises in the west.	entailment	incongruent	Mu-Mi	epistemic
+202	It is necessarily the case that water is dry.	It might have been the case that water is dry.	entailment	incongruent	Mu-Mi	epistemic
+203	It is known that ice is hot.	There's a chance ice is hot.	entailment	incongruent	Mu-Mi	epistemic
+204	It is established that dogs meow.	There is a possibility that dogs meow.	entailment	incongruent	Mu-Mi	epistemic
+205	It is certain that the sky is green.	There is a possibility that the sky is green.	entailment	incongruent	Mu-Mi	epistemic
+206	It is necessarily the case that fire is cold.	It might have been the case that fire is cold.	entailment	incongruent	Mu-Mi	epistemic
+207	It is known that grass is purple.	There's a chance grass is purple.	entailment	incongruent	Mu-Mi	epistemic
+208	It is established that lemons are sweet.	There is a possibility that lemons are sweet.	entailment	incongruent	Mu-Mi	epistemic
+209	It is certain that sugar is salty.	There is a possibility that sugar is salty.	entailment	incongruent	Mu-Mi	epistemic
+210	It is necessarily the case that the ocean is fresh.	It might have been the case that the ocean is fresh.	entailment	incongruent	Mu-Mi	epistemic
+211	It is known that rocks are soft.	There's a chance rocks are soft.	entailment	incongruent	Mu-Mi	epistemic
+212	It is established that feathers are heavy.	There is a possibility that feathers are heavy.	entailment	incongruent	Mu-Mi	epistemic
+213	It is certain that wood sinks on water.	There is a possibility that wood sinks in water.	entailment	incongruent	Mu-Mi	epistemic
+214	It is necessarily the case that metal is a poor conductor of electricity.	It might have been the case that metal is a poor conductor of electricity.	entailment	incongruent	Mu-Mi	epistemic
+215	It is known that deserts are wet.	There's a chance deserts are wet.	entailment	incongruent	Mu-Mi	epistemic
+216	It is established that volcanoes implode.	There is a possibility that volcanoes implode.	entailment	incongruent	Mu-Mi	epistemic
+217	It is certain that gravity pulls objects away from the Earth.	There is a possibility that gravity pushes objects away from the Earth.	entailment	incongruent	Mu-Mi	epistemic
+218	It is necessarily the case that humans breathe water.	It might have been the case that humans breathe water.	entailment	incongruent	Mu-Mi	epistemic
+219	It is known that plants need darkness to grow.	There's a chance plants need darkness to grow.	entailment	incongruent	Mu-Mi	epistemic
+220	It is established that the Earth does not rotate.	There is a possibility that the Earth does not rotate.	entailment	incongruent	Mu-Mi	epistemic
+221	It is certain that a flibbertigibbet can be zozzled.	It is possible that a flibbertigibbet can be zozzled.	entailment	nonsense	Mu-Mi	epistemic
+222	It is necessarily the case that a quango can be fizzbinned.	A quango might be fizzbinned.	entailment	nonsense	Mu-Mi	epistemic
+223	It is known that a wibble can be frabjous.	A wibble might be frabjous.	entailment	nonsense	Mu-Mi	epistemic
+224	It is established that a gardyloo can be galumphing.	There's a chance that a gardyloo can be galumphing.	entailment	nonsense	Mu-Mi	epistemic
+225	A yargle must have been squiffling.	There is a possibility that a yargle was squiffling.	entailment	nonsense	Mu-Mi	epistemic
+226	It is certain that a flummox can be outgrabing.	It is possible that a flummox can be outgrabing.	entailment	nonsense	Mu-Mi	epistemic
+227	It is necessarily the case that a grockle can be gyring.	A grockle might be gyring.	entailment	nonsense	Mu-Mi	epistemic
+228	It is known that a chortle can be mimsy.	A chortle might be mimsy.	entailment	nonsense	Mu-Mi	epistemic
+229	It is established that an uffish thought can be calloohing.	There's a chance that an uffish thought can be calloohing.	entailment	nonsense	Mu-Mi	epistemic
+230	A tulgey wood must have been whiffling.	There is a possibility that a tulgey wood was whiffling.	entailment	nonsense	Mu-Mi	epistemic
+231	It is certain that a frabjous bandersnatch can be gimbling.	It is possible that a frabjous bandersnatch can be gimbling.	entailment	nonsense	Mu-Mi	epistemic
+232	It is necessarily the case that a callay can be outgrabing.	A callay might be outgrabing.	entailment	nonsense	Mu-Mi	epistemic
+233	It is known that a slithy toves can be frabjous.	A slithy toves might be frabjous.	entailment	nonsense	Mu-Mi	epistemic
+234	It is established that a mome raths can be galumphing.	There's a chance that a mome raths can be galumphing.	entailment	nonsense	Mu-Mi	epistemic
+235	A jubjub bird must have been squiffling.	There is a possibility that a jubjub bird was squiffling.	entailment	nonsense	Mu-Mi	epistemic
+236	It is certain that a whiffling pig can be outgrabing.	It is possible that a whiffling pig can be outgrabing.	entailment	nonsense	Mu-Mi	epistemic
+237	It is necessarily the case that a mimsy borogove can be gyring.	A mimsy borogove might be gyring.	entailment	nonsense	Mu-Mi	epistemic
+238	It is known that a rathe can be mimsy.	A rathe might be mimsy.	entailment	nonsense	Mu-Mi	epistemic
+239	It is established that a bandersnatch can be calloohing.	There's a chance that a bandersnatch can be calloohing.	entailment	nonsense	Mu-Mi	epistemic
+240	A jubjub must have been whiffling.	There is a possibility that a jubjub was whiffling.	entailment	nonsense	Mu-Mi	epistemic
+241	It is not possible that a person can teleport from one city to another.	It is not certain that a person can teleport from one city to another.	entailment	congruent	NotMi-NotMu	epistemic
+242	It is not the case that the feeling of sadness might have been completely eliminated from human experience.	It is not necessarily the case that the feeling of sadness can be completely eliminated from human experience.	entailment	congruent	NotMi-NotMu	epistemic
+243	It is impossible that a deeply ingrained habit can be changed overnight.	It is not known that a deeply ingrained habit can be changed overnight.	entailment	congruent	NotMi-NotMu	epistemic
+244	There's no chance that the exact time and location of an earthquake can be predicted.	It is not established that the exact time and location of an earthquake can be predicted.	entailment	congruent	NotMi-NotMu	epistemic
+245	There is no possibility that the invention of the internet was solely responsible for the decline of traditional media.	It is not the case that the invention of the internet must have been solely responsible for the decline of traditional media.	entailment	congruent	NotMi-NotMu	epistemic
+246	It is not possible that a country can achieve zero poverty within a year.	It is not certain that a country can achieve zero poverty within a year.	entailment	congruent	NotMi-NotMu	epistemic
+247	It is not the case that the invention of the smartphone might have led to a decrease in social interaction.	It is not necessarily the case that the invention of the smartphone led to a decrease in social interaction.	entailment	congruent	NotMi-NotMu	epistemic
+248	It is impossible that a person's personality remains completely unchanged throughout their life.	It is not known that a person's personality remains completely unchanged throughout their life.	entailment	congruent	NotMi-NotMu	epistemic
+249	There's no chance that a government can completely eliminate corruption.	It is not established that a government can completely eliminate corruption.	entailment	congruent	NotMi-NotMu	epistemic
+250	There is no possibility that all languages share a single common ancestor.	It is not the case that all languages must have shared a single common ancestor.	entailment	congruent	NotMi-NotMu	epistemic
+251	It is not possible that a person can learn to speak a new language fluently in a day.	It is not certain that a person can learn to speak a new language fluently in a day.	entailment	congruent	NotMi-NotMu	epistemic
+252	It is not the case that the development of artificial intelligence might have led to mass unemployment.	It is not necessarily the case that the development of artificial intelligence led to mass unemployment.	entailment	congruent	NotMi-NotMu	epistemic
+253	It is impossible that a society can exist without any form of conflict.	It is not known that a society can exist without any form of conflict.	entailment	congruent	NotMi-NotMu	epistemic
+254	There's no chance that climate change can be completely reversed in the next five years.	It is not established that climate change can be completely reversed in the next five years.	entailment	congruent	NotMi-NotMu	epistemic
+255	There is no possibility that the human brain can store an unlimited amount of information.	It is not the case that the human brain must have been able to store an unlimited amount of information.	entailment	congruent	NotMi-NotMu	epistemic
+256	It is not possible that a person can perfectly recall every event in their life.	It is not certain that a person can perfectly recall every event in their life.	entailment	congruent	NotMi-NotMu	epistemic
+257	It is not the case that the rise of globalization might have led to increased cultural homogeneity.	It is not necessarily the case that the rise of globalization led to increased cultural homogeneity.	entailment	congruent	NotMi-NotMu	epistemic
+258	It is impossible that a single scientific discovery can solve all of humanity's problems.	It is not known that a single scientific discovery can solve all of humanity's problems.	entailment	congruent	NotMi-NotMu	epistemic
+259	There's no chance that world peace can be achieved in the next decade.	It is not established that world peace can be achieved in the next decade.	entailment	congruent	NotMi-NotMu	epistemic
+260	There is no possibility that all human behavior can be explained by a single psychological theory.	It is not the case that all human behavior must have been explainable by a single psychological theory.	entailment	congruent	NotMi-NotMu	epistemic
+261	It is not possible that the sun orbits the Earth.	It is not certain that the sun orbits the Earth.	entailment	incongruent	NotMi-NotMu	epistemic
+262	It is not the case that fire might have been cold.	It is not necessarily the case that fire is hot.	entailment	incongruent	NotMi-NotMu	epistemic
+263	It is impossible that humans can breathe underwater.	It is not known that humans can breathe underwater.	entailment	incongruent	NotMi-NotMu	epistemic
+264	There's no chance that elephants can fly.	It is not established that elephants can fly.	entailment	incongruent	NotMi-NotMu	epistemic
+265	There is no possibility that plants can feel pain.	It is not the case that plants must have been able to feel pain.	entailment	incongruent	NotMi-NotMu	epistemic
+266	It is not possible that water is dry.	It is not certain that water is wet.	entailment	incongruent	NotMi-NotMu	epistemic
+267	It is not the case that the Earth might have been flat.	It is not necessarily the case that the Earth is round.	entailment	incongruent	NotMi-NotMu	epistemic
+268	It is impossible that light travels faster than sound.	It is not known that light travels faster than sound.	entailment	incongruent	NotMi-NotMu	epistemic
+269	There's no chance that computers can think.	It is not established that computers can process information.	entailment	incongruent	NotMi-NotMu	epistemic
+270	There is no possibility that time travel is possible.	It is not the case that time travel must have been possible.	entailment	incongruent	NotMi-NotMu	epistemic
+271	It is not possible that fish can live outside of water.	It is not certain that fish require water to survive.	entailment	incongruent	NotMi-NotMu	epistemic
+272	It is not the case that birds might have been mammals.	It is not necessarily the case that birds are a type of animal.	entailment	incongruent	NotMi-NotMu	epistemic
+273	It is impossible that the moon is made of cheese.	It is not known that the moon is a celestial body.	entailment	incongruent	NotMi-NotMu	epistemic
+274	There's no chance that chocolate is healthy.	It is not established that chocolate is a type of food.	entailment	incongruent	NotMi-NotMu	epistemic
+275	There is no possibility that cars can drive themselves.	It is not the case that cars must have been able to be driven.	entailment	incongruent	NotMi-NotMu	epistemic
+276	It is not possible that trees can grow upside down.	It is not certain that trees require soil to grow.	entailment	incongruent	NotMi-NotMu	epistemic
+277	It is not the case that rain might have been upwards.	It is not necessarily the case that rain falls downwards.	entailment	incongruent	NotMi-NotMu	epistemic
+278	It is impossible that ice is hot.	It is not known that ice is a form of water.	entailment	incongruent	NotMi-NotMu	epistemic
+279	There's no chance that sugar is sour.	It is not established that sugar is a type of sweetener.	entailment	incongruent	NotMi-NotMu	epistemic
+280	There is no possibility that the internet can be accessed without technology.	It is not the case that the internet must have been a technological invention.	entailment	incongruent	NotMi-NotMu	epistemic
+281	It is not possible that a flibbertigibbet can be zozzled.	It is not certain that a flibbertigibbet can be zozzled.	entailment	nonsense	NotMi-NotMu	epistemic
+282	It is not the case that a quango might have been fizzbinned.	It is not necessarily the case that a quango was fizzbinned.	entailment	nonsense	NotMi-NotMu	epistemic
+283	It is impossible that a wibble can be frabjous.	It is not known that a wibble can be frabjous.	entailment	nonsense	NotMi-NotMu	epistemic
+284	There's no chance that a gardyloo can be galumphing.	It is not established that a gardyloo can be galumphing.	entailment	nonsense	NotMi-NotMu	epistemic
+285	There is no possibility that a yargle can be squiffling.	It is not the case that a yargle must have been squiffling.	entailment	nonsense	NotMi-NotMu	epistemic
+286	It is not possible that a flummox can be outgrabing.	It is not certain that a flummox can be outgrabing.	entailment	nonsense	NotMi-NotMu	epistemic
+287	It is not the case that a grockle might have been gyring.	It is not necessarily the case that a grockle was gyring.	entailment	nonsense	NotMi-NotMu	epistemic
+288	It is impossible that a chortle can be mimsy.	It is not known that a chortle can be mimsy.	entailment	nonsense	NotMi-NotMu	epistemic
+289	There's no chance that an uffish thought can be calloohing.	It is not established that an uffish thought can be calloohing.	entailment	nonsense	NotMi-NotMu	epistemic
+290	There is no possibility that a tulgey wood can be whiffling.	It is not the case that a tulgey wood must have been whiffling.	entailment	nonsense	NotMi-NotMu	epistemic
+291	It is not possible that a frabjous bandersnatch can be gimbling.	It is not certain that a frabjous bandersnatch can be gimbling.	entailment	nonsense	NotMi-NotMu	epistemic
+292	It is not the case that a callay might have been outgrabing.	It is not necessarily the case that a callay was outgrabing.	entailment	nonsense	NotMi-NotMu	epistemic
+293	It is impossible that a slithy toves can be frabjous.	It is not known that a slithy toves can be frabjous.	entailment	nonsense	NotMi-NotMu	epistemic
+294	There's no chance that a mome raths can be galumphing.	It is not established that a mome raths can be galumphing.	entailment	nonsense	NotMi-NotMu	epistemic
+295	There is no possibility that a jubjub bird can be squiffling.	It is not the case that a jubjub bird must have been squiffling.	entailment	nonsense	NotMi-NotMu	epistemic
+296	It is not possible that a whiffling pig can be outgrabing.	It is not certain that a whiffling pig can be outgrabing.	entailment	nonsense	NotMi-NotMu	epistemic
+297	It is not the case that a mimsy borogove might have been gyring.	It is not necessarily the case that a mimsy borogove was gyring.	entailment	nonsense	NotMi-NotMu	epistemic
+298	It is impossible that a rathe can be mimsy.	It is not known that a rathe can be mimsy.	entailment	nonsense	NotMi-NotMu	epistemic
+299	There's no chance that a bandersnatch can be calloohing.	It is not established that a bandersnatch can be calloohing.	entailment	nonsense	NotMi-NotMu	epistemic
+300	There is no possibility that a jubjub can be whiffling.	It is not the case that a jubjub must have been whiffling.	entailment	nonsense	NotMi-NotMu	epistemic
+301	It is not certain that humans will colonize Mars in the next century.	It is not possible that humans will colonize Mars in the next century.	non-entailment	congruent	NotMu-NotMi	epistemic
+302	It is not necessarily the case that artificial general intelligence will be developed within the next decade.	It is not the case that artificial general intelligence might have been developed within the next decade.	non-entailment	congruent	NotMu-NotMi	epistemic
+303	It is not known that the universe is infinite.	It is impossible that the universe is infinite.	non-entailment	congruent	NotMu-NotMi	epistemic
+304	It is not established that a single gene is responsible for human intelligence.	There's no chance that a single gene is responsible for human intelligence.	non-entailment	congruent	NotMu-NotMi	epistemic
+305	It is not the case that the extinction of the dinosaurs must have been caused solely by a meteorite impact.	There is no possibility that the extinction of the dinosaurs was caused solely by a meteorite impact.	non-entailment	congruent	NotMu-NotMi	epistemic
+306	It is not certain that a universal cure for cancer will be found in the next 20 years.	It is not possible that a universal cure for cancer will be found in the next 20 years.	non-entailment	congruent	NotMu-NotMi	epistemic
+307	It is not necessarily the case that all human languages originated from a single proto-language.	It is not the case that all human languages might have originated from a single proto-language.	non-entailment	congruent	NotMu-NotMi	epistemic
+308	It is not known that the human brain can be perfectly replicated by a computer.	It is impossible that the human brain can be perfectly replicated by a computer.	non-entailment	congruent	NotMu-NotMi	epistemic
+309	It is not established that economic growth always leads to improved social well-being.	There's no chance that economic growth always leads to improved social well-being.	non-entailment	congruent	NotMu-NotMi	epistemic
+310	It is not the case that the invention of the printing press must have been the sole cause of the Reformation.	There is no possibility that the invention of the printing press was the sole cause of the Reformation.	non-entailment	congruent	NotMu-NotMi	epistemic
+311	It is not certain that humans will ever achieve interstellar travel.	It is not possible that humans will ever achieve interstellar travel.	non-entailment	congruent	NotMu-NotMi	epistemic
+312	It is not necessarily the case that all human behavior is motivated by self-interest.	It is not the case that all human behavior might have been motivated by self-interest.	non-entailment	congruent	NotMu-NotMi	epistemic
+313	It is not known that consciousness is solely a product of the brain.	It is impossible that consciousness is solely a product of the brain.	non-entailment	congruent	NotMu-NotMi	epistemic
+314	It is not established that a single economic policy can solve all of a country's financial problems.	There's no chance that a single economic policy can solve all of a country's financial problems.	non-entailment	congruent	NotMu-NotMi	epistemic
+315	It is not the case that the fall of the Roman Empire must have been caused solely by internal strife.	There is no possibility that the fall of the Roman Empire was caused solely by internal strife.	non-entailment	congruent	NotMu-NotMi	epistemic
+316	It is not certain that a person's personality is fixed at birth.	It is not possible that a person's personality is fixed at birth.	non-entailment	congruent	NotMu-NotMi	epistemic
+317	It is not necessarily the case that all human emotions are universal across cultures.	It is not the case that all human emotions might have been universal across cultures.	non-entailment	congruent	NotMu-NotMi	epistemic
+318	It is not known that dreams have a specific, universally agreed-upon purpose.	It is impossible that dreams have a specific, universally agreed-upon purpose.	non-entailment	congruent	NotMu-NotMi	epistemic
+319	It is not established that a single factor determines a person's susceptibility to addiction.	There's no chance that a single factor determines a person's susceptibility to addiction.	non-entailment	congruent	NotMu-NotMi	epistemic
+320	It is not the case that the development of agriculture must have led to a decline in human health.	There is no possibility that the development of agriculture led to a decline in human health.	non-entailment	congruent	NotMu-NotMi	epistemic
+321	It is not certain that the cat sat on the mat.	It is not possible that the cat sat on the mat.	non-entailment	incongruent	NotMu-NotMi	epistemic
+322	It is not necessarily the case that the sun rises in the east.	It is not the case that the sun might have risen in the east.	non-entailment	incongruent	NotMu-NotMi	epistemic
+323	It is not known that birds can fly.	It is impossible that birds can fly.	non-entailment	incongruent	NotMu-NotMi	epistemic
+324	It is not established that water boils at 100 degrees Celsius.	There's no chance water boils at 100 degrees Celsius.	non-entailment	incongruent	NotMu-NotMi	epistemic
+325	It is not the case that fish must have been able to breathe underwater.	There is no possibility that fish can breathe underwater.	non-entailment	incongruent	NotMu-NotMi	epistemic
+326	It is not certain that trees grow leaves.	It is not possible that trees grow leaves.	non-entailment	incongruent	NotMu-NotMi	epistemic
+327	It is not necessarily the case that humans need oxygen to survive.	It is not the case that humans might have needed oxygen to survive.	non-entailment	incongruent	NotMu-NotMi	epistemic
+328	It is not known that the earth revolves around the sun.	It is impossible that the earth revolves around the sun.	non-entailment	incongruent	NotMu-NotMi	epistemic
+329	It is not established that sugar is sweet.	There's no chance sugar is sweet.	non-entailment	incongruent	NotMu-NotMi	epistemic
+330	It is not the case that fire must have been hot.	There is no possibility that fire is hot.	non-entailment	incongruent	NotMu-NotMi	epistemic
+331	It is not certain that ice is cold.	It is not possible that ice is cold.	non-entailment	incongruent	NotMu-NotMi	epistemic
+332	It is not necessarily the case that dogs bark.	It is not the case that dogs might have barked.	non-entailment	incongruent	NotMu-NotMi	epistemic
+333	It is not known that cats purr.	It is impossible that cats purr.	non-entailment	incongruent	NotMu-NotMi	epistemic
+334	It is not established that the sky is blue.	There's no chance the sky is blue.	non-entailment	incongruent	NotMu-NotMi	epistemic
+335	It is not the case that rain must have been wet.	There is no possibility that rain is wet.	non-entailment	incongruent	NotMu-NotMi	epistemic
+336	It is not certain that grass is green.	It is not possible that grass is green.	non-entailment	incongruent	NotMu-NotMi	epistemic
+337	It is not necessarily the case that lemons are sour.	It is not the case that lemons might have been sour.	non-entailment	incongruent	NotMu-NotMi	epistemic
+338	It is not known that chocolate is delicious.	It is impossible that chocolate is delicious.	non-entailment	incongruent	NotMu-NotMi	epistemic
+339	It is not established that babies cry.	There's no chance babies cry.	non-entailment	incongruent	NotMu-NotMi	epistemic
+340	It is not the case that the ocean must have been salty.	There is no possibility that the ocean is salty.	non-entailment	incongruent	NotMu-NotMi	epistemic
+341	It is not certain that a flibbertigibbet can be zozzled.	It is not possible that a flibbertigibbet can be zozzled.	non-entailment	nonsense	NotMu-NotMi	epistemic
+342	It is not necessarily the case that a quango was fizzbinned.	It is not the case that a quango might have been fizzbinned.	non-entailment	nonsense	NotMu-NotMi	epistemic
+343	It is not known that a wibble can be frabjous.	It is impossible that a wibble can be frabjous.	non-entailment	nonsense	NotMu-NotMi	epistemic
+344	It is not established that a gardyloo can be galumphing.	There's no chance that a gardyloo can be galumphing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+345	It is not the case that a yargle must have been squiffling.	There is no possibility that a yargle was squiffling.	non-entailment	nonsense	NotMu-NotMi	epistemic
+346	It is not certain that a flummox can be outgrabing.	It is not possible that a flummox can be outgrabing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+347	It is not necessarily the case that a grockle was gyring.	It is not the case that a grockle might have been gyring.	non-entailment	nonsense	NotMu-NotMi	epistemic
+348	It is not known that a chortle can be mimsy.	It is impossible that a chortle can be mimsy.	non-entailment	nonsense	NotMu-NotMi	epistemic
+349	It is not established that an uffish thought can be calloohing.	There's no chance that an uffish thought can be calloohing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+350	It is not the case that a tulgey wood must have been whiffling.	There is no possibility that a tulgey wood was whiffling.	non-entailment	nonsense	NotMu-NotMi	epistemic
+351	It is not certain that a frabjous bandersnatch can be gimbling.	It is not possible that a frabjous bandersnatch can be gimbling.	non-entailment	nonsense	NotMu-NotMi	epistemic
+352	It is not necessarily the case that a callay was outgrabing.	It is not the case that a callay might have been outgrabing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+353	It is not known that a slithy toves can be frabjous.	It is impossible that a slithy toves can be frabjous.	non-entailment	nonsense	NotMu-NotMi	epistemic
+354	It is not established that a mome raths can be galumphing.	There's no chance that a mome raths can be galumphing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+355	It is not the case that a jubjub bird must have been squiffling.	There is no possibility that a jubjub bird was squiffling.	non-entailment	nonsense	NotMu-NotMi	epistemic
+356	It is not certain that a whiffling pig can be outgrabing.	It is not possible that a whiffling pig can be outgrabing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+357	It is not necessarily the case that a mimsy borogove was gyring.	It is not the case that a mimsy borogove might have been gyring.	non-entailment	nonsense	NotMu-NotMi	epistemic
+358	It is not known that a rathe can be mimsy.	It is impossible that a rathe can be mimsy.	non-entailment	nonsense	NotMu-NotMi	epistemic
+359	It is not established that a bandersnatch can be calloohing.	There's no chance that a bandersnatch can be calloohing.	non-entailment	nonsense	NotMu-NotMi	epistemic
+360	It is not the case that a jubjub must have been whiffling.	There is no possibility that a jubjub was whiffling.	non-entailment	nonsense	NotMu-NotMi	epistemic
+361	The recently discovered planet might not harbor life.	It is certain that the recently discovered planet does not harbor life.	non-entailment	congruent	MiNot-MuNot	epistemic
+362	The lost city of Atlantis might not have existed.	It is necessarily the case that the lost city of Atlantis did not exist.	non-entailment	congruent	MiNot-MuNot	epistemic
+363	There's a chance the universe is not expanding.	It is known that the universe is not expanding.	non-entailment	congruent	MiNot-MuNot	epistemic
+364	There is a possibility that time travel is not achievable.	It is established that time travel is not achievable.	non-entailment	congruent	MiNot-MuNot	epistemic
+365	Consciousness might not be solely a product of the brain.	It is certain that consciousness is not solely a product of the brain.	non-entailment	congruent	MiNot-MuNot	epistemic
+366	The ancient civilization might not have had a written language.	It is necessarily the case that the ancient civilization did not have a written language.	non-entailment	congruent	MiNot-MuNot	epistemic
+367	The dinosaurs might not have been cold-blooded.	It is known that dinosaurs were not cold-blooded.	non-entailment	congruent	MiNot-MuNot	epistemic
+368	It is possible that the Earth's magnetic field is not stable.	It is established that the Earth's magnetic field is not stable.	non-entailment	congruent	MiNot-MuNot	epistemic
+369	Prehistoric humans might not have migrated out of Africa in a single wave.	It is certain that prehistoric humans did not migrate out of Africa in a single wave.	non-entailment	congruent	MiNot-MuNot	epistemic
+370	Humans might not have evolved from apes.	It is necessarily the case that humans did not evolve from apes.	non-entailment	congruent	MiNot-MuNot	epistemic
+371	It is possible that the painting is not authentic.	It is known that the painting is not authentic.	non-entailment	congruent	MiNot-MuNot	epistemic
+372	The manuscript might not have been written by the attributed author.	It is established that the manuscript was not written by the attributed author.	non-entailment	congruent	MiNot-MuNot	epistemic
+373	There's a chance the economy will not experience a recession next year.	It is certain that the economy will not experience a recession next year.	non-entailment	congruent	MiNot-MuNot	epistemic
+374	The government might not implement the proposed tax reforms.	It is necessarily the case that the government did not implement the proposed tax reforms.	non-entailment	congruent	MiNot-MuNot	epistemic
+375	There is a possibility that the company will not merge with its competitor.	It is known that the company did not merge with its competitor.	non-entailment	congruent	MiNot-MuNot	epistemic
+376	The new drug might not be effective for all patients.	It is established that the new drug is not effective for all patients.	non-entailment	congruent	MiNot-MuNot	epistemic
+377	The experiment might not have produced accurate results.	It is certain that the experiment did not produce accurate results.	non-entailment	congruent	MiNot-MuNot	epistemic
+378	It is possible that the theory of evolution is not completely accurate.	It is necessarily the case that the theory of evolution is not completely accurate.	non-entailment	congruent	MiNot-MuNot	epistemic
+379	There's a chance the new policy will not have the desired effect.	It is known that the new policy did not have the desired effect.	non-entailment	congruent	MiNot-MuNot	epistemic
+380	There is a possibility that the project will not be profitable.	It is established that the project was not profitable.	non-entailment	congruent	MiNot-MuNot	epistemic
+381	It is possible that the sun does not rise in the east.	It is certain that the sun does not rise in the east.	non-entailment	incongruent	MiNot-MuNot	epistemic
+382	There's a chance that cats are not mammals.	It is necessarily the case that cats are not mammals.	non-entailment	incongruent	MiNot-MuNot	epistemic
+383	It is possible that water does not boil at 100 degrees Celsius.	It is known that water does not boil at 100 degrees Celsius.	non-entailment	incongruent	MiNot-MuNot	epistemic
+384	There is a possibility that trees do not need sunlight to grow.	It is established that trees do not need sunlight to grow.	non-entailment	incongruent	MiNot-MuNot	epistemic
+385	It is possible that the earth has not been round.	The earth could not have been round.	non-entailment	incongruent	MiNot-MuNot	epistemic
+386	There's a chance that birds do not fly.	It is certain that birds do not fly.	non-entailment	incongruent	MiNot-MuNot	epistemic
+387	It is possible that fish do not live underwater.	It is necessarily the case that fish do not live underwater.	non-entailment	incongruent	MiNot-MuNot	epistemic
+388	There is a possibility that the moon does not orbit the earth.	It is known that the moon does not orbit the earth.	non-entailment	incongruent	MiNot-MuNot	epistemic
+389	It is possible that fire is not hot.	It is established that fire is not hot.	non-entailment	incongruent	MiNot-MuNot	epistemic
+390	There's a chance that ice has not been cold.	Ice could not have been cold.	non-entailment	incongruent	MiNot-MuNot	epistemic
+391	It is possible that humans do not need oxygen to breathe.	It is certain that humans do not need oxygen to breathe.	non-entailment	incongruent	MiNot-MuNot	epistemic
+392	There is a possibility that plants do not need water to survive.	It is necessarily the case that plants do not need water to survive.	non-entailment	incongruent	MiNot-MuNot	epistemic
+393	It is possible that computers do not require electricity to function.	It is known that computers do not require electricity to function.	non-entailment	incongruent	MiNot-MuNot	epistemic
+394	There's a chance that cars do not have wheels.	It is established that cars do not have wheels.	non-entailment	incongruent	MiNot-MuNot	epistemic
+395	It is possible that airplanes are not able to fly.	Airplanes could not have been able to fly.	non-entailment	incongruent	MiNot-MuNot	epistemic
+396	There is a possibility that music does not have rhythm.	It is certain that music does not have rhythm.	non-entailment	incongruent	MiNot-MuNot	epistemic
+397	It is possible that movies do not tell stories.	It is necessarily the case that movies do not tell stories.	non-entailment	incongruent	MiNot-MuNot	epistemic
+398	There's a chance that books do not contain words.	It is known that books do not contain words.	non-entailment	incongruent	MiNot-MuNot	epistemic
+399	It is possible that paintings are not art.	It is established that paintings are not art.	non-entailment	incongruent	MiNot-MuNot	epistemic
+400	There is a possibility that sculptures have not been three-dimensional.	Sculptures could not have been three-dimensional.	non-entailment	incongruent	MiNot-MuNot	epistemic
+401	A flibbertigibbet might not be zozzled.	It is certain that a flibbertigibbet is not zozzled.	non-entailment	nonsense	MiNot-MuNot	epistemic
+402	A quango might not have been fizzbinned.	It is necessarily the case that a quango was not fizzbinned.	non-entailment	nonsense	MiNot-MuNot	epistemic
+403	It is possible that a wibble is not frabjous.	It is known that a wibble is not frabjous.	non-entailment	nonsense	MiNot-MuNot	epistemic
+404	There's a chance a gardyloo is not galumphing.	It is established that a gardyloo is not galumphing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+405	A yargle might not have been squiffling.	It is certain that a yargle was not squiffling.	non-entailment	nonsense	MiNot-MuNot	epistemic
+406	A flummox might not be outgrabing.	It is necessarily the case that a flummox is not outgrabing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+407	A grockle might not have been gyring.	It is known that a grockle was not gyring.	non-entailment	nonsense	MiNot-MuNot	epistemic
+408	It is possible that a chortle is not mimsy.	It is established that a chortle is not mimsy.	non-entailment	nonsense	MiNot-MuNot	epistemic
+409	There's a chance an uffish thought is not calloohing.	It is certain that an uffish thought is not calloohing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+410	A tulgey wood might not have been whiffling.	It is necessarily the case that a tulgey wood was not whiffling.	non-entailment	nonsense	MiNot-MuNot	epistemic
+411	A frabjous bandersnatch might not be gimbling.	It is known that a frabjous bandersnatch is not gimbling.	non-entailment	nonsense	MiNot-MuNot	epistemic
+412	A callay might not have been outgrabing.	It is established that a callay is not outgrabing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+413	It is possible that a slithy toves is not frabjous.	It is certain that a slithy toves is not frabjous.	non-entailment	nonsense	MiNot-MuNot	epistemic
+414	There's a chance a mome raths is not galumphing.	It is necessarily the case that a mome raths is not galumphing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+415	A jubjub bird might not have been squiffling.	It is known that a jubjub bird was not squiffling.	non-entailment	nonsense	MiNot-MuNot	epistemic
+416	A whiffling pig might not be outgrabing.	It is established that a whiffling pig is not outgrabing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+417	A mimsy borogove might not have been gyring.	It is certain that a mimsy borogove was not gyring.	non-entailment	nonsense	MiNot-MuNot	epistemic
+418	It is possible that a rathe is not mimsy.	It is necessarily the case that a rathe is not mimsy.	non-entailment	nonsense	MiNot-MuNot	epistemic
+419	There's a chance a bandersnatch is not calloohing.	It is known that a bandersnatch is not calloohing.	non-entailment	nonsense	MiNot-MuNot	epistemic
+420	A jubjub might not have been whiffling.	It is established that a jubjub was not whiffling.	non-entailment	nonsense	MiNot-MuNot	epistemic
+421	It is possible that humans will land on Mars in the next two decades.	It is certain that humans will land on Mars in the next two decades.	non-entailment	congruent	Mi-Mu	epistemic
+422	A new economic policy might boost employment rates.	It is necessarily the case that the new economic policy will boost employment rates.	non-entailment	congruent	Mi-Mu	epistemic
+423	The lost city of Atlantis might have been located in the Mediterranean Sea.	It is known that the lost city of Atlantis was located in the Mediterranean Sea.	non-entailment	congruent	Mi-Mu	epistemic
+424	There's a chance that a cure for Alzheimer's disease will be discovered in the next decade.	It is established that a cure for Alzheimer's disease will be discovered in the next decade.	non-entailment	congruent	Mi-Mu	epistemic
+425	There is a possibility that the universe is teeming with life.	Life must have been teeming in the universe.	non-entailment	congruent	Mi-Mu	epistemic
+426	It is possible that artificial intelligence will surpass human intelligence in this century.	It is certain that artificial intelligence will surpass human intelligence in this century.	non-entailment	congruent	Mi-Mu	epistemic
+427	Exposure to different cultures might increase empathy.	It is necessarily the case that exposure to different cultures increases empathy.	non-entailment	congruent	Mi-Mu	epistemic
+428	The ancient Egyptians might have used advanced astronomical knowledge to build the pyramids.	It is known that the ancient Egyptians used advanced astronomical knowledge to build the pyramids.	non-entailment	congruent	Mi-Mu	epistemic
+429	There's a chance that a single global currency will be adopted in the future.	It is established that a single global currency will be adopted in the future.	non-entailment	congruent	Mi-Mu	epistemic
+430	There is a possibility that dreams can predict future events.	Dreams must have been able to predict future events.	non-entailment	congruent	Mi-Mu	epistemic
+431	It is possible that humans will eventually evolve beyond the need for physical bodies.	It is certain that humans will eventually evolve beyond the need for physical bodies.	non-entailment	congruent	Mi-Mu	epistemic
+432	Early childhood education might have a significant impact on future academic success.	It is necessarily the case that early childhood education has a significant impact on future academic success.	non-entailment	congruent	Mi-Mu	epistemic
+433	The Vikings might have reached North America before Columbus.	It is known that the Vikings reached North America before Columbus.	non-entailment	congruent	Mi-Mu	epistemic
+434	There's a chance that a major earthquake will occur in California in the next five years.	It is established that a major earthquake will occur in California in the next five years.	non-entailment	congruent	Mi-Mu	epistemic
+435	There is a possibility that life exists on other planets in our solar system.	Life must have existed on other planets in our solar system.	non-entailment	congruent	Mi-Mu	epistemic
+436	It is possible that humans will one day be able to control the weather.	It is certain that humans will one day be able to control the weather.	non-entailment	congruent	Mi-Mu	epistemic
+437	Regular meditation might improve mental focus and concentration.	It is necessarily the case that regular meditation improves mental focus and concentration.	non-entailment	congruent	Mi-Mu	epistemic
+438	The ancient Romans might have had a form of democracy before the modern era.	It is known that the ancient Romans had a form of democracy before the modern era.	non-entailment	congruent	Mi-Mu	epistemic
+439	There's a chance that a new pandemic will emerge in the next decade.	It is established that a new pandemic will emerge in the next decade.	non-entailment	congruent	Mi-Mu	epistemic
+440	There is a possibility that the human lifespan can be significantly extended through scientific advancements.	The human lifespan must have been significantly extended through scientific advancements.	non-entailment	congruent	Mi-Mu	epistemic
+441	It is possible that elephants can fly.	It is certain that elephants can fly.	non-entailment	incongruent	Mi-Mu	epistemic
+442	It might have been the case that the earth is flat.	It is necessarily the case that the earth is flat.	non-entailment	incongruent	Mi-Mu	epistemic
+443	There's a chance that fish can breathe air.	It is known that fish can breathe air.	non-entailment	incongruent	Mi-Mu	epistemic
+444	There is a possibility that fire is cold.	It is established that fire is cold.	non-entailment	incongruent	Mi-Mu	epistemic
+445	It is possible that the sun revolves around the earth.	It is certain that the sun revolves around the earth.	non-entailment	incongruent	Mi-Mu	epistemic
+446	It might have been the case that humans have gills.	It is necessarily the case that humans have gills.	non-entailment	incongruent	Mi-Mu	epistemic
+447	There's a chance that plants can eat animals.	It is known that plants can eat animals.	non-entailment	incongruent	Mi-Mu	epistemic
+448	There is a possibility that water flows uphill.	It is established that water flows uphill.	non-entailment	incongruent	Mi-Mu	epistemic
+449	It is possible that cars can drive on water.	It is certain that cars can drive on water.	non-entailment	incongruent	Mi-Mu	epistemic
+450	It might have been the case that bicycles have wings.	It is necessarily the case that bicycles have wings.	non-entailment	incongruent	Mi-Mu	epistemic
+451	There's a chance that trains can fly.	It is known that trains can fly.	non-entailment	incongruent	Mi-Mu	epistemic
+452	There is a possibility that airplanes need no fuel.	It is established that airplanes need no fuel.	non-entailment	incongruent	Mi-Mu	epistemic
+453	It is possible that computers can grow on trees.	It is certain that computers can grow on trees.	non-entailment	incongruent	Mi-Mu	epistemic
+454	It might have been the case that phones can cook food.	It is necessarily the case that phones can cook food.	non-entailment	incongruent	Mi-Mu	epistemic
+455	There's a chance that the internet existed in ancient Rome.	It is known that the internet existed in ancient Rome.	non-entailment	incongruent	Mi-Mu	epistemic
+456	There is a possibility that gravity doesn't exist.	It is established that gravity doesn't exist.	non-entailment	incongruent	Mi-Mu	epistemic
+457	It is possible that time travel is possible.	It is certain that time travel is possible.	non-entailment	incongruent	Mi-Mu	epistemic
+458	It might have been the case that humans can teleport.	It is necessarily the case that humans can teleport.	non-entailment	incongruent	Mi-Mu	epistemic
+459	There's a chance that chocolate is poisonous.	It is known that chocolate is poisonous.	non-entailment	incongruent	Mi-Mu	epistemic
+460	There is a possibility that sleep is unnecessary.	It is established that sleep is unnecessary.	non-entailment	incongruent	Mi-Mu	epistemic
+461	It is possible that a flibbertigibbet can be zozzled.	It is certain that a flibbertigibbet can be zozzled.	non-entailment	nonsense	Mi-Mu	epistemic
+462	A quango might be fizzbinned.	It is necessarily the case that a quango is fizzbinned.	non-entailment	nonsense	Mi-Mu	epistemic
+463	A wibble might be frabjous.	It is known that a wibble is frabjous.	non-entailment	nonsense	Mi-Mu	epistemic
+464	There's a chance that a gardyloo can be galumphing.	It is established that a gardyloo can be galumphing.	non-entailment	nonsense	Mi-Mu	epistemic
+465	There is a possibility that a yargle was squiffling.	A yargle must have been squiffling.	non-entailment	nonsense	Mi-Mu	epistemic
+466	It is possible that a flummox can be outgrabing.	It is certain that a flummox can be outgrabing.	non-entailment	nonsense	Mi-Mu	epistemic
+467	A grockle might be gyring.	It is necessarily the case that a grockle is gyring.	non-entailment	nonsense	Mi-Mu	epistemic
+468	A chortle might be mimsy.	It is known that a chortle is mimsy.	non-entailment	nonsense	Mi-Mu	epistemic
+469	There's a chance that an uffish thought can be calloohing.	It is established that an uffish thought can be calloohing.	non-entailment	nonsense	Mi-Mu	epistemic
+470	There is a possibility that a tulgey wood was whiffling.	A tulgey wood must have been whiffling.	non-entailment	nonsense	Mi-Mu	epistemic
+471	It is possible that a frabjous bandersnatch can be gimbling.	It is certain that a frabjous bandersnatch can be gimbling.	non-entailment	nonsense	Mi-Mu	epistemic
+472	A callay might be outgrabing.	It is necessarily the case that a callay is outgrabing.	non-entailment	nonsense	Mi-Mu	epistemic
+473	A slithy toves might be frabjous.	It is known that a slithy toves is frabjous.	non-entailment	nonsense	Mi-Mu	epistemic
+474	There's a chance that a mome raths can be galumphing.	It is established that a mome raths can be galumphing.	non-entailment	nonsense	Mi-Mu	epistemic
+475	There is a possibility that a jubjub bird was squiffling.	A jubjub bird must have been squiffling.	non-entailment	nonsense	Mi-Mu	epistemic
+476	It is possible that a whiffling pig can be outgrabing.	It is certain that a whiffling pig can be outgrabing.	non-entailment	nonsense	Mi-Mu	epistemic
+477	A mimsy borogove might be gyring.	It is necessarily the case that a mimsy borogove is gyring.	non-entailment	nonsense	Mi-Mu	epistemic
+478	A rathe might be mimsy.	It is known that a rathe is mimsy.	non-entailment	nonsense	Mi-Mu	epistemic
+479	There's a chance that a bandersnatch can be calloohing.	It is established that a bandersnatch can be calloohing.	non-entailment	nonsense	Mi-Mu	epistemic
+480	There is a possibility that a jubjub was whiffling.	A jubjub must have been whiffling.	non-entailment	nonsense	Mi-Mu	epistemic

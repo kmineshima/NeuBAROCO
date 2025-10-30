@@ -4,8 +4,8 @@ from textwrap import dedent
 import openai
 import pandas as pd
 
-from scripts.lib import Experiment
-from scripts.lib.utils import sample_balance
+from scripts.lib.v1 import Experiment
+from scripts.lib.v1.utils import sample_balance
 
 # # openai-python v1: Disable httpx logging in openai-python:
 # import logging

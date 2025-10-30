@@ -5,19 +5,19 @@ from itertools import product
 import openai
 import pandas as pd
 
-from scripts.experiments.base import run_experiment_base
-from scripts.experiments.choice5 import run_choice5
-from scripts.experiments.kshot import run_3shot_symbol
-from scripts.experiments.translate_and_reason import Experiment as TRExperiment
-from scripts.experiments.translate_and_reason import (
+from scripts.experiments.acl2024.base import run_experiment_base
+from scripts.experiments.acl2024.choice5 import run_choice5
+from scripts.experiments.acl2024.kshot import run_3shot_symbol
+from scripts.experiments.acl2024.translate_and_reason import Experiment as TRExperiment
+from scripts.experiments.acl2024.translate_and_reason import (
     run_base,
     run_base_reasoning,
     run_fol,
     run_set,
 )
-from scripts.lib import Choice5Experiment
-from scripts.lib import Experiment as BaseExperiment
-from scripts.lib.utils import sample_balance
+from scripts.lib.v1 import Choice5Experiment
+from scripts.lib.v1 import Experiment as BaseExperiment
+from scripts.lib.v1.utils import sample_balance
 
 
 def translate_and_reason(
@@ -29,7 +29,7 @@ def translate_and_reason(
 ):
     # Load dataset
     df_baroco = pd.read_csv(
-        "./data/acl2024/NeuBAROCO_TE90.tsv", delimiter="\t", dtype=str
+        "./acl2024/NeuBAROCO_TE90.tsv", delimiter="\t", dtype=str
     )
 
     # Prepare test data and data for few-shot examples
@@ -74,7 +74,7 @@ def choice3(
     dry_run=False,
 ):
     # Load dataset
-    df_baroco = pd.read_csv("./data/NeuBAROCO_NLI.tsv", delimiter="\t", dtype=str)
+    df_baroco = pd.read_csv("./acl2024/NeuBAROCO_NLI.tsv", delimiter="\t", dtype=str)
 
     # Prepare test data and data for few-shot examples
     if test_n == "all":
@@ -121,7 +121,7 @@ def choice5(
 ):
     # Load dataset
     df_baroco = pd.read_csv(
-        "./data/NeuBAROCO_MC.tsv", delimiter="\t", dtype=str
+        "./acl2024/NeuBAROCO_MC.tsv", delimiter="\t", dtype=str
     )
 
     # Prepare test data

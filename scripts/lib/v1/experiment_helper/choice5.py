@@ -2,7 +2,7 @@ from typing import Dict
 
 import pandas as pd
 
-from scripts.lib.experiment_helper.base import Experiment
+from scripts.lib.v1.experiment_helper.base import Experiment
 
 
 class Choice5Experiment(Experiment):
