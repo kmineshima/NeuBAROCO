@@ -1,4 +1,4 @@
-# NeuBAROCO
+# NeuBAROCO Reasoning Datasets
 
 Datasets and scripts for the following paper(s). See the respective links for more details.
 
