@@ -29,9 +29,9 @@ Datasets and scripts for the following paper(s):
 | Column Name | Description |
 | ---- | ---- |
 | ID | problem ID |
-| premises_en | two premises in English |
+| premises_en | one premise in English |
 | hypothesis_en | one hypothesis in English |
-| gold | correct answer, the relationship of the hypothesis to the premises (*entailment*, *non-entailment*) |
+| gold | correct answer, the relationship of the hypothesis to the premise (*entailment*, *non-entailment*) |
 | content-type | classification based on belief congruency (*congruent*, *incongruent*, *nonsense*) |
 | inference-pattern | type of logical inferences (*NotMu-MiNot*, *NotMi-MuNot*, *MiNot-NotMu*, *Mu-Mi*, *NotMi-NotMu*, *NotMu-NotMi*, *MiNot-MuNot*, *Mi-Mu*, *FC-Or-Elim*, *FC-Or-Intro*, *Ross-Or-Intro*) |
 | modal | modality of the premises and hypothesis (*deontic*, *epistemic*) |
