@@ -8,8 +8,9 @@ from typing import Dict
 import jinja2
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 
-from scripts.lib.calculate_scores import calculate_scores, count_labels
+from scripts.lib.v2.calculate_scores import calculate_scores, count_labels
 
 # from premailer import transform
 
@@ -23,6 +24,7 @@ def create_report(
     model: str,
     bind_vars: Dict[str, str] = {},
     no_choice3: bool = False,
+    choices_n: int = 3,
 ):
     """Create HTML report using jinja2 from log and output tsv"""
 
@@ -58,14 +60,14 @@ def create_report(
         print(f"== Data: {basename} ==")
         print(f"Total: {len(df)}")
         count_labels(df, "gold")
-        count_labels(df, "inference-type")
+        # count_labels(df, "syllogism-type")
         count_labels(df, "content-type")
         count_labels(df, "conversion")
-        count_labels(df, "atmosphere")
+        # count_labels(df, "atmosphere")
         print("\n")
 
         print(f"== Score: {basename} ==")
-        calculate_scores(df, no_choice3)
+        calculate_scores(df, no_choice3, choices_n=choices_n)
 
     stats_text = buf.getvalue()
 
@@ -96,6 +98,7 @@ def create_report_overall(
     reports: list[str] = [],
     dataset_stats: dict | None = None,
     no_choice3: bool = False,
+    choices_n: int = 3,
 ):
     """Create HTML overall report using jinja2 from log and output tsv
 
@@ -129,9 +132,22 @@ def create_report_overall(
 
         basename = Path(tsv_file).stem
 
+        # Stats
+        # buf = io.StringIO()
+        # with redirect_stdout(buf):
+        #     print(f"== Data: {basename} ==")
+        #     print(f"Total: {len(df)}")
+        #     count_labels(df, "gold")
+        #     count_labels(df, "syllogism-type")
+        #     count_labels(df, "content-type")
+        #     count_labels(df, "conversion")
+        #     count_labels(df, "atmosphere")
+        #     print("\n")
+
+        #     print(f"== Score: {basename} ==")
         scores = {}
         scores["name"] = names[i] if names else basename
-        scores.update(calculate_scores(df, no_choice3))
+        scores.update(calculate_scores(df, no_choice3, choices_n=choices_n))
         all_scores.append(scores)
 
     df = pd.DataFrame(all_scores)
@@ -139,23 +155,61 @@ def create_report_overall(
 
     table_html = df.to_html(index_names=False)
 
+    # # plt.figure()
+    # # Determine the size of the figure based on the number of rows
+    # # height = len(df) * 22
+    # # ax = df.T.plot.barh(figsize=(10, 20))
+    # ax = df.T.plot.barh(figsize=(10, 40))
+    # ax.invert_yaxis()
+    # plt.rcParams["font.size"] = 8
+    # for bars in ax.containers:
+    #     ax.bar_label(bars)
+    # # plt.tight_layout()
+    # plt.subplots_adjust(left=0.4, top=0.9, bottom=0.05)
+    # # plt.subplots_adjust(right=0.6)
+    # plt.legend(
+    #     # bbox_to_anchor=(1.05, 1), loc="upper left", borderaxespad=0
+    #     bbox_to_anchor=(0.5, 1.005),
+    #     loc="lower center",
+    #     borderaxespad=0,
+    # )  # , fontsize=18)
+
+    # img = io.BytesIO()
+    # plt.savefig(img, dpi=100, format="png")
+    # img.seek(0)
+
     # plt.figure()
-    # Determine the size of the figure based on the number of rows
-    # height = len(df) * 22
-    ax = df.T.plot.barh(figsize=(10, 20))
-    ax.invert_yaxis()
-    plt.rcParams['font.size'] = 8
-    for bars in ax.containers:
-        ax.bar_label(bars)
-    # plt.tight_layout()
-    plt.subplots_adjust(left=0.4, top=0.9, bottom=0.05)
-    # plt.subplots_adjust(right=0.6)
-    plt.legend(
-        # bbox_to_anchor=(1.05, 1), loc="upper left", borderaxespad=0
-        bbox_to_anchor=(0.5, 1.005),
-        loc="lower center",
-        borderaxespad=0,
-    )  # , fontsize=18)
+    # ax = sns.barplot(data=df.T, orient='h')
+    # ax.invert_yaxis()
+    # plt.rcParams["font.size"] = 8
+    # for bars in ax.containers:
+    #     ax.bar_label(bars)
+    # plt.subplots_adjust(left=0.4, top=0.9, bottom=0.05)
+    # plt.legend(
+    #     bbox_to_anchor=(0.5, 1.005),
+    #     loc="lower center",
+    #     borderaxespad=0,
+    # )
+
+    df_long = df.T.reset_index().melt(
+        id_vars="index", var_name="Run", value_name="Value"
+    )
+    sns.set_theme(style="whitegrid")
+    # print("len(df_long)", len(df_long))
+    fig, ax = plt.subplots(figsize=(10, len(df_long) // 6))
+    sns.barplot(
+        data=df_long,
+        x="Value",
+        y="index",
+        hue="Run",
+        orient="h",
+        ax=ax,
+    )
+    plt.rcParams["font.size"] = 8
+    for container in ax.containers:
+        ax.bar_label(container)
+    plt.subplots_adjust(left=0.4, top=0.95, bottom=0.05)
+    plt.legend(bbox_to_anchor=(0.5, 1.05), loc="upper center", ncol=2, borderaxespad=0)
 
     img = io.BytesIO()
     plt.savefig(img, dpi=100, format="png")
@@ -191,7 +245,9 @@ def create_report_overall(
         f.write(outputText)
 
 
-def create_report_from_json(json_file: Path, no_choice3: bool = False):
+def create_report_from_json(
+    json_file: Path, no_choice3: bool = False, choices_n: int = 3
+):
     with open(json_file, "r") as f:
         data = json.load(f)
 
@@ -208,10 +264,13 @@ def create_report_from_json(json_file: Path, no_choice3: bool = False):
         timestamp=data["timestamp"],
         model=model if isinstance(model, str) else model["model"],
         no_choice3=no_choice3,
+        choices_n=choices_n,
     )
 
 
-def create_report_overall_from_json(json_file: Path, no_choice3: bool = False):
+def create_report_overall_from_json(
+    json_file: Path, no_choice3: bool = False, choices_n: int = 3
+):
     with open(json_file, "r") as f:
         data = json.load(f)
 
@@ -219,7 +278,7 @@ def create_report_overall_from_json(json_file: Path, no_choice3: bool = False):
 
     for exp_dir in data["experiment_dirs"]:
         exp_json = str(Path(basedir, exp_dir, "experiment.json"))
-        create_report_from_json(exp_json, no_choice3=no_choice3)
+        create_report_from_json(exp_json, no_choice3=no_choice3, choices_n=choices_n)
 
     create_report_overall(
         timestamp=data["timestamp"],
@@ -229,20 +288,24 @@ def create_report_overall_from_json(json_file: Path, no_choice3: bool = False):
         output_file=str(Path(basedir, "overall.html")),
         dataset_stats=data["dataset_stats"],
         no_choice3=no_choice3,
+        choices_n=choices_n,
     )
 
 
 def cli(
     json_file: str,
     no_choice3: bool = False,
+    choices_n: int = 3,
 ):
     json_file = Path(json_file)
 
     if json_file.name == "experiment.json":
-        create_report_from_json(json_file, no_choice3=no_choice3)
+        create_report_from_json(json_file, no_choice3=no_choice3, choices_n=choices_n)
 
     elif json_file.name == "overall.json":
-        create_report_overall_from_json(json_file, no_choice3=no_choice3)
+        create_report_overall_from_json(
+            json_file, no_choice3=no_choice3, choices_n=choices_n
+        )
 
     else:
         raise NotImplementedError()
@@ -258,16 +321,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--no-choice3", action="store_true", help="Do not calculate choice3 scores"
     )
+    parser.add_argument("--choices-n", type=int, default=3, help="Number of choices")
     args = parser.parse_args()
 
-    cli(args.json_file, no_choice3=args.no_choice3)
-
-
-# create_report_overall(
-#     None,
-#     [
-#         "evalgpt_kshot.2023-09-08_00-57-50/output_random.2023-09-08_00-57-50.tsv",
-#         "evalgpt_kshot.2023-09-08_00-35-40/output_random.2023-09-08_00-35-40.tsv",
-#     ],
-#     "overall.html",
-# )
+    cli(args.json_file, no_choice3=args.no_choice3, choices_n=args.choices_n)

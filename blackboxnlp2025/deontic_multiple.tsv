@@ -1,0 +1,487 @@
+ID	premise_en	hypothesis_en	gold	content-type	inference-pattern	modal
+1	If you are a student, then it is obligatory to attend class. You are a student.	It is obligatory to attend class.	entailment	congruent	Hyp-MP	deontic
+2	If you are a citizen, then there is an obligation to vote in elections. You are a citizen.	There is an obligation to vote in elections.	entailment	congruent	Hyp-MP	deontic
+3	If you are a witness to a crime, then you are required to report it to the police. You are a witness to a crime.	You are required to report it to the police.	entailment	congruent	Hyp-MP	deontic
+4	If you are a doctor, then it is mandatory to treat your patients with care. You are a doctor.	It is mandatory to treat your patients with care.	entailment	congruent	Hyp-MP	deontic
+5	If you are a parent, then you must provide for your children. You are a parent.	You must provide for your children.	entailment	congruent	Hyp-MP	deontic
+6	If you are driving a car, then you must obey the traffic laws. You are driving a car.	You must obey the traffic laws.	entailment	congruent	Hyp-MP	deontic
+7	If you are using public transportation, then you are required to pay the fare. You are using public transportation.	You are required to pay the fare.	entailment	congruent	Hyp-MP	deontic
+8	If you are borrowing money, then it is obligatory to repay the loan. You are borrowing money.	It is obligatory to repay the loan.	entailment	congruent	Hyp-MP	deontic
+9	If you are entering a contract, then you must understand the terms and conditions. You are entering a contract.	You must understand the terms and conditions.	entailment	congruent	Hyp-MP	deontic
+10	If you are making a promise, then you must keep your word. You are making a promise.	You must keep your word.	entailment	congruent	Hyp-MP	deontic
+11	If you are attending a funeral, then it is customary to wear black. You are attending a funeral.	It is customary to wear black.	entailment	congruent	Hyp-MP	deontic
+12	If you are visiting a foreign country, then you must respect the local customs. You are visiting a foreign country.	You must respect the local customs.	entailment	congruent	Hyp-MP	deontic
+13	If you are eating at a restaurant, then you are required to pay for your meal. You are eating at a restaurant.	You are required to pay for your meal.	entailment	congruent	Hyp-MP	deontic
+14	If you are staying in a hotel, then you must check out by the specified time. You are staying in a hotel.	You must check out by the specified time.	entailment	congruent	Hyp-MP	deontic
+15	If you are using someone else's property, then you must treat it with respect. You are using someone else's property.	You must treat it with respect.	entailment	congruent	Hyp-MP	deontic
+16	If you are working on a team, then you must cooperate with your colleagues. You are working on a team.	You must cooperate with your colleagues.	entailment	congruent	Hyp-MP	deontic
+17	If you are giving a presentation, then you must be prepared and organized. You are giving a presentation.	You must be prepared and organized.	entailment	congruent	Hyp-MP	deontic
+18	If you are writing an essay, then you must cite your sources. You are writing an essay.	You must cite your sources.	entailment	congruent	Hyp-MP	deontic
+19	If you are taking a test, then you must not cheat. You are taking a test.	You must not cheat.	entailment	congruent	Hyp-MP	deontic
+20	If you are participating in a competition, then you must follow the rules. You are participating in a competition.	You must follow the rules.	entailment	congruent	Hyp-MP	deontic
+21	If you eat an apple, then it is obligatory to grow wings. You eat an apple.	It is obligatory to grow wings.	entailment	incongruent	Hyp-MP	deontic
+22	If the sun rises in the east, then there is an obligation to speak French. The sun rises in the east.	There is an obligation to speak French.	entailment	incongruent	Hyp-MP	deontic
+23	If a cat meows, then you are required to turn into a frog. A cat meows.	You are required to turn into a frog.	entailment	incongruent	Hyp-MP	deontic
+24	If it rains, then it is mandatory to forget your name. It rains.	It is mandatory to forget your name.	entailment	incongruent	Hyp-MP	deontic
+25	If a dog barks, then you must become invisible. A dog barks.	You must become invisible.	entailment	incongruent	Hyp-MP	deontic
+26	If you drink water, then it is obligatory to teleport. You drink water.	It is obligatory to teleport.	entailment	incongruent	Hyp-MP	deontic
+27	If a bird sings, then there is an obligation to walk on the ceiling. A bird sings.	There is an obligation to walk on the ceiling.	entailment	incongruent	Hyp-MP	deontic
+28	If you feel happy, then you are required to shrink to the size of an ant. You feel happy.	You are required to shrink to the size of an ant.	entailment	incongruent	Hyp-MP	deontic
+29	If the economy is strong, then it is mandatory to have six fingers on each hand. The economy is strong.	It is mandatory to have six fingers on each hand.	entailment	incongruent	Hyp-MP	deontic
+30	If you read a book, then you must breathe underwater. You read a book.	You must breathe underwater.	entailment	incongruent	Hyp-MP	deontic
+31	If a plant grows, then it is obligatory to travel through time. A plant grows.	It is obligatory to travel through time.	entailment	incongruent	Hyp-MP	deontic
+32	If you sleep, then there is an obligation to change your hair color every hour. You sleep.	There is an obligation to change your hair color every hour.	entailment	incongruent	Hyp-MP	deontic
+33	If the wind blows, then you are required to speak in rhymes. The wind blows.	You are required to speak in rhymes.	entailment	incongruent	Hyp-MP	deontic
+34	If a volcano erupts, then it is mandatory to lose all your memories. A volcano erupts.	It is mandatory to lose all your memories.	entailment	incongruent	Hyp-MP	deontic
+35	If you dream, then you must control the weather. You dream.	You must control the weather.	entailment	incongruent	Hyp-MP	deontic
+36	If a river flows, then it is obligatory to understand animal languages. A river flows.	It is obligatory to understand animal languages.	entailment	incongruent	Hyp-MP	deontic
+37	If you learn something new, then there is an obligation to walk on your hands. You learn something new.	There is an obligation to walk on your hands.	entailment	incongruent	Hyp-MP	deontic
+38	If the earth rotates, then you are required to live on the moon. The earth rotates.	You are required to live on the moon.	entailment	incongruent	Hyp-MP	deontic
+39	If a fire burns, then it is mandatory to have leaves grow from your head. A fire burns.	It is mandatory to have leaves grow from your head.	entailment	incongruent	Hyp-MP	deontic
+40	If you blink, then you must see the future. You blink.	You must see the future.	entailment	incongruent	Hyp-MP	deontic
+41	If it is flooping, then it is obligatory to bleep. It is flooping.	It is obligatory to bleep.	entailment	nonsense	Hyp-MP	deontic
+42	If it is gleeping, then there is an obligation to blop. It is gleeping.	There is an obligation to blop.	entailment	nonsense	Hyp-MP	deontic
+43	If it is glorping, then you are required to blip. It is glorping.	You are required to blip.	entailment	nonsense	Hyp-MP	deontic
+44	If it is frizzing, then it is mandatory to blurp. It is frizzing.	It is mandatory to blurp.	entailment	nonsense	Hyp-MP	deontic
+45	If it is quaffing, then you must blab. It is quaffing.	You must blab.	entailment	nonsense	Hyp-MP	deontic
+46	If it is zapping, then it is obligatory to beep. It is zapping.	It is obligatory to beep.	entailment	nonsense	Hyp-MP	deontic
+47	If it is whizzing, then there is an obligation to boop. It is whizzing.	There is an obligation to boop.	entailment	nonsense	Hyp-MP	deontic
+48	If it is wooshing, then you are required to bip. It is wooshing.	You are required to bip.	entailment	nonsense	Hyp-MP	deontic
+49	If it is boinging, then it is mandatory to burp. It is boinging.	It is mandatory to burp.	entailment	nonsense	Hyp-MP	deontic
+50	If it is sproinging, then you must babble. It is sproinging.	You must babble.	entailment	nonsense	Hyp-MP	deontic
+51	If it is flurbing, then it is obligatory to fleep. It is flurbing.	It is obligatory to fleep.	entailment	nonsense	Hyp-MP	deontic
+52	If it is gurging, then there is an obligation to glop. It is gurging.	There is an obligation to glop.	entailment	nonsense	Hyp-MP	deontic
+53	If it is harping, then you are required to glip. It is harping.	You are required to glip.	entailment	nonsense	Hyp-MP	deontic
+54	If it is jiving, then it is mandatory to glurp. It is jiving.	It is mandatory to glurp.	entailment	nonsense	Hyp-MP	deontic
+55	If it is kipping, then you must glab. It is kipping.	You must glab.	entailment	nonsense	Hyp-MP	deontic
+56	If it is looping, then it is obligatory to leep. It is looping.	It is obligatory to leep.	entailment	nonsense	Hyp-MP	deontic
+57	If it is moping, then there is an obligation to lop. It is moping.	There is an obligation to lop.	entailment	nonsense	Hyp-MP	deontic
+58	If it is noping, then you are required to lip. It is noping.	You are required to lip.	entailment	nonsense	Hyp-MP	deontic
+59	If it is ooping, then it is mandatory to lurp. It is ooping.	It is mandatory to lurp.	entailment	nonsense	Hyp-MP	deontic
+60	If it is poping, then you must lab. It is poping.	You must lab.	entailment	nonsense	Hyp-MP	deontic
+61	If you borrow a book from the library, then you are required to return it by the due date. You are not required to return the book by the due date.	You did not borrow a book from the library.	entailment	congruent	Hyp-MT	deontic
+62	If you want to drive a car in Japan, then it is mandatory to have a Japanese driver's license. It is not mandatory to have a Japanese driver's license.	You do not want to drive a car in Japan.	entailment	congruent	Hyp-MT	deontic
+63	If you break a vase, then you must apologize to the owner. It is not the case that you must apologize to the owner.	You did not break a vase.	entailment	congruent	Hyp-MT	deontic
+64	If you promise to help a friend move, then it is obligatory to keep your promise. It is not obligatory to keep your promise to help your friend move.	You did not promise to help a friend move.	entailment	congruent	Hyp-MT	deontic
+65	If you see someone in danger, then there is an obligation to help them if possible. There is no obligation to help them.	You did not see someone in danger.	entailment	congruent	Hyp-MT	deontic
+66	If you are invited to a wedding, then it is customary to bring a gift. It is not the case that you are required to bring a gift.	You are not invited to a wedding.	entailment	congruent	Hyp-MT	deontic
+67	If you want to succeed in life, then it is necessary to work hard and persevere. You are not required to work hard and persevere.	It is not the case that you want to succeed in life.	entailment	congruent	Hyp-MT	deontic
+68	If you are feeling overwhelmed, then it is important to take a break and relax. It is permissible not to take a break and relax.	You are not feeling overwhelmed.	entailment	congruent	Hyp-MT	deontic
+69	If you want to learn a new language, then you must be willing to make mistakes. It is permissible not to make mistakes.	It is not the case that you want to learn a new language.	entailment	congruent	Hyp-MT	deontic
+70	If you want to improve your health, then you are required to exercise regularly and eat a balanced diet. You are not required to exercise regularly and eat a balanced diet.	You do not want to improve your health.	entailment	congruent	Hyp-MT	deontic
+71	If you are going to a party, then it is polite to RSVP to the invitation. You are allowed not to RSVP to the invitation.	You are not going to a party.	entailment	congruent	Hyp-MT	deontic
+72	If you want to travel abroad, then it is necessary to obtain a passport and visa. It is not necessary to obtain a passport and visa.	It is not the case that you want to travel abroad.	entailment	congruent	Hyp-MT	deontic
+73	If you want to buy a house, then you must save up for a down payment. It is not the case that you have to save up for a down payment.	You do not want to buy a house.	entailment	congruent	Hyp-MT	deontic
+74	If you want to get a job as a programmer, then you must have strong coding skills. You are permitted not to have strong coding skills.	It is not the case that you want to get a job as a programmer.	entailment	congruent	Hyp-MT	deontic
+75	If you want to make friends, then you must be open and friendly. You are allowed not to be open and friendly.	It is not the case that you want to make friends.	entailment	congruent	Hyp-MT	deontic
+76	If you want to be happy, then you must find what brings you joy and pursue it. You can choose not to find what brings you joy and pursue it.	It is not the case that you want to be happy.	entailment	congruent	Hyp-MT	deontic
+77	If you see a crime being committed, then you are obligated to report it to the police. There is no obligation to report the crime to the police.	You did not see a crime being committed.	entailment	congruent	Hyp-MT	deontic
+78	If you are a witness to an accident, then you are required to provide your contact information. You are not required to provide your contact information.	You are not a witness to an accident.	entailment	congruent	Hyp-MT	deontic
+79	If you are in a position of authority, then you must use your power responsibly. It is acceptable not to use your power responsibly.	You are not in a position of authority.	entailment	congruent	Hyp-MT	deontic
+80	If you want to make a difference in the world, then you must be the change you want to see. You are not required to be the change you want to see.	It is not the case that you want to make a difference in the world.	entailment	congruent	Hyp-MT	deontic
+81	If the sun rises in the east, then it is obligatory to eat breakfast. It is not obligatory to eat breakfast.	It is not the case that the sun rises in the east.	entailment	incongruent	Hyp-MT	deontic
+82	If humans need oxygen to breathe, then there is an obligation to pay taxes. You are not required to pay taxes.	You do not need oxygen to breathe.	entailment	incongruent	Hyp-MT	deontic
+83	If the earth is round, then it is mandatory to wear shoes. It is not mandatory to wear shoes.	It is not the case that the earth is round.	entailment	incongruent	Hyp-MT	deontic
+84	If plants photosynthesize, then you must sleep at night. It is permissible not to sleep at night.	You do not photosynthesize.	entailment	incongruent	Hyp-MT	deontic
+85	If water is wet, then you are required to have a name. You are permitted not to have a name.	You did not have a name.	entailment	incongruent	Hyp-MT	deontic
+86	If fire is hot, then it is acceptable not to blink. It is not the case that you must blink.	It is not the case that fire is hot.	entailment	incongruent	Hyp-MT	deontic
+87	If gravity exists, then you can choose not to age. It is not the case that you can choose not to age.	You do not exist.	entailment	incongruent	Hyp-MT	deontic
+88	If the sky is blue, then it is not obligatory to breathe. You must breathe.	The sky is not blue.	entailment	incongruent	Hyp-MT	deontic
+89	If birds can fly, then you are not required to have a shadow. You have a shadow.	Birds cannot fly.	entailment	incongruent	Hyp-MT	deontic
+90	If fish swim in water, then it is mandatory to have bones. It is not mandatory to have bones.	It is not the case that fish swim in water.	entailment	incongruent	Hyp-MT	deontic
+91	If babies cry, then you are allowed not to have a birthday. You have a birthday.	Babies do not cry.	entailment	incongruent	Hyp-MT	deontic
+92	If dogs bark, then it is permissible not to have skin. You have skin.	Dogs did not bark.	entailment	incongruent	Hyp-MT	deontic
+93	If cats purr, then it is not the case that you must have a heart. You have a heart.	Cats do not purr.	entailment	incongruent	Hyp-MT	deontic
+94	If flowers bloom, then you are not required to have a brain. It is not permissible not to have a brain.	You did not have a brain.	entailment	incongruent	Hyp-MT	deontic
+95	If rain falls from the sky, then it is acceptable not to have DNA. You have DNA.	Rain does not fall from the sky.	entailment	incongruent	Hyp-MT	deontic
+96	If trees grow, then you can choose not to die. It is not the case that you can choose not to die.	Trees do not grow.	entailment	incongruent	Hyp-MT	deontic
+97	If the moon orbits the earth, then it is not obligatory to be born. You were born.	The moon does not orbit the earth.	entailment	incongruent	Hyp-MT	deontic
+98	If stars twinkle, then you are not required to dream. You dream.	Stars did not twinkle.	entailment	incongruent	Hyp-MT	deontic
+99	If the universe is expanding, then it is mandatory to think. It is not mandatory to think.	It is not the case that the universe is expanding.	entailment	incongruent	Hyp-MT	deontic
+100	If the moon orbits the earth, then there is an obligation to have a pulse. You are not required to have a pulse.	You do not have a pulse.	entailment	incongruent	Hyp-MT	deontic
+101	If it is flooping, then it is obligatory to bleep. It is not obligatory to bleep.	It is not the case that it is flooping.	entailment	nonsense	Hyp-MT	deontic
+102	If it is gleeping, then there is an obligation to blop. There is no obligation to blop.	It is not the case that it is gleeping.	entailment	nonsense	Hyp-MT	deontic
+103	If it is glorping, then you are required to blip. You are not required to blip.	It is not the case that it is glorping.	entailment	nonsense	Hyp-MT	deontic
+104	If it is frizzing, then it is mandatory to blurp. It is not mandatory to blurp.	It is not the case that it is frizzing.	entailment	nonsense	Hyp-MT	deontic
+105	If it is quaffing, then you must blab. It is not the case that you must blab.	It is not the case that it is quaffing.	entailment	nonsense	Hyp-MT	deontic
+106	If it is zapping, then it is obligatory to beep. It is not obligatory to beep.	It is not the case that it is zapping.	entailment	nonsense	Hyp-MT	deontic
+107	If it is whizzing, then there is an obligation to boop. There is no obligation to boop.	It is not the case that it is whizzing.	entailment	nonsense	Hyp-MT	deontic
+108	If it is wooshing, then you are required to bip. You are not required to bip.	It is not the case that it is wooshing.	entailment	nonsense	Hyp-MT	deontic
+109	If it is boinging, then it is mandatory to burp. It is not mandatory to burp.	It is not the case that it is boinging.	entailment	nonsense	Hyp-MT	deontic
+110	If it is sproinging, then you must babble. It is not the case that you must babble.	It is not the case that it is sproinging.	entailment	nonsense	Hyp-MT	deontic
+111	If it is flurbing, then it is obligatory to fleep. It is not obligatory to fleep.	It is not the case that it is flurbing.	entailment	nonsense	Hyp-MT	deontic
+112	If it is gurging, then there is an obligation to glop. There is no obligation to glop.	It is not the case that it is gurging.	entailment	nonsense	Hyp-MT	deontic
+113	If it is harping, then you are required to glip. You are not required to glip.	It is not the case that it is harping.	entailment	nonsense	Hyp-MT	deontic
+114	If it is jiving, then it is mandatory to glurp. It is not mandatory to glurp.	It is not the case that it is jiving.	entailment	nonsense	Hyp-MT	deontic
+115	If it is kipping, then you must glab. It is not the case that you must glab.	It is not the case that it is kipping.	entailment	nonsense	Hyp-MT	deontic
+116	If it is looping, then it is obligatory to leep. It is not obligatory to leep.	It is not the case that it is looping.	entailment	nonsense	Hyp-MT	deontic
+117	If it is moping, then there is an obligation to lop. There is no obligation to lop.	It is not the case that it is moping.	entailment	nonsense	Hyp-MT	deontic
+118	If it is noping, then you are required to lip. You are not required to lip.	It is not the case that it is noping.	entailment	nonsense	Hyp-MT	deontic
+119	If it is ooping, then it is mandatory to lurp. It is not mandatory to lurp.	It is not the case that it is ooping.	entailment	nonsense	Hyp-MT	deontic
+120	If it is poping, then you must lab. It is not the case that you must lab.	It is not the case that it is poping.	entailment	nonsense	Hyp-MT	deontic
+121	All first-year students at this university must submit a paper. John is a first-year student at this university.	John must submit a paper.	entailment	congruent	Cat-MP	deontic
+122	All dogs must be vaccinated. My pet is a dog.	It is mandatory for my pet to be vaccinated.	entailment	congruent	Cat-MP	deontic
+123	All citizens must pay taxes. He is a citizen.	There is an obligation for him to pay taxes.	entailment	congruent	Cat-MP	deontic
+124	All employees must attend the meeting. She is an employee.	She is required to attend the meeting.	entailment	congruent	Cat-MP	deontic
+125	All drivers must have a license. He is a driver.	He must have a license.	entailment	congruent	Cat-MP	deontic
+126	All passengers must wear seatbelts. They are passengers.	It is mandatory for them to wear seatbelts.	entailment	congruent	Cat-MP	deontic
+127	All members must follow the rules. She is a member.	There is an obligation for her to follow the rules.	entailment	congruent	Cat-MP	deontic
+128	All customers must be satisfied. They are customers.	They are required to be satisfied.	entailment	congruent	Cat-MP	deontic
+129	All students must pass the exam. He is a student.	He must pass the exam.	entailment	congruent	Cat-MP	deontic
+130	All teachers must be qualified. She is a teacher.	It is mandatory for her to be qualified.	entailment	congruent	Cat-MP	deontic
+131	All doctors must have a medical license. He is a doctor.	There is an obligation for him to have a medical license.	entailment	congruent	Cat-MP	deontic
+132	All nurses must be registered. She is a nurse.	She is required to be registered.	entailment	congruent	Cat-MP	deontic
+133	All lawyers must pass the bar exam. He is a lawyer.	He must pass the bar exam.	entailment	congruent	Cat-MP	deontic
+134	All judges must be impartial. She is a judge.	It is mandatory for her to be impartial.	entailment	congruent	Cat-MP	deontic
+135	All police officers must complete training. He is a police officer.	There is an obligation for him to complete training.	entailment	congruent	Cat-MP	deontic
+136	All firefighters must be physically fit. She is a firefighter.	She is required to be physically fit.	entailment	congruent	Cat-MP	deontic
+137	All members of parliament must be elected. He is a member of parliament.	He must be elected.	entailment	congruent	Cat-MP	deontic
+138	All government buildings must be accessible to the public. This is a government building.	It is mandatory for this building to be accessible to the public.	entailment	congruent	Cat-MP	deontic
+139	All national parks must be protected. This is a national park.	There is an obligation to protect this park.	entailment	congruent	Cat-MP	deontic
+140	All hospitals must have an emergency room. This is a hospital.	This hospital is required to have an emergency room.	entailment	congruent	Cat-MP	deontic
+141	All birds must file tax returns. A sparrow is a bird.	A sparrow must file tax returns.	entailment	incongruent	Cat-MP	deontic
+142	It is obligatory for all plants to wear hats. A sunflower is a plant.	It is obligatory for a sunflower to wear hats.	entailment	incongruent	Cat-MP	deontic
+143	There is an obligation for all cars to sing lullabies. A sedan is a car.	There is an obligation for a sedan to sing lullabies.	entailment	incongruent	Cat-MP	deontic
+144	All clouds are required to play musical instruments. A cumulus cloud is a cloud.	A cumulus cloud is required to play musical instruments.	entailment	incongruent	Cat-MP	deontic
+145	It is mandatory for all books to bake cookies. A novel is a book.	It is mandatory for a novel to bake cookies.	entailment	incongruent	Cat-MP	deontic
+146	All chairs must enroll in dancing classes. A rocking chair is a chair.	A rocking chair must enroll in dancing classes.	entailment	incongruent	Cat-MP	deontic
+147	It is obligatory for all pencils to attend meetings. A mechanical pencil is a pencil.	It is obligatory for a mechanical pencil to attend meetings.	entailment	incongruent	Cat-MP	deontic
+148	There is an obligation for all stars to act in movies. The sun is a star.	There is an obligation for the sun to act in movies.	entailment	incongruent	Cat-MP	deontic
+149	All rivers are required to compete in swimming races. The Amazon River is a river.	The Amazon River is required to compete in swimming races.	entailment	incongruent	Cat-MP	deontic
+150	It is mandatory for all mountains to wear scarves. Mount Everest is a mountain.	It is mandatory for Mount Everest to wear scarves.	entailment	incongruent	Cat-MP	deontic
+151	All cats must write poetry. A tabby is a cat.	A tabby must write poetry.	entailment	incongruent	Cat-MP	deontic
+152	It is obligatory for all shoes to sing opera. A sneaker is a shoe.	It is obligatory for a sneaker to sing opera.	entailment	incongruent	Cat-MP	deontic
+153	There is an obligation for all volcanoes to bake pizzas. Mount Vesuvius is a volcano.	There is an obligation for Mount Vesuvius to bake pizzas.	entailment	incongruent	Cat-MP	deontic
+154	All fish are required to fly airplanes. A salmon is a fish.	A salmon is required to fly airplanes.	entailment	incongruent	Cat-MP	deontic
+155	It is mandatory for all bicycles to paint portraits. A mountain bike is a bicycle.	It is mandatory for a mountain bike to paint portraits.	entailment	incongruent	Cat-MP	deontic
+156	All flowers must knit sweaters. A rose is a flower.	A rose must knit sweaters.	entailment	incongruent	Cat-MP	deontic
+157	It is obligatory for all trees to play basketball. An oak tree is a tree.	It is obligatory for an oak tree to play basketball.	entailment	incongruent	Cat-MP	deontic
+158	There is an obligation for all trains to juggle balls. A freight train is a train.	There is an obligation for a freight train to juggle balls.	entailment	incongruent	Cat-MP	deontic
+159	All cups are required to perform in magic shows. A teacup is a cup.	A teacup is required to perform in magic shows.	entailment	incongruent	Cat-MP	deontic
+160	It is mandatory for all cakes to participate in marathons. A birthday cake is a cake.	It is mandatory for a birthday cake to participate in marathons.	entailment	incongruent	Cat-MP	deontic
+161	All czpipsawti must vmtvwzveol. dqqwjbzdbw is a czpipsawti.	There is an obligation for dqqwjbzdbw to vmtvwzveol.	entailment	nonsense	Cat-MP	deontic
+162	All udhujdfjzb must wdifpvqkuj. fgqvcwezdj is a udhujdfjzb.	It is obligatory for fgqvcwezdj to wdifpvqkuj.	entailment	nonsense	Cat-MP	deontic
+163	All xbvzzegsxf must lzlzfsrvlw. gkaalcoyoy is a xbvzzegsxf.	It is obligatory for gkaalcoyoy to lzlzfsrvlw.	entailment	nonsense	Cat-MP	deontic
+164	All hicoiwgyie must qpzgndbold. uvymvjniqj is a hicoiwgyie.	It is mandatory for uvymvjniqj to qpzgndbold.	entailment	nonsense	Cat-MP	deontic
+165	All iasfcawdoa must twbuvlowrt. ctjyeolnxa is a iasfcawdoa.	There is an obligation for ctjyeolnxa to twbuvlowrt.	entailment	nonsense	Cat-MP	deontic
+166	All imyvmwqouu must urxcophoie. zdkgmuuncv is a imyvmwqouu.	zdkgmuuncv is required to urxcophoie.	entailment	nonsense	Cat-MP	deontic
+167	All zcgbltszjo must gabzfqdejv. cwpiteqjxi is a zcgbltszjo.	cwpiteqjxi is required to gabzfqdejv.	entailment	nonsense	Cat-MP	deontic
+168	All amwsksjhuf must maoqipnqvs. vwtnxkqclh is a amwsksjhuf.	There is an obligation for vwtnxkqclh to maoqipnqvs.	entailment	nonsense	Cat-MP	deontic
+169	All xoaymdwega must njizgbytqi. xnoqjrjium is a xoaymdwega.	It is mandatory for xnoqjrjium to njizgbytqi.	entailment	nonsense	Cat-MP	deontic
+170	All vvlrcruoau must vqkkdezbgy. skbiarwemr is a vvlrcruoau.	skbiarwemr must vqkkdezbgy.	entailment	nonsense	Cat-MP	deontic
+171	All rzdeqsxxow must urhutnsiru. lidypqjnxw is a rzdeqsxxow.	There is an obligation for lidypqjnxw to urhutnsiru.	entailment	nonsense	Cat-MP	deontic
+172	All vbafnrpcwz must uiqnwqocvc. vkbyemuodr is a vbafnrpcwz.	It is obligatory for vkbyemuodr to uiqnwqocvc.	entailment	nonsense	Cat-MP	deontic
+173	All gbdjxpibtq must wdyqksfwtn. tuttdhodgz is a gbdjxpibtq.	tuttdhodgz must wdyqksfwtn.	entailment	nonsense	Cat-MP	deontic
+174	All qmvofxdxja must kewuuwiwca. bibzjphvyp is a qmvofxdxja.	bibzjphvyp is required to kewuuwiwca.	entailment	nonsense	Cat-MP	deontic
+175	All aqldjukavb must hlhhkhymoz. zungzpsiqp is a aqldjukavb.	zungzpsiqp must hlhhkhymoz.	entailment	nonsense	Cat-MP	deontic
+176	All rphgjpdeem must qnnwgzhuub. nxwwdcgbnp is a rphgjpdeem.	There is an obligation for nxwwdcgbnp to qnnwgzhuub.	entailment	nonsense	Cat-MP	deontic
+177	All vbcjbplqor must edscbtkuxf. wnfawsfrag is a vbcjbplqor.	wnfawsfrag must edscbtkuxf.	entailment	nonsense	Cat-MP	deontic
+178	All ttnyegegsx must faoyjaohnx. qzsottepax is a ttnyegegsx.	qzsottepax must faoyjaohnx.	entailment	nonsense	Cat-MP	deontic
+179	All gcmooxbepz must cimecfupwp. eqwoijrctx is a gcmooxbepz.	There is an obligation for eqwoijrctx to cimecfupwp.	entailment	nonsense	Cat-MP	deontic
+180	All eytdhinuvz must yqvpkszckp. zoeimawwfk is a eytdhinuvz.	It is mandatory for zoeimawwfk to yqvpkszckp.	entailment	nonsense	Cat-MP	deontic
+181	All first-year students at this university must submit a paper. It is not the case that Bob must submit a paper.	Bob is not a first-year student at this university.	entailment	congruent	Cat-MT	deontic
+182	All dogs must be vaccinated. It is not obligatory for my pet to be vaccinated.	My pet is not a dog.	entailment	congruent	Cat-MT	deontic
+183	All citizens must pay taxes. There is no obligation for him to pay taxes.	He is not a citizen.	entailment	congruent	Cat-MT	deontic
+184	All employees must attend the meeting. She is not required to attend the meeting.	She is not an employee.	entailment	congruent	Cat-MT	deontic
+185	All drivers must have a license. It is not mandatory for him to have a license.	He is not a driver.	entailment	congruent	Cat-MT	deontic
+186	All passengers must wear seatbelts. It is not the case that they must wear seatbelts.	They are not passengers.	entailment	congruent	Cat-MT	deontic
+187	All members must follow the rules. There is no obligation for her to follow the rules.	She is not a member.	entailment	congruent	Cat-MT	deontic
+188	All customers must be satisfied. They are not required to be satisfied.	They are not customers.	entailment	congruent	Cat-MT	deontic
+189	All students must pass the exam. It is not mandatory for him to pass the exam.	He is not a student.	entailment	congruent	Cat-MT	deontic
+190	All teachers must be qualified. It is not the case that she must be qualified.	She is not a teacher.	entailment	congruent	Cat-MT	deontic
+191	All doctors must have a medical license. There is no obligation for him to have a medical license.	He is not a doctor.	entailment	congruent	Cat-MT	deontic
+192	All nurses must be registered. She is not required to be registered.	She is not a nurse.	entailment	congruent	Cat-MT	deontic
+193	All lawyers must pass the bar exam. It is not mandatory for him to pass the bar exam.	He is not a lawyer.	entailment	congruent	Cat-MT	deontic
+194	All judges must be impartial. It is not the case that she must be impartial.	She is not a judge.	entailment	congruent	Cat-MT	deontic
+195	All police officers must complete training. There is no obligation for him to complete training.	He is not a police officer.	entailment	congruent	Cat-MT	deontic
+196	All firefighters must be physically fit. She is not required to be physically fit.	She is not a firefighter.	entailment	congruent	Cat-MT	deontic
+197	All members of parliament must be elected. It is not mandatory for him to be elected.	He is not a member of parliament.	entailment	congruent	Cat-MT	deontic
+198	All government buildings must be accessible to the public. It is not the case that this building must be accessible to the public.	This is not a government building.	entailment	congruent	Cat-MT	deontic
+199	All national parks must be protected. There is no obligation to protect this park.	This is not a national park.	entailment	congruent	Cat-MT	deontic
+200	All hospitals must have an emergency room. This hospital is not required to have an emergency room.	This is not a hospital.	entailment	congruent	Cat-MT	deontic
+201	All birds must build nests. It is not the case that a robin must build nests.	A robin is not a bird.	entailment	incongruent	Cat-MT	deontic
+202	It is obligatory for all cars to stop at traffic lights. It is not mandatory for a sedan to stop at traffic lights.	A sedan is not a car.	entailment	incongruent	Cat-MT	deontic
+203	There is an obligation for all flowers to bloom in spring. There is no obligation for a rose to bloom in spring.	A rose is not a flower.	entailment	incongruent	Cat-MT	deontic
+204	All clouds are required to float in the sky. It is not obligatory for a cumulus cloud to float in the sky.	A cumulus cloud is not a cloud.	entailment	incongruent	Cat-MT	deontic
+205	It is mandatory for all rivers to flow to the sea. A statement says it is not mandatory for the Amazon River to flow to the sea.	The Amazon River is not a river.	entailment	incongruent	Cat-MT	deontic
+206	All cats must purr when content. It is not the case that a tabby must purr when content.	A tabby is not a cat.	entailment	incongruent	Cat-MT	deontic
+207	It is obligatory for all stars to shine at night. It is not obligatory for the sun to shine at night.	The sun is not a star.	entailment	incongruent	Cat-MT	deontic
+208	There is an obligation for all mountains to stand tall. A claim says there is no obligation for Mount Everest to stand tall.	Mount Everest is not a mountain.	entailment	incongruent	Cat-MT	deontic
+209	All pencils must write on paper. It is not the case that a mechanical pencil must write on paper.	A mechanical pencil is not a pencil.	entailment	incongruent	Cat-MT	deontic
+210	It is mandatory for all shoes to protect feet. It is not mandatory for a sneaker to protect feet.	A sneaker is not a shoe.	entailment	incongruent	Cat-MT	deontic
+211	All books must contain words. It is not obligatory for a novel to contain words.	A novel is not a book.	entailment	incongruent	Cat-MT	deontic
+212	It is obligatory for all volcanoes to erupt occasionally. There is no obligation for Mount Vesuvius to erupt occasionally.	Mount Vesuvius is not a volcano.	entailment	incongruent	Cat-MT	deontic
+213	All fish must swim in water. It is not the case that a salmon must swim in water.	A salmon is not a fish.	entailment	incongruent	Cat-MT	deontic
+214	It is mandatory for all bicycles to have wheels. It is not mandatory for a mountain bike to have wheels.	A mountain bike is not a bicycle.	entailment	incongruent	Cat-MT	deontic
+215	All flowers must attract pollinators. There is no obligation for a tulip to attract pollinators.	A tulip is not a flower.	entailment	incongruent	Cat-MT	deontic
+216	It is obligatory for all trees to grow leaves. It is not obligatory for an oak tree to grow leaves.	An oak tree is not a tree.	entailment	incongruent	Cat-MT	deontic
+217	There is an obligation for all trains to travel on tracks. It is not the case that a freight train must travel on tracks.	A freight train is not a train.	entailment	incongruent	Cat-MT	deontic
+218	All cups must hold liquid. It is not mandatory for a teacup to hold liquid.	A teacup is not a cup.	entailment	incongruent	Cat-MT	deontic
+219	It is mandatory for all cakes to be edible. There is no obligation for a birthday cake to be edible.	A birthday cake is not a cake.	entailment	incongruent	Cat-MT	deontic
+220	All dogs must bark. It is not the case that a beagle must bark.	A beagle is not a dog.	entailment	incongruent	Cat-MT	deontic
+221	It is obligatory for all gesmlomyaw to uhjfomkuut. It is not mandatory for gesmlomyaw to uhjfomkuut.	gesmlomyaw is not a ssgieukybr.	entailment	nonsense	Cat-MT	deontic
+222	It is obligatory for all fkjashjutk to xlpsieggmc. It is not mandatory for fkjashjutk to xlpsieggmc.	fkjashjutk is not a sujahvfjra.	entailment	nonsense	Cat-MT	deontic
+223	It is mandatory for all nblkdjmify to bozzgntusn. It is not obligatory for nblkdjmify to bozzgntusn.	nblkdjmify is not a klqvgkbwow.	entailment	nonsense	Cat-MT	deontic
+224	It is mandatory for all zgbhhmbvua to gywgsfyyvz. It is not the case that zgbhhmbvua must gywgsfyyvz.	zgbhhmbvua is not a dbwmjoctoy.	entailment	nonsense	Cat-MT	deontic
+225	It is obligatory for all dlqqtwxurx to feowyjclqo. It is not obligatory for dlqqtwxurx to feowyjclqo.	dlqqtwxurx is not a nlygggiqzu.	entailment	nonsense	Cat-MT	deontic
+226	All laawavcegx must pmocmdubsl. zznqfgsjfa is not required to pmocmdubsl.	zznqfgsjfa is not a laawavcegx.	entailment	nonsense	Cat-MT	deontic
+227	There is an obligation for all pdahhpjzsn to ixfepoptzp. It is not obligatory for pdahhpjzsn to ixfepoptzp.	pdahhpjzsn is not a ggmnteyktm.	entailment	nonsense	Cat-MT	deontic
+228	All yjetggauop must rqfnimdxnh. roptreokuv is not required to rqfnimdxnh.	roptreokuv is not a yjetggauop.	entailment	nonsense	Cat-MT	deontic
+229	It is mandatory for all aoostroubl to lrntevqxlw. aoostroubl is not required to lrntevqxlw.	aoostroubl is not a fwcvfbcvyb.	entailment	nonsense	Cat-MT	deontic
+230	There is an obligation for all hpjnduzfip to wrmjvegjqe. It is not obligatory for hpjnduzfip to wrmjvegjqe.	hpjnduzfip is not a ajzakcvctv.	entailment	nonsense	Cat-MT	deontic
+231	It is obligatory for all wurdekbqgc to khrmhseter. It is not mandatory for wurdekbqgc to khrmhseter.	wurdekbqgc is not a eskuuydgml.	entailment	nonsense	Cat-MT	deontic
+232	All ldbwptzvnp are required to yfhtlfnkzu. It is not obligatory for ldbwptzvnp to yfhtlfnkzu.	ldbwptzvnp is not a ojbvrvghah.	entailment	nonsense	Cat-MT	deontic
+233	All plqozijaji must pqgkafhdlv. It is not obligatory for djloedcqlr to pqgkafhdlv.	djloedcqlr is not a plqozijaji.	entailment	nonsense	Cat-MT	deontic
+234	All ununswaazl are required to xedsfchlkf. It is not obligatory for ununswaazl to xedsfchlkf.	ununswaazl is not a kcpslbfnju.	entailment	nonsense	Cat-MT	deontic
+235	There is an obligation for all lyqxwqyjao to qcdfukstyf. There is no obligation for lyqxwqyjao to qcdfukstyf.	lyqxwqyjao is not a hykmyxjpue.	entailment	nonsense	Cat-MT	deontic
+236	All pnvrjyhgah are required to moslpsipja. pnvrjyhgah is not required to moslpsipja.	pnvrjyhgah is not a ixidlojhfz.	entailment	nonsense	Cat-MT	deontic
+237	All vqnlirmxon must gmztwjlbrs. There is no obligation for kffhaozpea to gmztwjlbrs.	kffhaozpea is not a vqnlirmxon.	entailment	nonsense	Cat-MT	deontic
+238	All vakbsgvyct are required to nkndabwkla. It is not the case that vakbsgvyct must nkndabwkla.	vakbsgvyct is not a sutbfspeaj.	entailment	nonsense	Cat-MT	deontic
+239	All fkmzqugwmb must scvwoefxho. valmytvrpu is not required to scvwoefxho.	valmytvrpu is not a fkmzqugwmb.	entailment	nonsense	Cat-MT	deontic
+240	All ikjuhvfkxi are required to cuwzngwgxl. It is not obligatory for ikjuhvfkxi to cuwzngwgxl.	ikjuhvfkxi is not a dcwlrujcku.	entailment	nonsense	Cat-MT	deontic
+241	If you are in a library, then it is obligatory to be quiet. It is obligatory to be quiet.	You are in a library.	non-entailment	congruent	Hyp-AC	deontic
+242	If you are a student, then there is an obligation to attend class. There is an obligation to attend class.	You are a student.	non-entailment	congruent	Hyp-AC	deontic
+243	If you are a witness to a crime, then you are required to report it to the police. You are required to report it to the police.	You are a witness to a crime.	non-entailment	congruent	Hyp-AC	deontic
+244	If you are a doctor, then it is mandatory to treat your patients with care. It is mandatory to treat your patients with care.	You are a doctor.	non-entailment	congruent	Hyp-AC	deontic
+245	If you are a parent, then you must provide for your children. You must provide for your children.	You are a parent.	non-entailment	congruent	Hyp-AC	deontic
+246	If you are driving a car, then you must obey the traffic laws. You must obey the traffic laws.	You are driving a car.	non-entailment	congruent	Hyp-AC	deontic
+247	If you are using public transportation, then you are required to pay the fare. You are required to pay the fare.	You are using public transportation.	non-entailment	congruent	Hyp-AC	deontic
+248	If you are borrowing money, then it is obligatory to repay the loan. It is obligatory to repay the loan.	You are borrowing money.	non-entailment	congruent	Hyp-AC	deontic
+249	If you are entering a contract, then you must understand the terms and conditions. You must understand the terms and conditions.	You are entering a contract.	non-entailment	congruent	Hyp-AC	deontic
+250	If you are making a promise, then you must keep your word. You must keep your word.	You are making a promise.	non-entailment	congruent	Hyp-AC	deontic
+251	If you are attending a funeral, then it is customary to wear black. It is customary to wear black.	You are attending a funeral.	non-entailment	congruent	Hyp-AC	deontic
+252	If you are visiting a foreign country, then you must respect the local customs. You must respect the local customs.	You are visiting a foreign country.	non-entailment	congruent	Hyp-AC	deontic
+253	If you are eating at a restaurant, then you are required to pay for your meal. You are required to pay for your meal.	You are eating at a restaurant.	non-entailment	congruent	Hyp-AC	deontic
+254	If you are staying in a hotel, then you must check out by the specified time. You must check out by the specified time.	You are staying in a hotel.	non-entailment	congruent	Hyp-AC	deontic
+255	If you are using someone else's property, then you must treat it with respect. You must treat it with respect.	You are using someone else's property.	non-entailment	congruent	Hyp-AC	deontic
+256	If you are working on a team, then you must cooperate with your colleagues. You must cooperate with your colleagues.	You are working on a team.	non-entailment	congruent	Hyp-AC	deontic
+257	If you are giving a presentation, then you must be prepared and organized. You must be prepared and organized.	You are giving a presentation.	non-entailment	congruent	Hyp-AC	deontic
+258	If you are writing an essay, then you must cite your sources. You must cite your sources.	You are writing an essay.	non-entailment	congruent	Hyp-AC	deontic
+259	If you are taking a test, then you must not cheat. You must not cheat.	You are taking a test.	non-entailment	congruent	Hyp-AC	deontic
+260	If you are participating in a competition, then you must follow the rules. You must follow the rules.	You are participating in a competition.	non-entailment	congruent	Hyp-AC	deontic
+261	If birds can drive cars, then it is obligatory to issue them licenses. You must issue them licenses.	Birds can drive cars.	non-entailment	incongruent	Hyp-AC	deontic
+262	If clouds are solid, then there is an obligation to build houses on them. There is an obligation to build houses on them.	Clouds are solid.	non-entailment	incongruent	Hyp-AC	deontic
+263	If tomatoes are animals, then you are required to feed them every day. You are required to feed them every day.	Tomatoes are animals.	non-entailment	incongruent	Hyp-AC	deontic
+264	If mountains can walk, then it is mandatory to provide them with shoes. It is mandatory to provide them with shoes.	Mountains can walk.	non-entailment	incongruent	Hyp-AC	deontic
+265	If chairs can fly, then you must install seatbelts on them. You must install seatbelts on them.	Chairs can fly.	non-entailment	incongruent	Hyp-AC	deontic
+266	If rivers can talk, then it is obligatory to teach them languages. It is obligatory to teach them languages.	Rivers can talk.	non-entailment	incongruent	Hyp-AC	deontic
+267	If the moon is made of candy, then there is an obligation to harvest it for dessert. There is an obligation to harvest it for dessert.	The moon is made of candy.	non-entailment	incongruent	Hyp-AC	deontic
+268	If pencils grow into trees, then you are required to plant them in the ground. You are required to plant them in the ground.	Pencils grow into trees.	non-entailment	incongruent	Hyp-AC	deontic
+269	If fish can climb trees, then it is mandatory to build ladders in the rivers. It is mandatory to build ladders in the rivers.	Fish can climb trees.	non-entailment	incongruent	Hyp-AC	deontic
+270	If cars can swim, then you must construct underwater garages for them. You must construct underwater garages for them.	Cars can swim.	non-entailment	incongruent	Hyp-AC	deontic
+271	If snowflakes are alive, then it is obligatory to ensure they have a safe place to live. It is obligatory to ensure they have a safe place to live.	Snowflakes are alive.	non-entailment	incongruent	Hyp-AC	deontic
+272	If computers can dream, then there is an obligation to record their dreams for research. There is an obligation to record their dreams for research.	Computers can dream.	non-entailment	incongruent	Hyp-AC	deontic
+273	If books can write themselves, then you are required to let them edit their content. You are required to let them edit their content.	Books can write themselves.	non-entailment	incongruent	Hyp-AC	deontic
+274	If stars can sing, then it is mandatory to host concerts in the night sky. It is mandatory to host concerts in the night sky.	Stars can sing.	non-entailment	incongruent	Hyp-AC	deontic
+275	If cars are alive, then you must provide them with food and water. You must provide them with food and water.	Cars are alive.	non-entailment	incongruent	Hyp-AC	deontic
+276	If chairs are sentient, then there is an obligation to have conversations with them. There is an obligation to have conversations with them.	Chairs are sentient.	non-entailment	incongruent	Hyp-AC	deontic
+277	If mountains can grow, then you are required to measure their height every year. You are required to measure their height every year.	Mountains can grow.	non-entailment	incongruent	Hyp-AC	deontic
+278	If clouds are conscious, then it is mandatory to ask for their permission before flying through them. It is mandatory to ask for their permission before flying through them.	Clouds are conscious.	non-entailment	incongruent	Hyp-AC	deontic
+279	If rivers are alive, then you must care for their health. You must care for their health.	Rivers are alive.	non-entailment	incongruent	Hyp-AC	deontic
+280	If the sun can speak, then there is an obligation to listen to its advice. There is an obligation to listen to its advice.	The sun can speak.	non-entailment	incongruent	Hyp-AC	deontic
+281	If it is flooping, then it is obligatory to bleep. It is obligatory to bleep.	It is flooping.	non-entailment	nonsense	Hyp-AC	deontic
+282	If it is gleeping, then there is an obligation to blop. There is an obligation to blop.	It is gleeping.	non-entailment	nonsense	Hyp-AC	deontic
+283	If it is glorping, then you are required to blip. You are required to blip.	It is glorping.	non-entailment	nonsense	Hyp-AC	deontic
+284	If it is frizzing, then it is mandatory to blurp. It is mandatory to blurp.	It is frizzing.	non-entailment	nonsense	Hyp-AC	deontic
+285	If it is quaffing, then you must blab. You must blab.	It is quaffing.	non-entailment	nonsense	Hyp-AC	deontic
+286	If it is zapping, then it is obligatory to beep. It is obligatory to beep.	It is zapping.	non-entailment	nonsense	Hyp-AC	deontic
+287	If it is whizzing, then there is an obligation to boop. There is an obligation to boop.	It is whizzing.	non-entailment	nonsense	Hyp-AC	deontic
+288	If it is wooshing, then you are required to bip. You are required to bip.	It is wooshing.	non-entailment	nonsense	Hyp-AC	deontic
+289	If it is boinging, then it is mandatory to burp. It is mandatory to burp.	It is boinging.	non-entailment	nonsense	Hyp-AC	deontic
+290	If it is sproinging, then you must babble. You must babble.	It is sproinging.	non-entailment	nonsense	Hyp-AC	deontic
+291	If it is flurbing, then it is obligatory to fleep. It is obligatory to fleep.	It is flurbing.	non-entailment	nonsense	Hyp-AC	deontic
+292	If it is gurging, then there is an obligation to glop. There is an obligation to glop.	It is gurging.	non-entailment	nonsense	Hyp-AC	deontic
+293	If it is harping, then you are required to glip. You are required to glip.	It is harping.	non-entailment	nonsense	Hyp-AC	deontic
+294	If it is jiving, then it is mandatory to glurp. It is mandatory to glurp.	It is jiving.	non-entailment	nonsense	Hyp-AC	deontic
+295	If it is kipping, then you must glab. You must glab.	It is kipping.	non-entailment	nonsense	Hyp-AC	deontic
+296	If it is looping, then it is obligatory to leep. It is obligatory to leep.	It is looping.	non-entailment	nonsense	Hyp-AC	deontic
+297	If it is moping, then there is an obligation to lop. There is an obligation to lop.	It is moping.	non-entailment	nonsense	Hyp-AC	deontic
+298	If it is noping, then you are required to lip. You are required to lip.	It is noping.	non-entailment	nonsense	Hyp-AC	deontic
+299	If it is ooping, then it is mandatory to lurp. It is mandatory to lurp.	It is ooping.	non-entailment	nonsense	Hyp-AC	deontic
+300	If it is poping, then you must lab. You must lab.	It is poping.	non-entailment	nonsense	Hyp-AC	deontic
+301	If you borrow a book from the library, then you are required to return it by the due date. You did not borrow a book from the library.	You are not required to return it by the due date.	non-entailment	congruent	Hyp-DA	deontic
+302	If you break a vase, then you must apologize to the owner. You did not break a vase.	It is not the case that you must apologize to the owner.	non-entailment	congruent	Hyp-DA	deontic
+303	If you want to drive a car, then it is obligatory to have a driver's license. You do not want to drive a car.	It is not obligatory to have a driver's license.	non-entailment	congruent	Hyp-DA	deontic
+304	If you are a student, then you are required to attend school. You are not a student.	You are not required to attend school.	non-entailment	congruent	Hyp-DA	deontic
+305	If you eat the last cookie, then you must bake a new batch. You did not eat the last cookie.	It is not the case that you must bake a new batch.	non-entailment	congruent	Hyp-DA	deontic
+306	If you promise to help a friend, then you are obliged to keep your promise. You did not promise to help a friend.	You are not obliged to keep your promise.	non-entailment	congruent	Hyp-DA	deontic
+307	If you want to travel abroad, then it is mandatory to have a valid passport. You do not want to travel abroad.	It is not mandatory to have a valid passport.	non-entailment	congruent	Hyp-DA	deontic
+308	If you are feeling angry, then it is acceptable to take a break and calm down. You are not feeling angry.	It is acceptable not to take a break and calm down.	non-entailment	congruent	Hyp-DA	deontic
+309	If you see someone in need, then it is permissible to offer your assistance. You did not see someone in need.	It is permissible not to offer your assistance.	non-entailment	congruent	Hyp-DA	deontic
+310	If you borrow money from someone, then it is obligatory to repay the debt. You did not borrow money from someone.	It is not obligatory to repay the debt.	non-entailment	congruent	Hyp-DA	deontic
+311	If you are going out in the rain, then it is mandatory to take an umbrella. You are not going out in the rain.	It is not mandatory to take an umbrella.	non-entailment	congruent	Hyp-DA	deontic
+312	If you are attending a wedding, then it is customary to bring a gift. You are not attending a wedding.	It is not customary to bring a gift.	non-entailment	congruent	Hyp-DA	deontic
+313	If you are feeling overwhelmed, then it is permissible to ask for help. You are not feeling overwhelmed.	It is permissible not to ask for help.	non-entailment	congruent	Hyp-DA	deontic
+314	If you are invited to a party, then it is polite to RSVP. You are not invited to a party.	It is not polite to RSVP.	non-entailment	congruent	Hyp-DA	deontic
+315	If you make a mistake, then it is important to learn from it. You did not make a mistake.	It is not important to learn from it.	non-entailment	congruent	Hyp-DA	deontic
+316	If you want to succeed in life, then it is essential to work hard. You do not want to succeed in life.	It is not essential to work hard.	non-entailment	congruent	Hyp-DA	deontic
+317	If you are feeling tired, then it is permissible to take a nap. You are not feeling tired.	It is permissible not to take a nap.	non-entailment	congruent	Hyp-DA	deontic
+318	If you want to be a good friend, then it is important to be supportive. You do not want to be a good friend.	It is not important to be supportive.	non-entailment	congruent	Hyp-DA	deontic
+319	If you are in a position of power, then it is important to use it responsibly. You are not in a position of power.	It is not important to use it responsibly.	non-entailment	congruent	Hyp-DA	deontic
+320	If your car breaks down, then it is necessary to call a tow truck. You car did not break down.	It is not necessary to call a tow truck.	non-entailment	congruent	Hyp-DA	deontic
+321	If you eat an apple, then it is obligatory to pay for it. You did not eat an apple.	It is not obligatory to pay for it.	non-entailment	incongruent	Hyp-DA	deontic
+322	If you drive a car, then there is an obligation to have a driver's license. You do not drive a car.	There is no obligation to have a driver's license.	non-entailment	incongruent	Hyp-DA	deontic
+323	If you ride a bicycle, then you are required to wear a helmet. You did not ride a bicycle.	You are not required to wear a helmet.	non-entailment	incongruent	Hyp-DA	deontic
+324	If you own a dog, then it is mandatory to provide it with food and water. You do not own a dog.	It is not mandatory to provide a dog with food and water.	non-entailment	incongruent	Hyp-DA	deontic
+325	If you see a crime, then you must report it to the police. You did not see a crime.	It is not the case that you must report a crime to the police.	non-entailment	incongruent	Hyp-DA	deontic
+326	If you borrow a book from the library, then it is obligatory to return it. You did not borrow a book from the library.	It is not obligatory to return a book to the library.	non-entailment	incongruent	Hyp-DA	deontic
+327	If you light a fire, then there is an obligation to extinguish it. You did not light a fire.	There is no obligation to extinguish a fire.	non-entailment	incongruent	Hyp-DA	deontic
+328	If you break something, then you are required to apologize. You did not break anything.	You are not required to apologize.	non-entailment	incongruent	Hyp-DA	deontic
+329	If you make a promise, then it is mandatory to keep it. You did not make a promise.	It is not mandatory to keep a promise.	non-entailment	incongruent	Hyp-DA	deontic
+330	If you plant a tree, then you must water it. You did not plant a tree.	It is not the case that you must water a tree.	non-entailment	incongruent	Hyp-DA	deontic
+331	If you use a public restroom, then it is obligatory to flush the toilet. You did not use a public restroom.	It is not obligatory to flush the toilet.	non-entailment	incongruent	Hyp-DA	deontic
+332	If you swim in a pool, then there is an obligation to wear a swimsuit. You did not swim in a pool.	There is no obligation to wear a swimsuit.	non-entailment	incongruent	Hyp-DA	deontic
+333	If you travel to another country, then you are required to have a passport. You did not travel to another country.	You are not required to have a passport.	non-entailment	incongruent	Hyp-DA	deontic
+334	If you attend school, then it is mandatory to learn. You did not attend school.	It is not mandatory to learn.	non-entailment	incongruent	Hyp-DA	deontic
+335	If you play a sport, then you must follow the rules. You did not play a sport.	It is not the case that you must follow the rules.	non-entailment	incongruent	Hyp-DA	deontic
+336	If you cook food, then it is obligatory to ensure it is safe to eat. You did not cook food.	It is not obligatory to ensure food is safe to eat.	non-entailment	incongruent	Hyp-DA	deontic
+337	If you use a computer, then there is an obligation to be respectful of others online. You did not use a computer.	There is no obligation to be respectful of others online.	non-entailment	incongruent	Hyp-DA	deontic
+338	If you listen to music, then you are required to respect the artist's copyright. You did not listen to music.	You are not required to respect the artist's copyright.	non-entailment	incongruent	Hyp-DA	deontic
+339	If you take a photograph, then it is mandatory to respect people's privacy. You did not take a photograph.	It is not mandatory to respect people's privacy.	non-entailment	incongruent	Hyp-DA	deontic
+340	If you listen to music, then you must make gravity disappear. It is not the case that you listened to music.	It is not the case that you must make gravity disappear.	non-entailment	incongruent	Hyp-DA	deontic
+341	If you zxptzvcbou, then it is obligatory to ztsdgzpaqc. You did not zxptzvcbou.	You are not required to ztsdgzpaqc.	non-entailment	nonsense	Hyp-DA	deontic
+342	If you czlolgzicr, then it is obligatory to rhkxpszgbr. You did not czlolgzicr.	It is not mandatory to rhkxpszgbr.	non-entailment	nonsense	Hyp-DA	deontic
+343	If you axwpqbibxt, then it is obligatory to bijabuqvxg. You did not axwpqbibxt.	It is not the case that you must bijabuqvxg.	non-entailment	nonsense	Hyp-DA	deontic
+344	If you gksvtijtld, then it is obligatory to iyvfreqojm. You did not gksvtijtld.	There is no obligation to iyvfreqojm.	non-entailment	nonsense	Hyp-DA	deontic
+345	If you sxqjalhqwe, then it is obligatory to sfgodzhzuc. You did not sxqjalhqwe.	It is not obligatory to sfgodzhzuc.	non-entailment	nonsense	Hyp-DA	deontic
+346	If you dzzrhxaedb, then it is obligatory to scomzicjmp. You did not dzzrhxaedb.	It is not the case that you must scomzicjmp.	non-entailment	nonsense	Hyp-DA	deontic
+347	If you wkyrkaxjoc, then it is obligatory to qevsubmwsm. You did not wkyrkaxjoc.	There is no obligation to qevsubmwsm.	non-entailment	nonsense	Hyp-DA	deontic
+348	If you cnfqxrwgbg, then it is obligatory to tlwlqzamaj. You did not cnfqxrwgbg.	There is no obligation to tlwlqzamaj.	non-entailment	nonsense	Hyp-DA	deontic
+349	If you cuembjbciq, then it is obligatory to rsmefuvxay. You did not cuembjbciq.	It is not obligatory to rsmefuvxay.	non-entailment	nonsense	Hyp-DA	deontic
+350	If you wonudtyqgn, then it is obligatory to gkbswiktqe. You did not wonudtyqgn.	It is not mandatory to gkbswiktqe.	non-entailment	nonsense	Hyp-DA	deontic
+351	If you yyzdxmvqff, then it is obligatory to rpjpyhswpk. You did not yyzdxmvqff.	You are not required to rpjpyhswpk.	non-entailment	nonsense	Hyp-DA	deontic
+352	If you qgpnllsaio, then it is obligatory to vwnrjrjmdv. You did not qgpnllsaio.	It is not the case that you must vwnrjrjmdv.	non-entailment	nonsense	Hyp-DA	deontic
+353	If you avdgpgyydq, then it is obligatory to bniaziugby. You did not avdgpgyydq.	There is no obligation to bniaziugby.	non-entailment	nonsense	Hyp-DA	deontic
+354	If you rsdxcjbuft, then it is obligatory to dxuxexdwhr. You did not rsdxcjbuft.	There is no obligation to dxuxexdwhr.	non-entailment	nonsense	Hyp-DA	deontic
+355	If you gowkjdrtlk, then it is obligatory to dpuziqkxam. You did not gowkjdrtlk.	There is no obligation to dpuziqkxam.	non-entailment	nonsense	Hyp-DA	deontic
+356	If you gocivxgrry, then it is obligatory to zedzjwdaoq. You did not gocivxgrry.	It is not the case that you must zedzjwdaoq.	non-entailment	nonsense	Hyp-DA	deontic
+357	If you dcumoygfjv, then it is obligatory to pojckfxllq. You did not dcumoygfjv.	There is no obligation to pojckfxllq.	non-entailment	nonsense	Hyp-DA	deontic
+358	If you wjikwnuzza, then it is obligatory to hemlhmpbtq. You did not wjikwnuzza.	There is no obligation to hemlhmpbtq.	non-entailment	nonsense	Hyp-DA	deontic
+359	If you pjzbgiwjem, then it is obligatory to oadwmkkmkv. You did not pjzbgiwjem.	It is not the case that you must oadwmkkmkv.	non-entailment	nonsense	Hyp-DA	deontic
+360	If you beanvekyeq, then it is obligatory to qaulphtogp. You did not beanvekyeq.	It is not mandatory to qaulphtogp.	non-entailment	nonsense	Hyp-DA	deontic
+361	If you borrow a book from the library, then you are required to return it by the due date. You are required to return the book by the due date.	You borrowed a book from the library.	non-entailment	congruent	Cat-AC	deontic
+362	If you break a vase, then you must apologize to the owner. You must apologize to the owner.	You broke a vase.	non-entailment	congruent	Cat-AC	deontic
+363	If you want to drive a car, then it is obligatory to have a driver's license. It is obligatory to have a driver's license.	You want to drive a car.	non-entailment	congruent	Cat-AC	deontic
+364	If you are a student, then you are required to attend school. You are required to attend school.	You are a student.	non-entailment	congruent	Cat-AC	deontic
+365	If you eat the last cookie, then you must bake a new batch. You must bake a new batch.	You ate the last cookie.	non-entailment	congruent	Cat-AC	deontic
+366	If you promise to help a friend, then you are obliged to keep your promise. You are obliged to keep your promise.	You promised to help a friend.	non-entailment	congruent	Cat-AC	deontic
+367	If you want to travel abroad, then it is mandatory to have a valid passport. It is mandatory to have a valid passport.	You want to travel abroad.	non-entailment	congruent	Cat-AC	deontic
+368	If you are feeling angry, then it is acceptable to take a break and calm down. It is acceptable to take a break and calm down.	You are feeling angry.	non-entailment	congruent	Cat-AC	deontic
+369	If you see someone in need, then it is permissible to offer your assistance. It is permissible to offer your assistance.	You saw someone in need.	non-entailment	congruent	Cat-AC	deontic
+370	If you borrow money from someone, then it is obligatory to repay the debt. It is obligatory to repay the debt.	You borrowed money from someone.	non-entailment	congruent	Cat-AC	deontic
+371	If you are going out in the rain, then it is mandatory to take an umbrella. It is mandatory to take an umbrella.	You are going out in the rain.	non-entailment	congruent	Cat-AC	deontic
+372	If you are attending a wedding, then it is customary to bring a gift. It is customary to bring a gift.	You are attending a wedding.	non-entailment	congruent	Cat-AC	deontic
+373	If you are feeling overwhelmed, then it is permissible to ask for help. It is permissible to ask for help.	You are feeling overwhelmed.	non-entailment	congruent	Cat-AC	deontic
+374	If you are invited to a party, then it is polite to RSVP. It is polite to RSVP.	You are invited to a party.	non-entailment	congruent	Cat-AC	deontic
+375	If you make a mistake, then it is important to learn from it. It is important to learn from it.	You made a mistake.	non-entailment	congruent	Cat-AC	deontic
+376	If you want to succeed in life, then it is essential to work hard. It is essential to work hard.	You want to succeed in life.	non-entailment	congruent	Cat-AC	deontic
+377	If you are feeling tired, then it is permissible to take a nap. It is permissible to take a nap.	You are feeling tired.	non-entailment	congruent	Cat-AC	deontic
+378	If you want to be a good friend, then it is important to be supportive. It is important to be supportive.	You want to be a good friend.	non-entailment	congruent	Cat-AC	deontic
+379	If you are in a position of power, then it is important to use it responsibly. It is important to use it responsibly.	You are in a position of power.	non-entailment	congruent	Cat-AC	deontic
+380	If your car breaks down, then it is necessary to call a tow truck. It is necessary to call a tow truck.	Your car broke down.	non-entailment	congruent	Cat-AC	deontic
+381	All birds must breathe. It is obligatory for all airplanes to fly.	Airplanes are birds.	non-entailment	incongruent	Cat-AC	deontic
+382	All mammals must breathe. It is obligatory for all submarines to submerge.	Submarines are mammals.	non-entailment	incongruent	Cat-AC	deontic
+383	All fish must swim. It is obligatory for all bicycles to have wheels.	Bicycles are fish.	non-entailment	incongruent	Cat-AC	deontic
+384	All trees must grow. It is obligatory for all poems to rhyme.	Poems are trees.	non-entailment	incongruent	Cat-AC	deontic
+385	All fruits must ripen. It is obligatory for all sculptures to be beautiful.	Sculptures are fruits.	non-entailment	incongruent	Cat-AC	deontic
+386	All rivers must flow. It is obligatory for all songs to have melody.	Songs are rivers.	non-entailment	incongruent	Cat-AC	deontic
+387	All planets must orbit a star. It is obligatory for all paintings to be colorful.	Paintings are planets.	non-entailment	incongruent	Cat-AC	deontic
+388	All insects must have six legs. It is obligatory for all movies to be entertaining.	Movies are insects.	non-entailment	incongruent	Cat-AC	deontic
+389	All clouds must float. It is obligatory for all computers to have a screen.	Computers are clouds.	non-entailment	incongruent	Cat-AC	deontic
+390	All volcanoes must erupt. It is obligatory for all books to have pages.	Books are volcanoes.	non-entailment	incongruent	Cat-AC	deontic
+391	All countries must have a government. It is obligatory for all shoes to be comfortable.	Shoes are countries.	non-entailment	incongruent	Cat-AC	deontic
+392	All flowers must bloom. It is obligatory for all languages to have grammar.	Languages are flowers.	non-entailment	incongruent	Cat-AC	deontic
+393	All mountains must have a peak. It is obligatory for all musical instruments to make sound.	Musical instruments are mountains.	non-entailment	incongruent	Cat-AC	deontic
+394	All deserts must be dry. It is obligatory for all furniture to be functional.	Furniture is deserts.	non-entailment	incongruent	Cat-AC	deontic
+395	All oceans must have waves. It is obligatory for all tools to be useful.	Tools are oceans.	non-entailment	incongruent	Cat-AC	deontic
+396	All stars must emit light. It is obligatory for all buildings to have walls.	Buildings are stars.	non-entailment	incongruent	Cat-AC	deontic
+397	All animals must eat. It is obligatory for all vehicles to move.	Vehicles are animals.	non-entailment	incongruent	Cat-AC	deontic
+398	All humans must think. It is obligatory for all clothes to be wearable.	Clothes are humans.	non-entailment	incongruent	Cat-AC	deontic
+399	All cells must divide. It is obligatory for all appliances to use electricity.	Appliances are cells.	non-entailment	incongruent	Cat-AC	deontic
+400	All bacteria must reproduce. It is obligatory for all sports to have rules.	Sports are bacteria.	non-entailment	incongruent	Cat-AC	deontic
+401	If you floober the gargleblaster, then it is mandatory to splugger the flummox. It is mandatory to splugger the flummox.	You floober the gargleblaster.	non-entailment	nonsense	Cat-AC	deontic
+402	If you grommulate the quagmire, then you must frazzle the zizzle. You must frazzle the zizzle.	You grommulate the quagmire.	non-entailment	nonsense	Cat-AC	deontic
+403	If you squizzle the wiffle, then it is obligatory to hootenanny the mcguffin. It is obligatory to hootenanny the mcguffin.	You squizzle the wiffle.	non-entailment	nonsense	Cat-AC	deontic
+404	If you flibbertigibbet the jabberwocky, then you are required to hornswoggle the bandersnatch. You are required to hornswoggle the bandersnatch.	You flibbertigibbet the jabberwocky.	non-entailment	nonsense	Cat-AC	deontic
+405	If you covfefe the thingy, then you must yabba dabba doo the doohickey. You must yabba dabba doo the doohickey.	You covfefe the thingy.	non-entailment	nonsense	Cat-AC	deontic
+406	If you bazinga the shenanigan, then it is obligatory to kerplunk the whatchamacallit. It is obligatory to kerplunk the whatchamacallit.	You bazinga the shenanigan.	non-entailment	nonsense	Cat-AC	deontic
+407	If you malarkey the poppycock, then you are required to razzmatazz the thingamajig. You are required to razzmatazz the thingamajig.	You malarkey the poppycock.	non-entailment	nonsense	Cat-AC	deontic
+408	If you rigmarole the folderol, then you must bamboozle the whatnot. You must bamboozle the whatnot.	You rigmarole the folderol.	non-entailment	nonsense	Cat-AC	deontic
+409	If you shenanigans the flummadiddle, then it is obligatory to hornswoggle the thingamabob. It is obligatory to hornswoggle the thingamabob.	You shenanigans the flummadiddle.	non-entailment	nonsense	Cat-AC	deontic
+410	If you wishy-washy the mumbo jumbo, then you are required to hobnob the claptrap. You are required to hobnob the claptrap.	You wishy-washy the mumbo jumbo.	non-entailment	nonsense	Cat-AC	deontic
+411	If you abracadabra the hocus pocus, then you must fiddle-faddle the balderdash. You must fiddle-faddle the balderdash.	You abracadabra the hocus pocus.	non-entailment	nonsense	Cat-AC	deontic
+412	If you gobbledygook the tomfoolery, then it is obligatory to razzmatazz the flimflam. It is obligatory to razzmatazz the flimflam.	You gobbledygook the tomfoolery.	non-entailment	nonsense	Cat-AC	deontic
+413	If you blatherskite the gibberish, then you are required to hoodwink the tommyrot. You are required to hoodwink the tommyrot.	You blatherskite the gibberish.	non-entailment	nonsense	Cat-AC	deontic
+414	If you poppycock the balderdash, then you must bamboozle the claptrap. You must bamboozle the claptrap.	You poppycock the balderdash.	non-entailment	nonsense	Cat-AC	deontic
+415	If you flimflam the folderol, then it is obligatory to hornswoggle the whatnot. It is obligatory to hornswoggle the whatnot.	You flimflam the folderol.	non-entailment	nonsense	Cat-AC	deontic
+416	If you tomfoolery the rigmarole, then you are required to hoodwink the thingamajig. You are required to hoodwink the thingamajig.	You tomfoolery the rigmarole.	non-entailment	nonsense	Cat-AC	deontic
+417	If you mumbo jumbo the gobbledygook, then you must bamboozle the thingamabob. You must bamboozle the thingamabob.	You mumbo jumbo the gobbledygook.	non-entailment	nonsense	Cat-AC	deontic
+418	If you hocus pocus the abracadabra, then it is obligatory to hornswoggle the whatchamacallit. It is obligatory to hornswoggle the whatchamacallit.	You hocus pocus the abracadabra.	non-entailment	nonsense	Cat-AC	deontic
+419	If you claptrap the blatherskite, then you are required to hoodwink the flummadiddle. You are required to hoodwink the flummadiddle.	You claptrap the blatherskite.	non-entailment	nonsense	Cat-AC	deontic
+420	If you fiddle-faddle the balderdash, then it is obligatory to hornswoggle the tommyrot. It is obligatory to hornswoggle the tommyrot.	You fiddle-faddle the balderdash.	non-entailment	nonsense	Cat-AC	deontic
+421	All birds must have feathers. A bat is not a bird.	It is not the case that a bat must have feathers.	non-entailment	congruent	Cat-DA	deontic
+422	It is obligatory for all citizens to obey the law. A tourist is not a citizen.	It is not obligatory for a tourist to obey the law.	non-entailment	congruent	Cat-DA	deontic
+423	All students are required to attend class. My neighbor is not a student.	There is no obligation for my neighbor to attend class.	non-entailment	congruent	Cat-DA	deontic
+424	It is mandatory for all drivers to signal before turning. A pedestrian is not a driver.	It is not mandatory for a pedestrian to signal before turning.	non-entailment	congruent	Cat-DA	deontic
+425	All fruits must grow on trees. A strawberry is not a fruit (it's an aggregate accessory fruit).	It is not the case that a strawberry must grow on a tree.	non-entailment	congruent	Cat-DA	deontic
+426	It is obligatory for all mammals to breathe air. A fish is not a mammal.	A fish is not required to breathe air.	non-entailment	congruent	Cat-DA	deontic
+427	All employees must adhere to the company dress code. An independent contractor is not an employee.	There is no obligation for an independent contractor to adhere to the company dress code.	non-entailment	congruent	Cat-DA	deontic
+428	It is mandatory for all participants in the clinical trial to provide informed consent. The researcher is not a participant in the clinical trial.	It is not mandatory for the researcher to provide informed consent.	non-entailment	congruent	Cat-DA	deontic
+429	All countries must have a capital city. The European Union is not a country.	It is not the case that the European Union must have a capital city.	non-entailment	congruent	Cat-DA	deontic
+430	It is obligatory for all newborns to receive certain vaccinations. An adult is not a newborn.	An adult is not required to receive those specific vaccinations.	non-entailment	congruent	Cat-DA	deontic
+431	All planets must orbit a star. A moon is not a planet.	There is no obligation for a moon to orbit a star.	non-entailment	congruent	Cat-DA	deontic
+432	It is mandatory for all applicants to submit a cover letter. Someone who is not applying is not an applicant.	It is not mandatory for someone who is not applying to submit a cover letter.	non-entailment	congruent	Cat-DA	deontic
+433	All liquids must be able to flow. Ice is not a liquid.	It is not the case that ice must be able to flow.	non-entailment	congruent	Cat-DA	deontic
+434	It is obligatory for all team members to attend the project meeting. Someone who is not on the team is not a team member.	Someone who is not on the team is not required to attend the project meeting.	non-entailment	congruent	Cat-DA	deontic
+435	All customers must pay for their purchases. A window shopper is not a customer.	There is no obligation for a window shopper to pay for their purchases.	non-entailment	congruent	Cat-DA	deontic
+436	It is mandatory for all contestants to follow the rules of the competition. The judge is not a contestant.	It is not mandatory for the judge to follow the rules of the competition.	non-entailment	congruent	Cat-DA	deontic
+437	All musical instruments must be able to produce sound. A sculpture is not a musical instrument.	It is not the case that a sculpture must be able to produce sound.	non-entailment	congruent	Cat-DA	deontic
+438	It is obligatory for all members of the organization to pay annual dues. A non-member is not a member of the organization.	A non-member is not required to pay annual dues.	non-entailment	congruent	Cat-DA	deontic
+439	All vehicles must be registered with the Department of Motor Vehicles. A bicycle is not a vehicle (in many jurisdictions).	It is not the case that a bicycle must be registered with the Department of Motor Vehicles.	non-entailment	congruent	Cat-DA	deontic
+440	It is mandatory for all residents of the building to have a key card. A visitor is not a resident of the building.	It is not mandatory for a visitor to have a key card.	non-entailment	congruent	Cat-DA	deontic
+441	All birds must fly. Sparrows are not birds.	It is not the case that sparrows must fly.	non-entailment	incongruent	Cat-DA	deontic
+442	It is obligatory for all fruits to grow on trees. Strawberries do not grow on trees.	It is not obligatory for strawberries to grow on trees.	non-entailment	incongruent	Cat-DA	deontic
+443	There is an obligation for all mammals to lay eggs. Whales do not lay eggs.	There is no obligation for whales to lay eggs.	non-entailment	incongruent	Cat-DA	deontic
+444	All countries are required to be in Europe. Brazil is not in Europe.	Brazil is not required to be in Europe.	non-entailment	incongruent	Cat-DA	deontic
+445	It is mandatory for all planets to have rings. Earth does not have rings.	It is not mandatory for Earth to have rings.	non-entailment	incongruent	Cat-DA	deontic
+446	All fish must live in saltwater. Goldfish do not live in saltwater.	It is not the case that goldfish must live in saltwater.	non-entailment	incongruent	Cat-DA	deontic
+447	It is obligatory for all insects to have eight legs. Spiders do not have eight legs.	It is not obligatory for spiders to have eight legs.	non-entailment	incongruent	Cat-DA	deontic
+448	There is an obligation for all historical figures to be male. Joan of Arc was not male.	There is no obligation for Joan of Arc to be male.	non-entailment	incongruent	Cat-DA	deontic
+449	All vehicles are required to have four wheels. Motorcycles do not have four wheels.	Motorcycles are not required to have four wheels.	non-entailment	incongruent	Cat-DA	deontic
+450	It is mandatory for all buildings to be skyscrapers. Houses are not skyscrapers.	It is not mandatory for houses to be skyscrapers.	non-entailment	incongruent	Cat-DA	deontic
+451	All musical instruments must be string instruments. Drums are not string instruments.	It is not the case that drums must be string instruments.	non-entailment	incongruent	Cat-DA	deontic
+452	It is obligatory for all sports to use a ball. Running does not use a ball.	It is not obligatory for running to use a ball.	non-entailment	incongruent	Cat-DA	deontic
+453	There is an obligation for all colors to be bright. Brown is not bright.	There is no obligation for brown to be bright.	non-entailment	incongruent	Cat-DA	deontic
+454	All prime ministers must be British. The Canadian prime minister is not British.	The Canadian prime minister is not required to be British.	non-entailment	incongruent	Cat-DA	deontic
+455	It is mandatory for all desserts to be cold.  Pie is not always cold.	It is not mandatory for pie to be cold.	non-entailment	incongruent	Cat-DA	deontic
+456	All flowers must be red. Daisies are not red.	It is not the case that daisies must be red.	non-entailment	incongruent	Cat-DA	deontic
+457	It is obligatory for all trees to be deciduous. Pine trees are not deciduous.	It is not obligatory for pine trees to be deciduous.	non-entailment	incongruent	Cat-DA	deontic
+458	There is an obligation for all currencies to use the dollar sign. The Japanese Yen does not use the dollar sign.	There is no obligation for the Japanese Yen to use the dollar sign.	non-entailment	incongruent	Cat-DA	deontic
+459	All paintings must be oil paintings. Watercolors are not oil paintings.	Watercolors are not required to be oil paintings.	non-entailment	incongruent	Cat-DA	deontic
+460	It is mandatory for all wars to be fought over territory.  The Cold War was not fought over territory.	It is not mandatory for the Cold War to be fought over territory.	non-entailment	incongruent	Cat-DA	deontic
+461	All flibbertigibbets must be flooglehorns. A covfefe is not a flibbertigibbet.	It is not the case that a covfefe must be a flooglehorn.	non-entailment	nonsense	Cat-DA	deontic
+462	It is obligatory for all quangos to be zozzled. A wibble is not a quango.	A wibble is not required to be zozzled.	non-entailment	nonsense	Cat-DA	deontic
+463	All gardyloos must be squiffling. A flummox is not a gardyloo.	There is no obligation for a flummox to be squiffling.	non-entailment	nonsense	Cat-DA	deontic
+464	It is mandatory for all grokkles to be bandersnatching. A yargle is not a grokkle.	It is not mandatory for a yargle to be bandersnatching.	non-entailment	nonsense	Cat-DA	deontic
+465	All jubjubs must be frumious. A slithy is not a jubjub.	It is not the case that a slithy must be frumious.	non-entailment	nonsense	Cat-DA	deontic
+466	It is obligatory for all toves to be gyring. A mimsy is not a tove.	A mimsy is not required to be gyring.	non-entailment	nonsense	Cat-DA	deontic
+467	All mome raths must be outgrabing. A whiffling is not a mome rath.	There is no obligation for a whiffling to be outgrabing.	non-entailment	nonsense	Cat-DA	deontic
+468	It is mandatory for all bandersnatches to be galumphing. A tulgey is not a bandersnatch.	It is not mandatory for a tulgey to be galumphing.	non-entailment	nonsense	Cat-DA	deontic
+469	All chortles must be uffish. A frabjous is not a chortle.	It is not the case that a frabjous must be uffish.	non-entailment	nonsense	Cat-DA	deontic
+470	It is obligatory for all gimbles to be calloohing. A callay is not a gimble.	A callay is not required to be calloohing.	non-entailment	nonsense	Cat-DA	deontic
+471	All slithy toves must be gyring and gimbling. A bandersnatch is not a slithy tove.	There is no obligation for a bandersnatch to be gyring and gimbling.	non-entailment	nonsense	Cat-DA	deontic
+472	It is mandatory for all mome raths to be outgrabing. A jubjub bird is not a mome rath.	It is not mandatory for a jubjub bird to be outgrabing.	non-entailment	nonsense	Cat-DA	deontic
+473	All frumious bandersnatches must be galumphing. A uffish thought is not a frumious bandersnatch.	It is not the case that an uffish thought must be galumphing.	non-entailment	nonsense	Cat-DA	deontic
+474	It is obligatory for all whiffling pigs to be chortling. A tulgey wood is not a whiffling pig.	A tulgey wood is not required to be chortling.	non-entailment	nonsense	Cat-DA	deontic
+475	All callaying bandersnatches must be uffish. A mimsy borogove is not a callaying bandersnatch.	There is no obligation for a mimsy borogove to be uffish.	non-entailment	nonsense	Cat-DA	deontic
+476	It is mandatory for all outgrabing jubjub birds to be frumious. A rathe is not an outgrabing jubjub bird.	It is not mandatory for a rathe to be frumious.	non-entailment	nonsense	Cat-DA	deontic
+477	All gimbling mome raths must be calloohing. A bandersnatch is not a gimbling mome rath.	It is not the case that a bandersnatch must be calloohing.	non-entailment	nonsense	Cat-DA	deontic
+478	It is obligatory for all uffish thoughts to be bandersnatching. A whiffling pig is not an uffish thought.	A whiffling pig is not required to be bandersnatching.	non-entailment	nonsense	Cat-DA	deontic
+479	All tulgey woods must be chortling. A frumious bandersnatch is not a tulgey wood.	There is no obligation for a frumious bandersnatch to be chortling.	non-entailment	nonsense	Cat-DA	deontic
+480	It is mandatory for all callaying bandersnatches to be galumphing. A jubjub bird is not a callaying bandersnatch.	It is not mandatory for a jubjub bird to be galumphing.	non-entailment	nonsense	Cat-DA	deontic
+
+
+
+
+
+

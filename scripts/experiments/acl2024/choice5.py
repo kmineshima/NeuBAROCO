@@ -4,7 +4,7 @@ from textwrap import dedent
 import openai
 import pandas as pd
 
-from scripts.lib import Choice5Experiment
+from scripts.lib.v1 import Choice5Experiment
 
 
 def run_choice5(exp, model, prompt: str | None = None, output_dir="choice5", lang="en"):

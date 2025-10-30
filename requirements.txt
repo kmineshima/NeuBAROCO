@@ -9,6 +9,7 @@ litellm
 # for reporter
 jinja2
 matplotlib
+seaborn
 
 # for cost estimator
 tiktoken

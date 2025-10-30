@@ -15,8 +15,8 @@ from rich.logging import RichHandler
 from rich.progress import track
 from tenacity import RetryError, Retrying, stop_after_attempt, wait_random_exponential
 
-from scripts.lib.reporter import create_report, create_report_overall
-from scripts.lib.tokens import cost_from_messages
+from scripts.lib.v1.reporter import create_report, create_report_overall
+from scripts.lib.v1.tokens import cost_from_messages
 
 # # openai-python v1: Disable httpx logging in openai-python:
 logging.getLogger("httpx").setLevel(logging.WARNING)

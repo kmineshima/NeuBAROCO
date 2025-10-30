@@ -1,0 +1,641 @@
+ID	premise_en	hypothesis_en	gold	content-type	inference-pattern	modal
+1	You are not required to attend the meeting.	You are permitted not to attend the meeting.	entailment	congruent	NotMu-MiNot	deontic
+2	It is not obligatory to eat breakfast.	It is permissible not to eat breakfast.	entailment	congruent	NotMu-MiNot	deontic
+3	There is no obligation to reply to the email.	You are allowed not to reply to the email.	entailment	congruent	NotMu-MiNot	deontic
+4	It is not mandatory to take a shower every day.	It is acceptable not to take a shower every day.	entailment	congruent	NotMu-MiNot	deontic
+5	It is not the case that you must believe in God.	You can choose not to believe in God.	entailment	congruent	NotMu-MiNot	deontic
+6	It is not obligatory to follow the rules.	You are permitted not to follow the rules.	entailment	congruent	NotMu-MiNot	deontic
+7	You are not required to love your parents.	It is acceptable not to love your parents.	entailment	congruent	NotMu-MiNot	deontic
+8	There is no obligation to donate to charity.	You are allowed not to donate to charity.	entailment	congruent	NotMu-MiNot	deontic
+9	It is not mandatory to vote in the election.	You can choose not to vote in the election.	entailment	congruent	NotMu-MiNot	deontic
+10	It is not the case that you must have children.	It is permissible not to have children.	entailment	congruent	NotMu-MiNot	deontic
+11	You are not required to wear a suit.	You are allowed not to wear a suit.	entailment	congruent	NotMu-MiNot	deontic
+12	It is not obligatory to be polite.	It is acceptable not to be polite.	entailment	congruent	NotMu-MiNot	deontic
+13	There is no obligation to agree with everyone.	You can choose not to agree with everyone.	entailment	congruent	NotMu-MiNot	deontic
+14	It is not mandatory to go to college.	It is permissible not to go to college.	entailment	congruent	NotMu-MiNot	deontic
+15	It is not the case that you must own a car.	You are permitted not to own a car.	entailment	congruent	NotMu-MiNot	deontic
+16	It is not obligatory to exercise every day.	You are allowed not to exercise every day.	entailment	congruent	NotMu-MiNot	deontic
+17	You are not required to have a Facebook account.	It is acceptable not to have a Facebook account.	entailment	congruent	NotMu-MiNot	deontic
+18	There is no obligation to drink alcohol.	You can choose not to drink alcohol.	entailment	congruent	NotMu-MiNot	deontic
+19	It is not mandatory to celebrate Christmas.	It is permissible not to celebrate Christmas.	entailment	congruent	NotMu-MiNot	deontic
+20	It is not the case that you must like your job.	You are permitted not to like your job.	entailment	congruent	NotMu-MiNot	deontic
+21	It is not obligatory to love your children.	It is permissible not to love your children.	entailment	incongruent	NotMu-MiNot	deontic
+22	There is no obligation to eat when you're hungry.	You are permitted not to eat when you're hungry.	entailment	incongruent	NotMu-MiNot	deontic
+23	You are not required to sleep when tired.	You are allowed not to sleep when tired.	entailment	incongruent	NotMu-MiNot	deontic
+24	It is not mandatory to breathe.	It is acceptable not to breathe.	entailment	incongruent	NotMu-MiNot	deontic
+25	It is not the case that you must have a pulse.	You can choose not to have a pulse.	entailment	incongruent	NotMu-MiNot	deontic
+26	It is not obligatory to show remorse for your actions.	It is permissible not to show remorse for your actions.	entailment	incongruent	NotMu-MiNot	deontic
+27	There is no obligation to wear clothes in public.	You are permitted not to wear clothes in public.	entailment	incongruent	NotMu-MiNot	deontic
+28	You are not required to help someone in danger.	You are allowed not to help someone in danger.	entailment	incongruent	NotMu-MiNot	deontic
+29	It is not mandatory to go to the doctor when sick.	It is acceptable not to go to the doctor when sick.	entailment	incongruent	NotMu-MiNot	deontic
+30	It is not the case that you must be kind to animals.	You can choose not to be kind to animals.	entailment	incongruent	NotMu-MiNot	deontic
+31	It is not obligatory to feel pain when injured.	It is permissible not to feel pain when injured.	entailment	incongruent	NotMu-MiNot	deontic
+32	There is no obligation to stop at a red light.	You are permitted not to stop at a red light.	entailment	incongruent	NotMu-MiNot	deontic
+33	You are not required to pay for goods you receive.	You are allowed not to pay for goods you receive.	entailment	incongruent	NotMu-MiNot	deontic
+34	It is not mandatory to tell the truth.	It is acceptable not to tell the truth.	entailment	incongruent	NotMu-MiNot	deontic
+35	It is not the case that you must keep promises.	You can choose not to keep promises.	entailment	incongruent	NotMu-MiNot	deontic
+36	It is not obligatory to grow old.	It is permissible not to grow old.	entailment	incongruent	NotMu-MiNot	deontic
+37	There is no obligation to learn from your mistakes.	You are permitted not to learn from your mistakes.	entailment	incongruent	NotMu-MiNot	deontic
+38	You are not required to care for your family.	You are allowed not to care for your family.	entailment	incongruent	NotMu-MiNot	deontic
+39	It is not mandatory to evolve as a person.	It is acceptable not to evolve as a person.	entailment	incongruent	NotMu-MiNot	deontic
+40	It is not the case that you must respect others' property.	You can choose not to respect others' property.	entailment	incongruent	NotMu-MiNot	deontic
+41	It is not obligatory to flibbertigibbet.	It is permissible not to flibbertigibbet.	entailment	nonsense	NotMu-MiNot	deontic
+42	You are not required to gobbledygook.	You are permitted not to gobbledygook.	entailment	nonsense	NotMu-MiNot	deontic
+43	There is no obligation to hootenanny.	You are allowed not to hootenanny.	entailment	nonsense	NotMu-MiNot	deontic
+44	It is not mandatory to codswallop.	It is acceptable not to codswallop.	entailment	nonsense	NotMu-MiNot	deontic
+45	It is not the case that you must malarkey.	You can choose not to malarkey.	entailment	nonsense	NotMu-MiNot	deontic
+46	It is not obligatory to shenanigans.	You are permitted not to shenanigans.	entailment	nonsense	NotMu-MiNot	deontic
+47	You are not required to flummox.	It is acceptable not to flummox.	entailment	nonsense	NotMu-MiNot	deontic
+48	There is no obligation to bamboozle.	You are allowed not to bamboozle.	entailment	nonsense	NotMu-MiNot	deontic
+49	It is not mandatory to discombobulate.	You can choose not to discombobulate.	entailment	nonsense	NotMu-MiNot	deontic
+50	It is not the case that you must kerfuffle.	It is permissible not to kerfuffle.	entailment	nonsense	NotMu-MiNot	deontic
+51	You are not required to razzmatazz.	You are allowed not to razzmatazz.	entailment	nonsense	NotMu-MiNot	deontic
+52	It is not obligatory to skedaddle.	It is acceptable not to skedaddle.	entailment	nonsense	NotMu-MiNot	deontic
+53	There is no obligation to whippersnapper.	You can choose not to whippersnapper.	entailment	nonsense	NotMu-MiNot	deontic
+54	It is not mandatory to nincompoop.	It is permissible not to nincompoop.	entailment	nonsense	NotMu-MiNot	deontic
+55	It is not the case that you must lollygag.	You are permitted not to lollygag.	entailment	nonsense	NotMu-MiNot	deontic
+56	It is not obligatory to wabbit.	You are allowed not to wabbit.	entailment	nonsense	NotMu-MiNot	deontic
+57	You are not required to ballyhoo.	It is acceptable not to ballyhoo.	entailment	nonsense	NotMu-MiNot	deontic
+58	There is no obligation to poppycock.	You can choose not to poppycock.	entailment	nonsense	NotMu-MiNot	deontic
+59	It is not mandatory to gobbledegook.	It is permissible not to gobbledegook.	entailment	nonsense	NotMu-MiNot	deontic
+60	It is not the case that you must mumbo jumbo.	You are permitted not to mumbo jumbo.	entailment	nonsense	NotMu-MiNot	deontic
+61	It is not permissible to cheat on the exam.	You are required not to cheat on the exam.	entailment	congruent	NotMi-MuNot	deontic
+62	You are not permitted to steal.	It is mandatory not to steal.	entailment	congruent	NotMi-MuNot	deontic
+63	You are not allowed to murder.	You must not murder.	entailment	congruent	NotMi-MuNot	deontic
+64	It is not acceptable to lie to your parents.	There is an obligation not to lie to your parents.	entailment	congruent	NotMi-MuNot	deontic
+65	You cannot choose to drive under the influence.	It is obligatory not to drive under the influence.	entailment	congruent	NotMi-MuNot	deontic
+66	It is not permissible to discriminate against others.	You are required not to discriminate against others.	entailment	congruent	NotMi-MuNot	deontic
+67	You are not permitted to harm animals.	It is mandatory not to harm animals.	entailment	congruent	NotMi-MuNot	deontic
+68	You are not allowed to commit fraud.	You must not commit fraud.	entailment	congruent	NotMi-MuNot	deontic
+69	It is not acceptable to break the law.	There is an obligation not to break the law.	entailment	congruent	NotMi-MuNot	deontic
+70	You cannot choose to ignore a crying baby.	It is obligatory not to ignore a crying baby.	entailment	congruent	NotMi-MuNot	deontic
+71	It is not permissible to spread misinformation.	You are required not to spread misinformation.	entailment	congruent	NotMi-MuNot	deontic
+72	You are not permitted to litter.	It is mandatory not to litter.	entailment	congruent	NotMi-MuNot	deontic
+73	You are not allowed to trespass.	You must not trespass.	entailment	congruent	NotMi-MuNot	deontic
+74	It is not acceptable to betray your friends.	There is an obligation not to betray your friends.	entailment	congruent	NotMi-MuNot	deontic
+75	You cannot choose to abuse your power.	It is obligatory not to abuse your power.	entailment	congruent	NotMi-MuNot	deontic
+76	It is not permissible to plagiarize.	You are required not to plagiarize.	entailment	congruent	NotMi-MuNot	deontic
+77	You are not permitted to engage in insider trading.	It is mandatory not to engage in insider trading.	entailment	congruent	NotMi-MuNot	deontic
+78	You are not allowed to commit perjury.	You must not commit perjury.	entailment	congruent	NotMi-MuNot	deontic
+79	It is not acceptable to forge documents.	There is an obligation not to forge documents.	entailment	congruent	NotMi-MuNot	deontic
+80	You cannot choose to evade taxes.	It is obligatory not to evade taxes.	entailment	congruent	NotMi-MuNot	deontic
+81	It is not permissible to eat food.	It is obligatory not to eat food.	entailment	incongruent	NotMi-MuNot	deontic
+82	You are not permitted to drink water.	There is an obligation not to drink water.	entailment	incongruent	NotMi-MuNot	deontic
+83	You are not allowed to breathe air.	You are required not to breathe air.	entailment	incongruent	NotMi-MuNot	deontic
+84	It is not acceptable to sleep.	It is mandatory not to sleep.	entailment	incongruent	NotMi-MuNot	deontic
+85	You cannot choose to have a heartbeat.	You must not have a heartbeat.	entailment	incongruent	NotMi-MuNot	deontic
+86	It is not permissible to feel happy.	It is obligatory not to feel happy.	entailment	incongruent	NotMi-MuNot	deontic
+87	You are not permitted to help others.	There is an obligation not to help others.	entailment	incongruent	NotMi-MuNot	deontic
+88	You are not allowed to learn new things.	You are required not to learn new things.	entailment	incongruent	NotMi-MuNot	deontic
+89	It is not acceptable to grow old.	It is mandatory not to grow old.	entailment	incongruent	NotMi-MuNot	deontic
+90	You cannot choose to tell the truth.	You must not tell the truth.	entailment	incongruent	NotMi-MuNot	deontic
+91	It is not permissible to be kind.	It is obligatory not to be kind.	entailment	incongruent	NotMi-MuNot	deontic
+92	You are not permitted to love your family.	There is an obligation not to love your family.	entailment	incongruent	NotMi-MuNot	deontic
+93	You are not allowed to respect the law.	You are required not to respect the law.	entailment	incongruent	NotMi-MuNot	deontic
+94	It is not acceptable to care for your children.	It is mandatory not to care for your children.	entailment	incongruent	NotMi-MuNot	deontic
+95	You cannot choose to pay your taxes.	You must not pay your taxes.	entailment	incongruent	NotMi-MuNot	deontic
+96	It is not permissible to show compassion.	It is obligatory not to show compassion.	entailment	incongruent	NotMi-MuNot	deontic
+97	You are not permitted to experience joy.	There is an obligation not to experience joy.	entailment	incongruent	NotMi-MuNot	deontic
+98	You are not allowed to fulfill your responsibilities.	You are required not to fulfill your responsibilities.	entailment	incongruent	NotMi-MuNot	deontic
+99	It is not acceptable to be honest.	It is mandatory not to be honest.	entailment	incongruent	NotMi-MuNot	deontic
+100	You cannot choose to defend yourself.	You must not defend yourself.	entailment	incongruent	NotMi-MuNot	deontic
+101	It is not permissible to flibbertigibbet the flooglehorp.	You are required not to flibbertigibbet the flooglehorp.	entailment	nonsense	NotMi-MuNot	deontic
+102	You are not permitted to grommulate the quagmire.	There is an obligation not to grommulate the quagmire.	entailment	nonsense	NotMi-MuNot	deontic
+103	You are not allowed to hobble the snollygoster.	It is mandatory not to hobble the snollygoster.	entailment	nonsense	NotMi-MuNot	deontic
+104	It is not acceptable to joggle the collywobbles.	You must not joggle the collywobbles.	entailment	nonsense	NotMi-MuNot	deontic
+105	You cannot choose to kerfuffle the rambunctious.	It is obligatory not to kerfuffle the rambunctious.	entailment	nonsense	NotMi-MuNot	deontic
+106	It is not permissible to lollygag the flummox.	You are required not to lollygag the flummox.	entailment	nonsense	NotMi-MuNot	deontic
+107	You are not permitted to miff the spondulicks.	There is an obligation not to miff the spondulicks.	entailment	nonsense	NotMi-MuNot	deontic
+108	You are not allowed to niggle the widdershins.	It is mandatory not to niggle the widdershins.	entailment	nonsense	NotMi-MuNot	deontic
+109	It is not acceptable to obfuscate the shenanigans.	You must not obfuscate the shenanigans.	entailment	nonsense	NotMi-MuNot	deontic
+110	You cannot choose to palter the hornswoggle.	It is obligatory not to palter the hornswoggle.	entailment	nonsense	NotMi-MuNot	deontic
+111	It is not permissible to quibble the malarkey.	You are required not to quibble the malarkey.	entailment	nonsense	NotMi-MuNot	deontic
+112	You are not permitted to razzle-dazzle the poppycock.	There is an obligation not to razzle-dazzle the poppycock.	entailment	nonsense	NotMi-MuNot	deontic
+113	You are not allowed to skedaddle the flummery.	It is mandatory not to skedaddle the flummery.	entailment	nonsense	NotMi-MuNot	deontic
+114	It is not acceptable to slobberknocker the gibberish.	You must not slobberknocker the gibberish.	entailment	nonsense	NotMi-MuNot	deontic
+115	You cannot choose to snooker the tomfoolery.	It is obligatory not to snooker the tomfoolery.	entailment	nonsense	NotMi-MuNot	deontic
+116	It is not permissible to thwack the balderdash.	You are required not to thwack the balderdash.	entailment	nonsense	NotMi-MuNot	deontic
+117	You are not permitted to waffle the claptrap.	There is an obligation not to waffle the claptrap.	entailment	nonsense	NotMi-MuNot	deontic
+118	You are not allowed to wrangle the hogwash.	It is mandatory not to wrangle the hogwash.	entailment	nonsense	NotMi-MuNot	deontic
+119	It is not acceptable to yammer the mumbo jumbo.	You must not yammer the mumbo jumbo.	entailment	nonsense	NotMi-MuNot	deontic
+120	You cannot choose to zazzle the rigmarole.	It is obligatory not to zazzle the rigmarole.	entailment	nonsense	NotMi-MuNot	deontic
+121	It is permissible not to attend the party.	There is no obligation to attend the party.	entailment	congruent	MiNot-NotMu	deontic
+122	You are permitted not to eat breakfast.	It is not mandatory to eat breakfast.	entailment	congruent	MiNot-NotMu	deontic
+123	You are allowed not to wear a suit.	You are not required to wear a suit.	entailment	congruent	MiNot-NotMu	deontic
+124	It is acceptable not to agree with everyone.	It is not the case that you must agree with everyone.	entailment	congruent	MiNot-NotMu	deontic
+125	You can choose not to have children.	It is not obligatory to have children.	entailment	congruent	MiNot-NotMu	deontic
+126	It is permissible not to believe in God.	There is no obligation to believe in God.	entailment	congruent	MiNot-NotMu	deontic
+127	You are permitted not to vote in the election.	It is not mandatory to vote in the election.	entailment	congruent	MiNot-NotMu	deontic
+128	You are allowed not to donate to charity.	You are not required to donate to charity.	entailment	congruent	MiNot-NotMu	deontic
+129	It is acceptable not to own a car.	It is not the case that you must own a car.	entailment	congruent	MiNot-NotMu	deontic
+130	You can choose not to go to college.	It is not obligatory to go to college.	entailment	congruent	MiNot-NotMu	deontic
+131	It is permissible not to follow the rules.	There is no obligation to follow the rules.	entailment	congruent	MiNot-NotMu	deontic
+132	You are permitted not to love your parents.	It is not mandatory to love your parents.	entailment	congruent	MiNot-NotMu	deontic
+133	You are allowed not to have a Facebook account.	You are not required to have a Facebook account.	entailment	congruent	MiNot-NotMu	deontic
+134	It is acceptable not to drink alcohol.	It is not the case that you must drink alcohol.	entailment	congruent	MiNot-NotMu	deontic
+135	You can choose not to celebrate Christmas.	It is not obligatory to celebrate Christmas.	entailment	congruent	MiNot-NotMu	deontic
+136	It is permissible not to like your job.	There is no obligation to like your job.	entailment	congruent	MiNot-NotMu	deontic
+137	You are permitted not to exercise every day.	It is not mandatory to exercise every day.	entailment	congruent	MiNot-NotMu	deontic
+138	You are allowed not to reply to the email.	You are not required to reply to the email.	entailment	congruent	MiNot-NotMu	deontic
+139	It is acceptable not to be polite to strangers.	It is not the case that you must be polite to strangers.	entailment	congruent	MiNot-NotMu	deontic
+140	You can choose not to accept the job offer.	It is not obligatory to accept the job offer.	entailment	congruent	MiNot-NotMu	deontic
+141	It is permissible not to wear clothes.	It is not obligatory to wear clothes.	entailment	incongruent	MiNot-NotMu	deontic
+142	You are permitted not to eat food.	There is no obligation to eat food.	entailment	incongruent	MiNot-NotMu	deontic
+143	You are allowed not to breathe.	You are not required to breathe.	entailment	incongruent	MiNot-NotMu	deontic
+144	It is acceptable not to have a heartbeat.	It is not mandatory to have a heartbeat.	entailment	incongruent	MiNot-NotMu	deontic
+145	You can choose not to sleep.	It is not the case that you must sleep.	entailment	incongruent	MiNot-NotMu	deontic
+146	It is permissible not to help someone in danger.	It is not obligatory to help someone in danger.	entailment	incongruent	MiNot-NotMu	deontic
+147	You are permitted not to pay taxes.	There is no obligation to pay taxes.	entailment	incongruent	MiNot-NotMu	deontic
+148	You are allowed not to obey traffic laws.	You are not required to obey traffic laws.	entailment	incongruent	MiNot-NotMu	deontic
+149	It is acceptable not to tell the truth.	It is not mandatory to tell the truth.	entailment	incongruent	MiNot-NotMu	deontic
+150	You can choose not to go to school.	It is not the case that you must go to school.	entailment	incongruent	MiNot-NotMu	deontic
+151	It is permissible not to care for your children.	It is not obligatory to care for your children.	entailment	incongruent	MiNot-NotMu	deontic
+152	You are permitted not to love your family.	There is no obligation to love your family.	entailment	incongruent	MiNot-NotMu	deontic
+153	You are allowed not to respect others.	You are not required to respect others.	entailment	incongruent	MiNot-NotMu	deontic
+154	It is acceptable not to feel remorse.	It is not mandatory to feel remorse.	entailment	incongruent	MiNot-NotMu	deontic
+155	You can choose not to be honest.	It is not the case that you must be honest.	entailment	incongruent	MiNot-NotMu	deontic
+156	It is permissible not to keep promises.	It is not obligatory to keep promises.	entailment	incongruent	MiNot-NotMu	deontic
+157	You are permitted not to show gratitude.	There is no obligation to show gratitude.	entailment	incongruent	MiNot-NotMu	deontic
+158	You are allowed not to value life.	You are not required to value life.	entailment	incongruent	MiNot-NotMu	deontic
+159	It is acceptable not to learn from mistakes.	It is not mandatory to learn from mistakes.	entailment	incongruent	MiNot-NotMu	deontic
+160	You can choose not to evolve as a person.	It is not the case that you must evolve as a person.	entailment	incongruent	MiNot-NotMu	deontic
+161	It is permissible not to flibbertigibbet.	There is no obligation to flibbertigibbet.	entailment	nonsense	MiNot-NotMu	deontic
+162	You are permitted not to gobbledygook.	It is not mandatory to gobbledygook.	entailment	nonsense	MiNot-NotMu	deontic
+163	You are allowed not to hootenanny.	You are not required to hootenanny.	entailment	nonsense	MiNot-NotMu	deontic
+164	It is acceptable not to codswallop.	It is not the case that you must codswallop.	entailment	nonsense	MiNot-NotMu	deontic
+165	You can choose not to malarkey.	It is not obligatory to malarkey.	entailment	nonsense	MiNot-NotMu	deontic
+166	It is permissible not to shenanigans.	There is no obligation to shenanigans.	entailment	nonsense	MiNot-NotMu	deontic
+167	You are permitted not to flummox.	It is not mandatory to flummox.	entailment	nonsense	MiNot-NotMu	deontic
+168	You are allowed not to bamboozle.	You are not required to bamboozle.	entailment	nonsense	MiNot-NotMu	deontic
+169	It is acceptable not to discombobulate.	It is not the case that you must discombobulate.	entailment	nonsense	MiNot-NotMu	deontic
+170	You can choose not to kerfuffle.	It is not obligatory to kerfuffle.	entailment	nonsense	MiNot-NotMu	deontic
+171	It is permissible not to razzmatazz.	There is no obligation to razzmatazz.	entailment	nonsense	MiNot-NotMu	deontic
+172	You are permitted not to skedaddle.	It is not mandatory to skedaddle.	entailment	nonsense	MiNot-NotMu	deontic
+173	You are allowed not to whippersnapper.	You are not required to whippersnapper.	entailment	nonsense	MiNot-NotMu	deontic
+174	It is acceptable not to nincompoop.	It is not the case that you must nincompoop.	entailment	nonsense	MiNot-NotMu	deontic
+175	You can choose not to lollygag.	It is not obligatory to lollygag.	entailment	nonsense	MiNot-NotMu	deontic
+176	It is permissible not to wabbit.	There is no obligation to wabbit.	entailment	nonsense	MiNot-NotMu	deontic
+177	You are permitted not to ballyhoo.	It is not mandatory to ballyhoo.	entailment	nonsense	MiNot-NotMu	deontic
+178	You are allowed not to poppycock.	You are not required to poppycock.	entailment	nonsense	MiNot-NotMu	deontic
+179	It is acceptable not to gobbledegook.	It is not the case that you must gobbledegook.	entailment	nonsense	MiNot-NotMu	deontic
+180	You can choose not to mumbo jumbo.	It is not obligatory to mumbo jumbo.	entailment	nonsense	MiNot-NotMu	deontic
+181	It is obligatory to pay taxes.	It is permissible to pay taxes.	entailment	congruent	Mu-Mi	deontic
+182	There is an obligation to obey the law.	You are permitted to obey the law.	entailment	congruent	Mu-Mi	deontic
+183	You are required to wear a seatbelt.	You are allowed to wear a seatbelt.	entailment	congruent	Mu-Mi	deontic
+184	It is mandatory to stop at a red light.	It is acceptable to stop at a red light.	entailment	congruent	Mu-Mi	deontic
+185	You must tell the truth in court.	You can choose to tell the truth in court.	entailment	congruent	Mu-Mi	deontic
+186	It is obligatory to help someone in need.	It is permissible to help someone in need.	entailment	congruent	Mu-Mi	deontic
+187	There is an obligation to keep your promises.	You are permitted to keep your promises.	entailment	congruent	Mu-Mi	deontic
+188	You are required to respect other people's property.	You are allowed to respect other people's property.	entailment	congruent	Mu-Mi	deontic
+189	It is mandatory to get a visa to visit another country.	It is acceptable to get a visa to visit another country.	entailment	congruent	Mu-Mi	deontic
+190	You must follow the rules of the game.	You can choose to follow the rules of the game.	entailment	congruent	Mu-Mi	deontic
+191	It is obligatory to be kind to animals.	It is permissible to be kind to animals.	entailment	congruent	Mu-Mi	deontic
+192	There is an obligation to protect the environment.	You are permitted to protect the environment.	entailment	congruent	Mu-Mi	deontic
+193	You are required to educate yourself about important issues.	You are allowed to educate yourself about important issues.	entailment	congruent	Mu-Mi	deontic
+194	It is mandatory to report a crime.	It is acceptable to report a crime.	entailment	congruent	Mu-Mi	deontic
+195	You must take care of your health.	You can choose to take care of your health.	entailment	congruent	Mu-Mi	deontic
+196	It is obligatory to be a good citizen.	It is permissible to be a good citizen.	entailment	congruent	Mu-Mi	deontic
+197	There is an obligation to contribute to society.	You are permitted to contribute to society.	entailment	congruent	Mu-Mi	deontic
+198	You are required to be honest with yourself.	You are allowed to be honest with yourself.	entailment	congruent	Mu-Mi	deontic
+199	It is mandatory to learn from your mistakes.	It is acceptable to learn from your mistakes.	entailment	congruent	Mu-Mi	deontic
+200	You must strive to be your best self.	You can choose to strive to be your best self.	entailment	congruent	Mu-Mi	deontic
+201	It is obligatory to steal from others.	It is permissible to steal from others.	entailment	incongruent	Mu-Mi	deontic
+202	There is an obligation to lie under oath.	You are permitted to lie under oath.	entailment	incongruent	Mu-Mi	deontic
+203	You are required to harm innocent people.	You are allowed to harm innocent people.	entailment	incongruent	Mu-Mi	deontic
+204	It is mandatory to drive under the influence of alcohol.	It is acceptable to drive under the influence of alcohol.	entailment	incongruent	Mu-Mi	deontic
+205	You must betray your friends.	You can choose to betray your friends.	entailment	incongruent	Mu-Mi	deontic
+206	It is obligatory to cheat on exams.	It is permissible to cheat on exams.	entailment	incongruent	Mu-Mi	deontic
+207	There is an obligation to spread misinformation.	You are permitted to spread misinformation.	entailment	incongruent	Mu-Mi	deontic
+208	You are required to litter in public spaces.	You are allowed to litter in public spaces.	entailment	incongruent	Mu-Mi	deontic
+209	It is mandatory to abuse animals.	It is acceptable to abuse animals.	entailment	incongruent	Mu-Mi	deontic
+210	You must ignore someone in need.	You can choose to ignore someone in need.	entailment	incongruent	Mu-Mi	deontic
+211	It is obligatory to discriminate against others.	It is permissible to discriminate against others.	entailment	incongruent	Mu-Mi	deontic
+212	There is an obligation to break promises.	You are permitted to break promises.	entailment	incongruent	Mu-Mi	deontic
+213	You are required to invade someone's privacy.	You are allowed to invade someone's privacy.	entailment	incongruent	Mu-Mi	deontic
+214	It is mandatory to commit acts of vandalism.	It is acceptable to commit acts of vandalism.	entailment	incongruent	Mu-Mi	deontic
+215	You must endanger others with reckless behavior.	You can choose to endanger others with reckless behavior.	entailment	incongruent	Mu-Mi	deontic
+216	It is obligatory to exploit vulnerable people.	It is permissible to exploit vulnerable people.	entailment	incongruent	Mu-Mi	deontic
+217	There is an obligation to engage in corrupt practices.	You are permitted to engage in corrupt practices.	entailment	incongruent	Mu-Mi	deontic
+218	You are required to avoid paying taxes.	You are allowed to avoid paying taxes.	entailment	incongruent	Mu-Mi	deontic
+219	It is mandatory to plagiarize others' work.	It is acceptable to plagiarize others' work.	entailment	incongruent	Mu-Mi	deontic
+220	You must spread harmful rumors about others.	You can choose to spread harmful rumors about others.	entailment	incongruent	Mu-Mi	deontic
+221	It is obligatory to flibbertigibbet.	It is permissible to flibbertigibbet.	entailment	nonsense	Mu-Mi	deontic
+222	There is an obligation to gobbledygook.	You are permitted to gobbledygook.	entailment	nonsense	Mu-Mi	deontic
+223	You are required to hootenanny.	You are allowed to hootenanny.	entailment	nonsense	Mu-Mi	deontic
+224	It is mandatory to codswallop.	It is acceptable to codswallop.	entailment	nonsense	Mu-Mi	deontic
+225	You must malarkey.	You can choose to malarkey.	entailment	nonsense	Mu-Mi	deontic
+226	It is obligatory to shenanigans.	It is permissible to shenanigans.	entailment	nonsense	Mu-Mi	deontic
+227	There is an obligation to flummox.	You are permitted to flummox.	entailment	nonsense	Mu-Mi	deontic
+228	You are required to bamboozle.	You are allowed to bamboozle.	entailment	nonsense	Mu-Mi	deontic
+229	It is mandatory to discombobulate.	It is acceptable to discombobulate.	entailment	nonsense	Mu-Mi	deontic
+230	You must kerfuffle.	You can choose to kerfuffle.	entailment	nonsense	Mu-Mi	deontic
+231	It is obligatory to razzmatazz.	It is permissible to razzmatazz.	entailment	nonsense	Mu-Mi	deontic
+232	There is an obligation to skedaddle.	You are permitted to skedaddle.	entailment	nonsense	Mu-Mi	deontic
+233	You are required to whippersnapper.	You are allowed to whippersnapper.	entailment	nonsense	Mu-Mi	deontic
+234	It is mandatory to nincompoop.	It is acceptable to nincompoop.	entailment	nonsense	Mu-Mi	deontic
+235	You must lollygag.	You can choose to lollygag.	entailment	nonsense	Mu-Mi	deontic
+236	It is obligatory to wabbit.	It is permissible to wabbit.	entailment	nonsense	Mu-Mi	deontic
+237	There is an obligation to ballyhoo.	You are permitted to ballyhoo.	entailment	nonsense	Mu-Mi	deontic
+238	You are required to poppycock.	You are allowed to poppycock.	entailment	nonsense	Mu-Mi	deontic
+239	It is mandatory to gobbledegook.	It is acceptable to gobbledegook.	entailment	nonsense	Mu-Mi	deontic
+240	You must mumbo jumbo.	You can choose to mumbo jumbo.	entailment	nonsense	Mu-Mi	deontic
+241	It is not permissible to steal from others.	There is no obligation to steal from others.	entailment	congruent	NotMi-NotMu	deontic
+242	You are not permitted to cheat on your partner.	It is not mandatory to cheat on your partner.	entailment	congruent	NotMi-NotMu	deontic
+243	You are not allowed to drive recklessly.	You are not required to drive recklessly.	entailment	congruent	NotMi-NotMu	deontic
+244	It is not acceptable to lie in court.	It is not the case that you must lie in court.	entailment	congruent	NotMi-NotMu	deontic
+245	You cannot choose to harm a child.	It is not obligatory to harm a child.	entailment	congruent	NotMi-NotMu	deontic
+246	It is not permissible to discriminate based on race.	There is no obligation to discriminate based on race.	entailment	congruent	NotMi-NotMu	deontic
+247	You are not permitted to commit treason.	It is not mandatory to commit treason.	entailment	congruent	NotMi-NotMu	deontic
+248	You are not allowed to ignore a court order.	You are not required to ignore a court order.	entailment	congruent	NotMi-NotMu	deontic
+249	It is not acceptable to abuse animals.	It is not the case that you must abuse animals.	entailment	congruent	NotMi-NotMu	deontic
+250	You cannot choose to pollute the environment.	It is not obligatory to pollute the environment.	entailment	congruent	NotMi-NotMu	deontic
+251	It is not permissible to spread hate speech.	There is no obligation to spread hate speech.	entailment	congruent	NotMi-NotMu	deontic
+252	You are not permitted to engage in cyberbullying.	It is not mandatory to engage in cyberbullying.	entailment	congruent	NotMi-NotMu	deontic
+253	You are not allowed to reveal confidential information.	You are not required to reveal confidential information.	entailment	congruent	NotMi-NotMu	deontic
+254	It is not acceptable to bribe a government official.	It is not the case that you must bribe a government official.	entailment	congruent	NotMi-NotMu	deontic
+255	You cannot choose to commit tax fraud.	It is not obligatory to commit tax fraud.	entailment	congruent	NotMi-NotMu	deontic
+256	It is not permissible to impersonate a police officer.	There is no obligation to impersonate a police officer.	entailment	congruent	NotMi-NotMu	deontic
+257	You are not permitted to make false accusations.	It is not mandatory to make false accusations.	entailment	congruent	NotMi-NotMu	deontic
+258	You are not allowed to threaten violence.	You are not required to threaten violence.	entailment	congruent	NotMi-NotMu	deontic
+259	It is not acceptable to destroy public property.	It is not the case that you must destroy public property.	entailment	congruent	NotMi-NotMu	deontic
+260	You cannot choose to participate in a riot.	It is not obligatory to participate in a riot.	entailment	congruent	NotMi-NotMu	deontic
+261	It is not permissible to murder.	It is not obligatory to murder.	entailment	incongruent	NotMi-NotMu	deontic
+262	You are not permitted to steal.	There is no obligation to steal.	entailment	incongruent	NotMi-NotMu	deontic
+263	You are not allowed to commit arson.	You are not required to commit arson.	entailment	incongruent	NotMi-NotMu	deontic
+264	It is not acceptable to kidnap.	It is not mandatory to kidnap.	entailment	incongruent	NotMi-NotMu	deontic
+265	You cannot choose to assault someone.	It is not the case that you must assault someone.	entailment	incongruent	NotMi-NotMu	deontic
+266	It is not permissible to lie under oath.	It is not obligatory to lie under oath.	entailment	incongruent	NotMi-NotMu	deontic
+267	You are not permitted to cheat on your spouse.	There is no obligation to cheat on your spouse.	entailment	incongruent	NotMi-NotMu	deontic
+268	You are not allowed to neglect your children.	You are not required to neglect your children.	entailment	incongruent	NotMi-NotMu	deontic
+269	It is not acceptable to betray a friend.	It is not mandatory to betray a friend.	entailment	incongruent	NotMi-NotMu	deontic
+270	You cannot choose to abuse animals.	It is not the case that you must abuse animals.	entailment	incongruent	NotMi-NotMu	deontic
+271	It is not permissible to discriminate against others.	It is not obligatory to discriminate against others.	entailment	incongruent	NotMi-NotMu	deontic
+272	You are not permitted to drive recklessly.	There is no obligation to drive recklessly.	entailment	incongruent	NotMi-NotMu	deontic
+273	You are not allowed to pollute the environment.	You are not required to pollute the environment.	entailment	incongruent	NotMi-NotMu	deontic
+274	It is not acceptable to spread false information.	It is not mandatory to spread false information.	entailment	incongruent	NotMi-NotMu	deontic
+275	You cannot choose to evade taxes.	It is not the case that you must evade taxes.	entailment	incongruent	NotMi-NotMu	deontic
+276	It is not permissible to plagiarize.	It is not obligatory to plagiarize.	entailment	incongruent	NotMi-NotMu	deontic
+277	You are not permitted to commit fraud.	There is no obligation to commit fraud.	entailment	incongruent	NotMi-NotMu	deontic
+278	You are not allowed to engage in corruption.	You are not required to engage in corruption.	entailment	incongruent	NotMi-NotMu	deontic
+279	It is not acceptable to trespass on private property.	It is not mandatory to trespass on private property.	entailment	incongruent	NotMi-NotMu	deontic
+280	You cannot choose to endanger public safety.	It is not the case that you must endanger public safety.	entailment	incongruent	NotMi-NotMu	deontic
+281	It is not permissible to flibbertigibbet.	There is no obligation to flibbertigibbet.	entailment	nonsense	NotMi-NotMu	deontic
+282	You are not permitted to gobbledygook.	It is not mandatory to gobbledygook.	entailment	nonsense	NotMi-NotMu	deontic
+283	You are not allowed to hootenanny.	You are not required to hootenanny.	entailment	nonsense	NotMi-NotMu	deontic
+284	It is not acceptable to codswallop.	It is not the case that you must codswallop.	entailment	nonsense	NotMi-NotMu	deontic
+285	You cannot choose to malarkey.	It is not obligatory to malarkey.	entailment	nonsense	NotMi-NotMu	deontic
+286	It is not permissible to shenanigans.	There is no obligation to shenanigans.	entailment	nonsense	NotMi-NotMu	deontic
+287	You are not permitted to flummox.	It is not mandatory to flummox.	entailment	nonsense	NotMi-NotMu	deontic
+288	You are not allowed to bamboozle.	You are not required to bamboozle.	entailment	nonsense	NotMi-NotMu	deontic
+289	It is not acceptable to discombobulate.	It is not the case that you must discombobulate.	entailment	nonsense	NotMi-NotMu	deontic
+290	You cannot choose to kerfuffle.	It is not obligatory to kerfuffle.	entailment	nonsense	NotMi-NotMu	deontic
+291	It is not permissible to razzmatazz.	There is no obligation to razzmatazz.	entailment	nonsense	NotMi-NotMu	deontic
+292	You are not permitted to skedaddle.	It is not mandatory to skedaddle.	entailment	nonsense	NotMi-NotMu	deontic
+293	You are not allowed to whippersnapper.	You are not required to whippersnapper.	entailment	nonsense	NotMi-NotMu	deontic
+294	It is not acceptable to nincompoop.	It is not the case that you must nincompoop.	entailment	nonsense	NotMi-NotMu	deontic
+295	You cannot choose to lollygag.	It is not obligatory to lollygag.	entailment	nonsense	NotMi-NotMu	deontic
+296	It is not permissible to wabbit.	There is no obligation to wabbit.	entailment	nonsense	NotMi-NotMu	deontic
+297	You are not permitted to ballyhoo.	It is not mandatory to ballyhoo.	entailment	nonsense	NotMi-NotMu	deontic
+298	You are not allowed to poppycock.	You are not required to poppycock.	entailment	nonsense	NotMi-NotMu	deontic
+299	It is not acceptable to gobbledegook.	It is not the case that you must gobbledegook.	entailment	nonsense	NotMi-NotMu	deontic
+300	You cannot choose to mumbo jumbo.	It is not obligatory to mumbo jumbo.	entailment	nonsense	NotMi-NotMu	deontic
+301	It is not obligatory to eat meat.	It is not permissible to eat meat.	non-entailment	congruent	NotMu-NotMi	deontic
+302	There is no obligation to go to school.	You are not permitted to go to school.	non-entailment	congruent	NotMu-NotMi	deontic
+303	You are not required to have a job.	You are not allowed to have a job.	non-entailment	congruent	NotMu-NotMi	deontic
+304	It is not mandatory to own a home.	It is not acceptable to own a home.	non-entailment	congruent	NotMu-NotMi	deontic
+305	It is not the case that you must get married.	It is not the case that you can get married.	non-entailment	congruent	NotMu-NotMi	deontic
+306	It is not obligatory to have children.	It is not permissible to have children.	non-entailment	congruent	NotMu-NotMi	deontic
+307	There is no obligation to be happy.	You are not permitted to be happy.	non-entailment	congruent	NotMu-NotMi	deontic
+308	You are not required to be polite.	You are not allowed to be polite.	non-entailment	congruent	NotMu-NotMi	deontic
+309	It is not mandatory to follow the law.	It is not acceptable to follow the law.	non-entailment	congruent	NotMu-NotMi	deontic
+310	It is not the case that you must believe in God.	It is not the case that you can believe in God.	non-entailment	congruent	NotMu-NotMi	deontic
+311	It is not obligatory to vote.	It is not permissible to vote.	non-entailment	congruent	NotMu-NotMi	deontic
+312	There is no obligation to pay taxes.	You are not permitted to pay taxes.	non-entailment	congruent	NotMu-NotMi	deontic
+313	You are not required to serve in the military.	You are not allowed to serve in the military.	non-entailment	congruent	NotMu-NotMi	deontic
+314	It is not mandatory to donate blood.	It is not acceptable to donate blood.	non-entailment	congruent	NotMu-NotMi	deontic
+315	It is not the case that you must recycle.	It is not the case that you can recycle.	non-entailment	congruent	NotMu-NotMi	deontic
+316	It is not obligatory to wear clothes.	It is not permissible to wear clothes.	non-entailment	congruent	NotMu-NotMi	deontic
+317	There is no obligation to speak English.	You are not permitted to speak English.	non-entailment	congruent	NotMu-NotMi	deontic
+318	You are not required to use the internet.	You are not allowed to use the internet.	non-entailment	congruent	NotMu-NotMi	deontic
+319	It is not mandatory to eat with a fork.	It is not acceptable to eat with a fork.	non-entailment	congruent	NotMu-NotMi	deontic
+320	It is not the case that you must sleep in a bed.	It is not the case that you can sleep in a bed.	non-entailment	congruent	NotMu-NotMi	deontic
+321	It is not obligatory to eat vegetables.	It is not permissible to eat vegetables.	non-entailment	incongruent	NotMu-NotMi	deontic
+322	There is no obligation to drink water.	You are not permitted to drink water.	non-entailment	incongruent	NotMu-NotMi	deontic
+323	You are not required to breathe.	You are not allowed to breathe.	non-entailment	incongruent	NotMu-NotMi	deontic
+324	It is not mandatory to sleep.	It is not acceptable to sleep.	non-entailment	incongruent	NotMu-NotMi	deontic
+325	It is not the case that you must wear clothes.	It is not the case that you can wear clothes.	non-entailment	incongruent	NotMu-NotMi	deontic
+326	It is not obligatory to help someone in need.	It is not permissible to help someone in need.	non-entailment	incongruent	NotMu-NotMi	deontic
+327	There is no obligation to be kind to animals.	You are not permitted to be kind to animals.	non-entailment	incongruent	NotMu-NotMi	deontic
+328	You are not required to tell the truth.	You are not allowed to tell the truth.	non-entailment	incongruent	NotMu-NotMi	deontic
+329	It is not mandatory to respect others.	It is not acceptable to respect others.	non-entailment	incongruent	NotMu-NotMi	deontic
+330	It is not the case that you must obey traffic laws.	It is not the case that you can obey traffic laws.	non-entailment	incongruent	NotMu-NotMi	deontic
+331	It is not obligatory to pay for things you buy.	It is not permissible to pay for things you buy.	non-entailment	incongruent	NotMu-NotMi	deontic
+332	There is no obligation to go to school.	You are not permitted to go to school.	non-entailment	incongruent	NotMu-NotMi	deontic
+333	You are not required to learn new things.	You are not allowed to learn new things.	non-entailment	incongruent	NotMu-NotMi	deontic
+334	It is not mandatory to take care of your health.	It is not acceptable to take care of your health.	non-entailment	incongruent	NotMu-NotMi	deontic
+335	It is not the case that you must have friends.	It is not the case that you can have friends.	non-entailment	incongruent	NotMu-NotMi	deontic
+336	It is not obligatory to feel emotions.	It is not permissible to feel emotions.	non-entailment	incongruent	NotMu-NotMi	deontic
+337	There is no obligation to express yourself.	You are not permitted to express yourself.	non-entailment	incongruent	NotMu-NotMi	deontic
+338	You are not required to have opinions.	You are not allowed to have opinions.	non-entailment	incongruent	NotMu-NotMi	deontic
+339	It is not mandatory to make mistakes.	It is not acceptable to make mistakes.	non-entailment	incongruent	NotMu-NotMi	deontic
+340	It is not the case that you must grow and change.	It is not the case that you can grow and change.	non-entailment	incongruent	NotMu-NotMi	deontic
+341	It is not obligatory to flibbertigibbet.	It is not permissible to flibbertigibbet.	non-entailment	nonsense	NotMu-NotMi	deontic
+342	There is no obligation to gobbledygook.	You are not permitted to gobbledygook.	non-entailment	nonsense	NotMu-NotMi	deontic
+343	You are not required to hootenanny.	You are not allowed to hootenanny.	non-entailment	nonsense	NotMu-NotMi	deontic
+344	It is not mandatory to codswallop.	It is not acceptable to codswallop.	non-entailment	nonsense	NotMu-NotMi	deontic
+345	It is not the case that you must malarkey.	It is not the case that you can malarkey.	non-entailment	nonsense	NotMu-NotMi	deontic
+346	It is not obligatory to shenanigans.	It is not permissible to shenanigans.	non-entailment	nonsense	NotMu-NotMi	deontic
+347	There is no obligation to flummox.	You are not permitted to flummox.	non-entailment	nonsense	NotMu-NotMi	deontic
+348	You are not required to bamboozle.	You are not allowed to bamboozle.	non-entailment	nonsense	NotMu-NotMi	deontic
+349	It is not mandatory to discombobulate.	It is not acceptable to discombobulate.	non-entailment	nonsense	NotMu-NotMi	deontic
+350	It is not the case that you must kerfuffle.	It is not the case that you can kerfuffle.	non-entailment	nonsense	NotMu-NotMi	deontic
+351	It is not obligatory to razzmatazz.	It is not permissible to razzmatazz.	non-entailment	nonsense	NotMu-NotMi	deontic
+352	There is no obligation to skedaddle.	You are not permitted to skedaddle.	non-entailment	nonsense	NotMu-NotMi	deontic
+353	You are not required to whippersnapper.	You are not allowed to whippersnapper.	non-entailment	nonsense	NotMu-NotMi	deontic
+354	It is not mandatory to nincompoop.	It is not acceptable to nincompoop.	non-entailment	nonsense	NotMu-NotMi	deontic
+355	It is not the case that you must lollygag.	It is not the case that you can lollygag.	non-entailment	nonsense	NotMu-NotMi	deontic
+356	It is not obligatory to wabbit.	It is not permissible to wabbit.	non-entailment	nonsense	NotMu-NotMi	deontic
+357	There is no obligation to ballyhoo.	You are not permitted to ballyhoo.	non-entailment	nonsense	NotMu-NotMi	deontic
+358	You are not required to poppycock.	You are not allowed to poppycock.	non-entailment	nonsense	NotMu-NotMi	deontic
+359	It is not mandatory to gobbledegook.	It is not acceptable to gobbledegook.	non-entailment	nonsense	NotMu-NotMi	deontic
+360	It is not the case that you must mumbo jumbo.	It is not the case that you can mumbo jumbo.	non-entailment	nonsense	NotMu-NotMi	deontic
+361	It is permissible not to eat dessert.	You are required not to eat dessert.	non-entailment	congruent	MiNot-MuNot	deontic
+362	You are permitted not to go to the gym.	It is mandatory not to go to the gym.	non-entailment	congruent	MiNot-MuNot	deontic
+363	You are allowed not to wear makeup.	You must not wear makeup.	non-entailment	congruent	MiNot-MuNot	deontic
+364	It is acceptable not to have a pet.	There is an obligation not to have a pet.	non-entailment	congruent	MiNot-MuNot	deontic
+365	You can choose not to drink coffee.	It is obligatory not to drink coffee.	non-entailment	congruent	MiNot-MuNot	deontic
+366	It is permissible not to watch TV.	You are required not to watch TV.	non-entailment	congruent	MiNot-MuNot	deontic
+367	You are permitted not to use social media.	It is mandatory not to use social media.	non-entailment	congruent	MiNot-MuNot	deontic
+368	You are allowed not to have a romantic partner.	You must not have a romantic partner.	non-entailment	congruent	MiNot-MuNot	deontic
+369	It is acceptable not to celebrate your birthday.	There is an obligation not to celebrate your birthday.	non-entailment	congruent	MiNot-MuNot	deontic
+370	You can choose not to go on vacation.	It is obligatory not to go on vacation.	non-entailment	congruent	MiNot-MuNot	deontic
+371	It is permissible not to own a house.	You are required not to own a house.	non-entailment	congruent	MiNot-MuNot	deontic
+372	You are permitted not to have a job.	It is mandatory not to have a job.	non-entailment	congruent	MiNot-MuNot	deontic
+373	You are allowed not to drive a car.	You must not drive a car.	non-entailment	congruent	MiNot-MuNot	deontic
+374	It is acceptable not to have children.	There is an obligation not to have children.	non-entailment	congruent	MiNot-MuNot	deontic
+375	You can choose not to get married.	It is obligatory not to get married.	non-entailment	congruent	MiNot-MuNot	deontic
+376	It is permissible not to believe in anything.	You are required not to believe in anything.	non-entailment	congruent	MiNot-MuNot	deontic
+377	You are permitted not to have any friends.	It is mandatory not to have any friends.	non-entailment	congruent	MiNot-MuNot	deontic
+378	You are allowed not to have any hobbies.	You must not have any hobbies.	non-entailment	congruent	MiNot-MuNot	deontic
+379	It is acceptable not to care about anything.	There is an obligation not to care about anything.	non-entailment	congruent	MiNot-MuNot	deontic
+380	You can choose not to do anything.	It is obligatory not to do anything.	non-entailment	congruent	MiNot-MuNot	deontic
+381	It is permissible not to eat healthy food.	It is obligatory not to eat healthy food.	non-entailment	incongruent	MiNot-MuNot	deontic
+382	You are permitted not to exercise regularly.	There is an obligation not to exercise regularly.	non-entailment	incongruent	MiNot-MuNot	deontic
+383	You are allowed not to brush your teeth.	You are required not to brush your teeth.	non-entailment	incongruent	MiNot-MuNot	deontic
+384	It is acceptable not to bathe.	It is mandatory not to bathe.	non-entailment	incongruent	MiNot-MuNot	deontic
+385	You can choose not to sleep at night.	You must not sleep at night.	non-entailment	incongruent	MiNot-MuNot	deontic
+386	It is permissible not to learn new things.	It is obligatory not to learn new things.	non-entailment	incongruent	MiNot-MuNot	deontic
+387	You are permitted not to help others in need.	There is an obligation not to help others in need.	non-entailment	incongruent	MiNot-MuNot	deontic
+388	You are allowed not to be kind to animals.	You are required not to be kind to animals.	non-entailment	incongruent	MiNot-MuNot	deontic
+389	It is acceptable not to tell the truth.	It is mandatory not to tell the truth.	non-entailment	incongruent	MiNot-MuNot	deontic
+390	You can choose not to respect other people's property.	You must not respect other people's property.	non-entailment	incongruent	MiNot-MuNot	deontic
+391	It is permissible not to follow traffic laws.	It is obligatory not to follow traffic laws.	non-entailment	incongruent	MiNot-MuNot	deontic
+392	You are permitted not to pay your taxes.	There is an obligation not to pay your taxes.	non-entailment	incongruent	MiNot-MuNot	deontic
+393	You are allowed not to recycle.	You are required not to recycle.	non-entailment	incongruent	MiNot-MuNot	deontic
+394	It is acceptable not to conserve water.	It is mandatory not to conserve water.	non-entailment	incongruent	MiNot-MuNot	deontic
+395	You can choose not to vote in elections.	You must not vote in elections.	non-entailment	incongruent	MiNot-MuNot	deontic
+396	It is permissible not to care for the environment.	It is obligatory not to care for the environment.	non-entailment	incongruent	MiNot-MuNot	deontic
+397	You are permitted not to show gratitude.	There is an obligation not to show gratitude.	non-entailment	incongruent	MiNot-MuNot	deontic
+398	You are allowed not to apologize for your mistakes.	You are required not to apologize for your mistakes.	non-entailment	incongruent	MiNot-MuNot	deontic
+399	It is acceptable not to keep your promises.	It is mandatory not to keep your promises.	non-entailment	incongruent	MiNot-MuNot	deontic
+400	You can choose not to forgive others.	You must not forgive others.	non-entailment	incongruent	MiNot-MuNot	deontic
+401	It is permissible not to flibbertigibbet.	You are required not to flibbertigibbet.	non-entailment	nonsense	MiNot-MuNot	deontic
+402	You are permitted not to gobbledygook.	It is mandatory not to gobbledygook.	non-entailment	nonsense	MiNot-MuNot	deontic
+403	You are allowed not to hootenanny.	You must not hootenanny.	non-entailment	nonsense	MiNot-MuNot	deontic
+404	It is acceptable not to codswallop.	There is an obligation not to codswallop.	non-entailment	nonsense	MiNot-MuNot	deontic
+405	You can choose not to malarkey.	It is obligatory not to malarkey.	non-entailment	nonsense	MiNot-MuNot	deontic
+406	It is permissible not to shenanigans.	You are required not to shenanigans.	non-entailment	nonsense	MiNot-MuNot	deontic
+407	You are permitted not to flummox.	It is mandatory not to flummox.	non-entailment	nonsense	MiNot-MuNot	deontic
+408	You are allowed not to bamboozle.	You must not bamboozle.	non-entailment	nonsense	MiNot-MuNot	deontic
+409	It is acceptable not to discombobulate.	There is an obligation not to discombobulate.	non-entailment	nonsense	MiNot-MuNot	deontic
+410	You can choose not to kerfuffle.	It is obligatory not to kerfuffle.	non-entailment	nonsense	MiNot-MuNot	deontic
+411	It is permissible not to razzmatazz.	You are required not to razzmatazz.	non-entailment	nonsense	MiNot-MuNot	deontic
+412	You are permitted not to skedaddle.	It is mandatory not to skedaddle.	non-entailment	nonsense	MiNot-MuNot	deontic
+413	You are allowed not to whippersnapper.	You must not whippersnapper.	non-entailment	nonsense	MiNot-MuNot	deontic
+414	It is acceptable not to nincompoop.	There is an obligation not to nincompoop.	non-entailment	nonsense	MiNot-MuNot	deontic
+415	You can choose not to lollygag.	It is obligatory not to lollygag.	non-entailment	nonsense	MiNot-MuNot	deontic
+416	It is permissible not to wabbit.	You are required not to wabbit.	non-entailment	nonsense	MiNot-MuNot	deontic
+417	You are permitted not to ballyhoo.	It is mandatory not to ballyhoo.	non-entailment	nonsense	MiNot-MuNot	deontic
+418	You are allowed not to poppycock.	You must not poppycock.	non-entailment	nonsense	MiNot-MuNot	deontic
+419	It is acceptable not to gobbledegook.	There is an obligation not to gobbledegook.	non-entailment	nonsense	MiNot-MuNot	deontic
+420	You can choose not to mumbo jumbo.	It is obligatory not to mumbo jumbo.	non-entailment	nonsense	MiNot-MuNot	deontic
+421	It is permissible to eat vegetables.	You are required to eat vegetables.	non-entailment	congruent	Mi-Mu	deontic
+422	You are permitted to go to bed early.	It is mandatory to go to bed early.	non-entailment	congruent	Mi-Mu	deontic
+423	You are allowed to wear a hat.	You must wear a hat.	non-entailment	congruent	Mi-Mu	deontic
+424	It is acceptable to take a break.	There is an obligation to take a break.	non-entailment	congruent	Mi-Mu	deontic
+425	You can choose to drink water.	It is obligatory to drink water.	non-entailment	congruent	Mi-Mu	deontic
+426	It is permissible to exercise.	You are required to exercise.	non-entailment	congruent	Mi-Mu	deontic
+427	You are permitted to read a book.	It is mandatory to read a book.	non-entailment	congruent	Mi-Mu	deontic
+428	You are allowed to take a walk.	You must take a walk.	non-entailment	congruent	Mi-Mu	deontic
+429	It is acceptable to listen to music.	There is an obligation to listen to music.	non-entailment	congruent	Mi-Mu	deontic
+430	You can choose to learn a new language.	It is obligatory to learn a new language.	non-entailment	congruent	Mi-Mu	deontic
+431	It is permissible to help others.	You are required to help others.	non-entailment	congruent	Mi-Mu	deontic
+432	You are permitted to be kind.	It is mandatory to be kind.	non-entailment	congruent	Mi-Mu	deontic
+433	You are allowed to be honest.	You must be honest.	non-entailment	congruent	Mi-Mu	deontic
+434	It is acceptable to be respectful.	There is an obligation to be respectful.	non-entailment	congruent	Mi-Mu	deontic
+435	You can choose to be responsible.	It is obligatory to be responsible.	non-entailment	congruent	Mi-Mu	deontic
+436	It is permissible to express your emotions.	You are required to express your emotions.	non-entailment	congruent	Mi-Mu	deontic
+437	You are permitted to ask for help.	It is mandatory to ask for help.	non-entailment	congruent	Mi-Mu	deontic
+438	You are allowed to make mistakes.	You must make mistakes.	non-entailment	congruent	Mi-Mu	deontic
+439	It is acceptable to forgive yourself.	There is an obligation to forgive yourself.	non-entailment	congruent	Mi-Mu	deontic
+440	You can choose to love yourself.	It is obligatory to love yourself.	non-entailment	congruent	Mi-Mu	deontic
+441	It is permissible to eat dessert first.	It is obligatory to eat dessert first.	non-entailment	incongruent	Mi-Mu	deontic
+442	You are permitted to sing in public.	There is an obligation to sing in public.	non-entailment	incongruent	Mi-Mu	deontic
+443	You are allowed to dance in the street.	You are required to dance in the street.	non-entailment	incongruent	Mi-Mu	deontic
+444	It is acceptable to wear pajamas to the store.	It is mandatory to wear pajamas to the store.	non-entailment	incongruent	Mi-Mu	deontic
+445	You can choose to stay up all night.	You must stay up all night.	non-entailment	incongruent	Mi-Mu	deontic
+446	It is permissible to laugh at a funeral.	It is obligatory to laugh at a funeral.	non-entailment	incongruent	Mi-Mu	deontic
+447	You are permitted to cry at a wedding.	There is an obligation to cry at a wedding.	non-entailment	incongruent	Mi-Mu	deontic
+448	You are allowed to disagree with your boss.	You are required to disagree with your boss.	non-entailment	incongruent	Mi-Mu	deontic
+449	It is acceptable to arrive late for an appointment.	It is mandatory to arrive late for an appointment.	non-entailment	incongruent	Mi-Mu	deontic
+450	You can choose to leave your dishes unwashed.	You must leave your dishes unwashed.	non-entailment	incongruent	Mi-Mu	deontic
+451	It is permissible to talk during a movie.	It is obligatory to talk during a movie.	non-entailment	incongruent	Mi-Mu	deontic
+452	You are permitted to interrupt someone while they are speaking.	There is an obligation to interrupt someone while they are speaking.	non-entailment	incongruent	Mi-Mu	deontic
+453	You are allowed to use your phone during a meeting.	You are required to use your phone during a meeting.	non-entailment	incongruent	Mi-Mu	deontic
+454	It is acceptable to tell a white lie.	It is mandatory to tell a white lie.	non-entailment	incongruent	Mi-Mu	deontic
+455	You can choose to ignore a friend's request.	You must ignore a friend's request.	non-entailment	incongruent	Mi-Mu	deontic
+456	It is permissible to change your mind.	It is obligatory to change your mind.	non-entailment	incongruent	Mi-Mu	deontic
+457	You are permitted to daydream during class.	There is an obligation to daydream during class.	non-entailment	incongruent	Mi-Mu	deontic
+458	You are allowed to take a nap in the middle of the day.	You are required to take a nap in the middle of the day.	non-entailment	incongruent	Mi-Mu	deontic
+459	It is acceptable to sing off-key.	It is mandatory to sing off-key.	non-entailment	incongruent	Mi-Mu	deontic
+460	You can choose to wear mismatched socks.	You must wear mismatched socks.	non-entailment	incongruent	Mi-Mu	deontic
+461	It is permissible to flibbertigibbet.	You are required to flibbertigibbet.	non-entailment	nonsense	Mi-Mu	deontic
+462	You are permitted to gobbledygook.	It is mandatory to gobbledygook.	non-entailment	nonsense	Mi-Mu	deontic
+463	You are allowed to hootenanny.	You must hootenanny.	non-entailment	nonsense	Mi-Mu	deontic
+464	It is acceptable to codswallop.	There is an obligation to codswallop.	non-entailment	nonsense	Mi-Mu	deontic
+465	You can choose to malarkey.	It is obligatory to malarkey.	non-entailment	nonsense	Mi-Mu	deontic
+466	It is permissible to shenanigans.	You are required to shenanigans.	non-entailment	nonsense	Mi-Mu	deontic
+467	You are permitted to flummox.	It is mandatory to flummox.	non-entailment	nonsense	Mi-Mu	deontic
+468	You are allowed to bamboozle.	You must bamboozle.	non-entailment	nonsense	Mi-Mu	deontic
+469	It is acceptable to discombobulate.	There is an obligation to discombobulate.	non-entailment	nonsense	Mi-Mu	deontic
+470	You can choose to kerfuffle.	It is obligatory to kerfuffle.	non-entailment	nonsense	Mi-Mu	deontic
+471	It is permissible to razzmatazz.	You are required to razzmatazz.	non-entailment	nonsense	Mi-Mu	deontic
+472	You are permitted to skedaddle.	It is mandatory to skedaddle.	non-entailment	nonsense	Mi-Mu	deontic
+473	You are allowed to whippersnapper.	You must whippersnapper.	non-entailment	nonsense	Mi-Mu	deontic
+474	It is acceptable to nincompoop.	There is an obligation to nincompoop.	non-entailment	nonsense	Mi-Mu	deontic
+475	You can choose to lollygag.	It is obligatory to lollygag.	non-entailment	nonsense	Mi-Mu	deontic
+476	It is permissible to wabbit.	You are required to wabbit.	non-entailment	nonsense	Mi-Mu	deontic
+477	You are permitted to ballyhoo.	It is mandatory to ballyhoo.	non-entailment	nonsense	Mi-Mu	deontic
+478	You are allowed to poppycock.	You must poppycock.	non-entailment	nonsense	Mi-Mu	deontic
+479	It is acceptable to gobbledegook.	There is an obligation to gobbledegook.	non-entailment	nonsense	Mi-Mu	deontic
+480	You can choose to mumbo jumbo.	It is obligatory to mumbo jumbo.	non-entailment	nonsense	Mi-Mu	deontic
+481	You may ride a bicycle or a car.	You may ride a bicycle.	entailment	congruent	FC-Or-Elim	deontic
+482	You may eat cake or cookies.	You may eat cake.	entailment	congruent	FC-Or-Elim	deontic
+483	You may drink coffee or tea.	You may drink coffee.	entailment	congruent	FC-Or-Elim	deontic
+484	You may read a book or a magazine.	You may read a book.	entailment	congruent	FC-Or-Elim	deontic
+485	You may watch a movie or a TV show.	You may watch a movie.	entailment	congruent	FC-Or-Elim	deontic
+486	You may listen to music or a podcast.	You may listen to music.	entailment	congruent	FC-Or-Elim	deontic
+487	You may play games or sports.	You may play games.	entailment	congruent	FC-Or-Elim	deontic
+488	You may study math or science.	You may study math.	entailment	congruent	FC-Or-Elim	deontic
+489	You may learn to sing or dance.	You may learn to sing.	entailment	congruent	FC-Or-Elim	deontic
+490	You may travel to Japan or France.	You may travel to Japan.	entailment	congruent	FC-Or-Elim	deontic
+491	You may buy a house or an apartment.	You may buy a house.	entailment	congruent	FC-Or-Elim	deontic
+492	You may adopt a cat or a dog.	You may adopt a cat.	entailment	congruent	FC-Or-Elim	deontic
+493	You may wear a dress or pants.	You may wear a dress.	entailment	congruent	FC-Or-Elim	deontic
+494	You may cook dinner or order takeout.	You may cook dinner.	entailment	congruent	FC-Or-Elim	deontic
+495	You may go to the park or the beach.	You may go to the park.	entailment	congruent	FC-Or-Elim	deontic
+496	You may take a bath or a shower.	You may take a bath.	entailment	congruent	FC-Or-Elim	deontic
+497	You may write a letter or an email.	You may write a letter.	entailment	congruent	FC-Or-Elim	deontic
+498	You may call your friend or your family.	You may call your friend.	entailment	congruent	FC-Or-Elim	deontic
+499	You may draw a picture or paint a picture.	You may draw a picture.	entailment	congruent	FC-Or-Elim	deontic
+500	You may plant a tree or a flower.	You may plant a tree.	entailment	congruent	FC-Or-Elim	deontic
+501	You may walk on water or breathe underwater.	You may walk on water.	entailment	incongruent	FC-Or-Elim	deontic
+502	You may have a pet dragon or talk to animals.	You may have a pet dragon.	entailment	incongruent	FC-Or-Elim	deontic
+503	You may turn invisible or control the weather.	You may turn invisible.	entailment	incongruent	FC-Or-Elim	deontic
+504	You may live forever or travel through time.	You may live forever.	entailment	incongruent	FC-Or-Elim	deontic
+505	You may have superhuman strength or read minds.	You may have superhuman strength.	entailment	incongruent	FC-Or-Elim	deontic
+506	You may teleport or become invisible.	You may teleport.	entailment	incongruent	FC-Or-Elim	deontic
+507	You may fly like a bird or breathe underwater like a fish.	You may fly like a bird.	entailment	incongruent	FC-Or-Elim	deontic
+508	You may have a photographic memory or speak any language.	You may have a photographic memory.	entailment	incongruent	FC-Or-Elim	deontic
+509	You may control fire or control water.	You may control fire.	entailment	incongruent	FC-Or-Elim	deontic
+510	You may run at the speed of light or jump to the moon.	You may run at the speed of light.	entailment	incongruent	FC-Or-Elim	deontic
+511	You may possess telekinesis or predict the future.	You may possess telekinesis.	entailment	incongruent	FC-Or-Elim	deontic
+512	You may create matter or destroy matter.	You may create matter.	entailment	incongruent	FC-Or-Elim	deontic
+513	You may stop time or rewind time.	You may stop time.	entailment	incongruent	FC-Or-Elim	deontic
+514	You may walk through walls or become weightless.	You may walk through walls.	entailment	incongruent	FC-Or-Elim	deontic
+515	You may shapeshift into any animal or communicate with plants.	You may shapeshift into any animal.	entailment	incongruent	FC-Or-Elim	deontic
+516	You may live on Mars or breathe in space.	You may live on Mars.	entailment	incongruent	FC-Or-Elim	deontic
+517	You may have x-ray vision or super hearing.	You may have x-ray vision.	entailment	incongruent	FC-Or-Elim	deontic
+518	You may control gravity or control light.	You may control gravity.	entailment	incongruent	FC-Or-Elim	deontic
+519	You may transform into any object or clone yourself.	You may transform into any object.	entailment	incongruent	FC-Or-Elim	deontic
+520	You may own a unicorn or ride a pegasus.	You may own a unicorn.	entailment	incongruent	FC-Or-Elim	deontic
+521	You may floober a gleep or a glorp.	You may floober a gleep.	entailment	nonsense	FC-Or-Elim	deontic
+522	You may zizzle a fizz or a wuzzle.	You may zizzle a fizz.	entailment	nonsense	FC-Or-Elim	deontic
+523	You may quip a zarp or a fleep.	You may quip a zarp.	entailment	nonsense	FC-Or-Elim	deontic
+524	You may gorp a flummox or a quibble.	You may gorp a flummox.	entailment	nonsense	FC-Or-Elim	deontic
+525	You may splot a whiffle or a zizzle.	You may splot a whiffle.	entailment	nonsense	FC-Or-Elim	deontic
+526	You may flibbit a glop or a zizzle.	You may flibbit a glop.	entailment	nonsense	FC-Or-Elim	deontic
+527	You may whoosh a fizz or a wuzzle.	You may whoosh a fizz.	entailment	nonsense	FC-Or-Elim	deontic
+528	You may zizzle a fleep or a glorp.	You may zizzle a fleep.	entailment	nonsense	FC-Or-Elim	deontic
+529	You may glorp a quip or a wuzzle.	You may glorp a quip.	entailment	nonsense	FC-Or-Elim	deontic
+530	You may wuzzle a splot or a flummox.	You may wuzzle a splot.	entailment	nonsense	FC-Or-Elim	deontic
+531	You may fleep a gorp or a quibble.	You may fleep a gorp.	entailment	nonsense	FC-Or-Elim	deontic
+532	You may quibble a flibbit or a whoosh.	You may quibble a flibbit.	entailment	nonsense	FC-Or-Elim	deontic
+533	You may flummox a zarp or a fizz.	You may flummox a zarp.	entailment	nonsense	FC-Or-Elim	deontic
+534	You may whiffle a glorp or a gleep.	You may whiffle a glorp.	entailment	nonsense	FC-Or-Elim	deontic
+535	You may zarp a floober or a splot.	You may zarp a floober.	entailment	nonsense	FC-Or-Elim	deontic
+536	You may fizz a quip or a flibbit.	You may fizz a quip.	entailment	nonsense	FC-Or-Elim	deontic
+537	You may glorp a whoosh or a zizzle.	You may glorp a whoosh.	entailment	nonsense	FC-Or-Elim	deontic
+538	You may gleep a flummox or a whiffle.	You may gleep a flummox.	entailment	nonsense	FC-Or-Elim	deontic
+539	You may splot a quibble or a zarp.	You may splot a quibble.	entailment	nonsense	FC-Or-Elim	deontic
+540	You may floober a fizz or a wuzzle.	You may floober a fizz.	entailment	nonsense	FC-Or-Elim	deontic
+541	You may ride a bicycle.	You may ride a bicycle or a car.	non-entailment	congruent	FC-Or-Intro	deontic
+542	You may eat cake.	You may eat cake or cookies.	non-entailment	congruent	FC-Or-Intro	deontic
+543	You may drink coffee.	You may drink coffee or tea.	non-entailment	congruent	FC-Or-Intro	deontic
+544	You may read a book.	You may read a book or a magazine.	non-entailment	congruent	FC-Or-Intro	deontic
+545	You may watch a movie.	You may watch a movie or a TV show.	non-entailment	congruent	FC-Or-Intro	deontic
+546	You may listen to music.	You may listen to music or a podcast.	non-entailment	congruent	FC-Or-Intro	deontic
+547	You may play games.	You may play games or sports.	non-entailment	congruent	FC-Or-Intro	deontic
+548	You may study math.	You may study math or science.	non-entailment	congruent	FC-Or-Intro	deontic
+549	You may learn to sing.	You may learn to sing or dance.	non-entailment	congruent	FC-Or-Intro	deontic
+550	You may travel to Japan.	You may travel to Japan or France.	non-entailment	congruent	FC-Or-Intro	deontic
+551	You may buy a house.	You may buy a house or an apartment.	non-entailment	congruent	FC-Or-Intro	deontic
+552	You may adopt a cat.	You may adopt a cat or a dog.	non-entailment	congruent	FC-Or-Intro	deontic
+553	You may wear a dress.	You may wear a dress or pants.	non-entailment	congruent	FC-Or-Intro	deontic
+554	You may cook dinner.	You may cook dinner or order takeout.	non-entailment	congruent	FC-Or-Intro	deontic
+555	You may go to the park.	You may go to the park or the beach.	non-entailment	congruent	FC-Or-Intro	deontic
+556	You may take a bath.	You may take a bath or a shower.	non-entailment	congruent	FC-Or-Intro	deontic
+557	You may write a letter.	You may write a letter or an email.	non-entailment	congruent	FC-Or-Intro	deontic
+558	You may call your friend.	You may call your friend or your family.	non-entailment	congruent	FC-Or-Intro	deontic
+559	You may draw a picture.	You may draw a picture or take a picture.	non-entailment	congruent	FC-Or-Intro	deontic
+560	You may plant a tree.	You may plant a tree or a flower.	non-entailment	congruent	FC-Or-Intro	deontic
+561	You may walk on water.	You may walk on water or breathe underwater.	non-entailment	incongruent	FC-Or-Intro	deontic
+562	You may have a pet dragon.	You may have a pet dragon or talk to animals.	non-entailment	incongruent	FC-Or-Intro	deontic
+563	You may turn invisible.	You may turn invisible or control the weather.	non-entailment	incongruent	FC-Or-Intro	deontic
+564	You may live forever.	You may live forever or travel through time.	non-entailment	incongruent	FC-Or-Intro	deontic
+565	You may have superhuman strength.	You may have superhuman strength or read minds.	non-entailment	incongruent	FC-Or-Intro	deontic
+566	You may teleport.	You may teleport or become invisible.	non-entailment	incongruent	FC-Or-Intro	deontic
+567	You may fly like a bird.	You may fly like a bird or breathe underwater like a fish.	non-entailment	incongruent	FC-Or-Intro	deontic
+568	You may have a photographic memory.	You may have a photographic memory or speak any language.	non-entailment	incongruent	FC-Or-Intro	deontic
+569	You may control fire.	You may control fire or control water.	non-entailment	incongruent	FC-Or-Intro	deontic
+570	You may run at the speed of light.	You may run at the speed of light or jump to the moon.	non-entailment	incongruent	FC-Or-Intro	deontic
+571	You may possess telekinesis.	You may possess telekinesis or predict the future.	non-entailment	incongruent	FC-Or-Intro	deontic
+572	You may create matter.	You may create matter or destroy matter.	non-entailment	incongruent	FC-Or-Intro	deontic
+573	You may stop time.	You may stop time or rewind time.	non-entailment	incongruent	FC-Or-Intro	deontic
+574	You may walk through walls.	You may walk through walls or become weightless.	non-entailment	incongruent	FC-Or-Intro	deontic
+575	You may shapeshift into any animal.	You may shapeshift into any animal or communicate with plants.	non-entailment	incongruent	FC-Or-Intro	deontic
+576	You may live on Mars.	You may live on Mars or breathe in space.	non-entailment	incongruent	FC-Or-Intro	deontic
+577	You may have x-ray vision.	You may have x-ray vision or super hearing.	non-entailment	incongruent	FC-Or-Intro	deontic
+578	You may control gravity.	You may control gravity or control light.	non-entailment	incongruent	FC-Or-Intro	deontic
+579	You may transform into any object.	You may transform into any object or clone yourself.	non-entailment	incongruent	FC-Or-Intro	deontic
+580	You may own a unicorn.	You may own a unicorn or ride a pegasus.	non-entailment	incongruent	FC-Or-Intro	deontic
+581	You may floober a gleep.	You may floober a gleep or a glorp.	non-entailment	nonsense	FC-Or-Intro	deontic
+582	You may zizzle a fizz.	You may zizzle a fizz or a wuzzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+583	You may quip a zarp.	You may quip a zarp or a fleep.	non-entailment	nonsense	FC-Or-Intro	deontic
+584	You may gorp a flummox.	You may gorp a flummox or a quibble.	non-entailment	nonsense	FC-Or-Intro	deontic
+585	You may splot a whiffle.	You may splot a whiffle or a zizzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+586	You may flibbit a glop.	You may flibbit a glop or a zizzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+587	You may whoosh a fizz.	You may whoosh a fizz or a wuzzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+588	You may zizzle a fleep.	You may zizzle a fleep or a glorp.	non-entailment	nonsense	FC-Or-Intro	deontic
+589	You may glorp a quip.	You may glorp a quip or a wuzzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+590	You may wuzzle a splot.	You may wuzzle a splot or a flummox.	non-entailment	nonsense	FC-Or-Intro	deontic
+591	You may fleep a gorp.	You may fleep a gorp or a quibble.	non-entailment	nonsense	FC-Or-Intro	deontic
+592	You may quibble a flibbit.	You may quibble a flibbit or a whoosh.	non-entailment	nonsense	FC-Or-Intro	deontic
+593	You may flummox a zarp.	You may flummox a zarp or a fizz.	non-entailment	nonsense	FC-Or-Intro	deontic
+594	You may whiffle a glorp.	You may whiffle a glorp or a gleep.	non-entailment	nonsense	FC-Or-Intro	deontic
+595	You may zarp a floober.	You may zarp a floober or a splot.	non-entailment	nonsense	FC-Or-Intro	deontic
+596	You may fizz a quip.	You may fizz a quip or a flibbit.	non-entailment	nonsense	FC-Or-Intro	deontic
+597	You may glorp a whoosh.	You may glorp a whoosh or a zizzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+598	You may gleep a flummox.	You may gleep a flummox or a whiffle.	non-entailment	nonsense	FC-Or-Intro	deontic
+599	You may splot a quibble.	You may splot a quibble or a zarp.	non-entailment	nonsense	FC-Or-Intro	deontic
+600	You may floober a fizz.	You may floober a fizz or a wuzzle.	non-entailment	nonsense	FC-Or-Intro	deontic
+601	You must stop at a red light.	You must stop at a red light or run it.	non-entailment	incongruent	Ross-Or-Intro	deontic
+602	You must pay your taxes.	You must pay your taxes or evade them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+603	It is obligatory to wear a seatbelt.	It is obligatory to wear a seatbelt or drive without one.	non-entailment	incongruent	Ross-Or-Intro	deontic
+604	You must tell the truth.	You must tell the truth or lie.	non-entailment	incongruent	Ross-Or-Intro	deontic
+605	You must keep your promises.	You must keep your promises or break them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+606	It is obligatory to follow the law.	It is obligatory to follow the law or break it.	non-entailment	incongruent	Ross-Or-Intro	deontic
+607	You must respect others.	You must respect others or insult them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+608	You must be kind to animals.	You must be kind to animals or abuse them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+609	It is obligatory to protect the environment.	It is obligatory to protect the environment or pollute it.	non-entailment	incongruent	Ross-Or-Intro	deontic
+610	You must return borrowed items.	You must return borrowed items or steal them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+611	You must be honest in your dealings.	You must be honest in your dealings or cheat.	non-entailment	incongruent	Ross-Or-Intro	deontic
+612	It is obligatory to obey traffic signs.	It is obligatory to obey traffic signs or ignore them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+613	You must be polite to others.	You must be polite to others or be rude.	non-entailment	incongruent	Ross-Or-Intro	deontic
+614	You must keep your word.	You must keep your word or break it.	non-entailment	incongruent	Ross-Or-Intro	deontic
+615	It is obligatory to be punctual.	It is obligatory to be punctual or be late.	non-entailment	incongruent	Ross-Or-Intro	deontic
+616	You must be responsible for your actions.	You must be responsible for your actions or shirk them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+617	You must respect other people's property.	You must respect other people's property or damage it.	non-entailment	incongruent	Ross-Or-Intro	deontic
+618	It is obligatory to be a good citizen.	It is obligatory to be a good citizen or be a criminal.	non-entailment	incongruent	Ross-Or-Intro	deontic
+619	You must help those in need.	You must help those in need or ignore them.	non-entailment	incongruent	Ross-Or-Intro	deontic
+620	You must be grateful for what you have.	You must be grateful for what you have or be ungrateful.	non-entailment	incongruent	Ross-Or-Intro	deontic
+621	You must floober the zizzle.	You must floober the zizzle or gleep it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+622	You must choose a glorp.	You must choose a glorp or a fleep.	non-entailment	nonsense	Ross-Or-Intro	deontic
+623	It is obligatory to gronk the quimp.	It is obligatory to gronk the quimp or splotter it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+624	You must wiffle the flibbit.	You must wiffle the flibbit or glurp it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+625	You must choose a zizzle.	You must choose a zizzle or a glorp.	non-entailment	nonsense	Ross-Or-Intro	deontic
+626	It is obligatory to sproing the fleep.	It is obligatory to sproing the fleep or quimp it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+627	You must glurp the wiffle.	You must glurp the wiffle or gronk it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+628	You must choose a flibbit.	You must choose a flibbit or a zizzle.	non-entailment	nonsense	Ross-Or-Intro	deontic
+629	It is obligatory to quimp the glorp.	It is obligatory to quimp the glorp or floober it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+630	You must splotter the gronk.	You must splotter the gronk or wiffle it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+631	You must choose a quimp.	You must choose a quimp or a fleep.	non-entailment	nonsense	Ross-Or-Intro	deontic
+632	It is obligatory to fleep the zizzle.	It is obligatory to fleep the zizzle or sproing it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+633	You must glorp the splotter.	You must glorp the splotter or glurp it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+634	You must choose a gronk.	You must choose a gronk or a wiffle.	non-entailment	nonsense	Ross-Or-Intro	deontic
+635	It is obligatory to zizzle the flibbit.	It is obligatory to zizzle the flibbit or quimp it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+636	You must fleep the floober.	You must fleep the floober or splotter it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+637	You must choose a splotter.	You must choose a splotter or a glorp.	non-entailment	nonsense	Ross-Or-Intro	deontic
+638	It is obligatory to wiffle the quimp.	It is obligatory to wiffle the quimp or gronk it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+639	You must gronk the glorp.	You must gronk the glorp or fleep it.	non-entailment	nonsense	Ross-Or-Intro	deontic
+640	You must choose a floober.	You must choose a floober or a zizzle.	non-entailment	nonsense	Ross-Or-Intro	deontic
