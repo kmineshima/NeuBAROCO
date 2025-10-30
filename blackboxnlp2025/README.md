@@ -113,3 +113,9 @@ python -m scripts.experiments.deontic deontic-mp-base deontic-mp-kshot deontic-m
 ## Citation
 
 TBA
+
+## License
+
+The datasets are licensed under Creative Commons Attribution 4.0 International.
+
+[![CC4](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
