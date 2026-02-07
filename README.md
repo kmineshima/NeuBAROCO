@@ -2,6 +2,9 @@
 
 Datasets and scripts for the following paper(s). See the respective links for more details.
 
+- "Evaluation of Deontic Conditional Reasoning in Large Language Models: The Case of Wason's Selection Task" (accepted to EACL2026 Main)
+  - [Dataset](https://github.com/kmineshima/NeuBAROCO/tree/main/eacl2026)
+  - Paper (the link will be updated upon publication)
 - "Normative Reasoning in Large Language Models: A Comparative Benchmark from Logical and Modal Perspectives" (BlackboxNLP 2025)
   - [Datasets and scripts](https://github.com/kmineshima/NeuBAROCO/tree/main/blackboxnlp2025)
   - [Paper](https://aclanthology.org/2025.blackboxnlp-1.17/)

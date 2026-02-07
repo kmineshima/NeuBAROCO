@@ -1,0 +1,161 @@
+ID	modal	form	rule	card-1	card-2	card-3	card-4	gold1	gold2
+1	epistemic	pos-pos	If a symbol is a spiral, then the opposite side is a primary color.	Spiral	Triangle	Red	Green	1	4
+2	epistemic	pos-pos	If a word has more than 5 letters, then the opposite side shows a geometric shape.	Elephant	Cat	Circle	Squiggle	1	4
+3	epistemic	pos-pos	If a card has a solid color, then the opposite side shows a word describing a celestial body.	Blue	Striped	Moon	Flower	1	4
+4	epistemic	pos-pos	If a number is prime, then the opposite side has a lowercase letter.	7	12	f	F	1	4
+5	epistemic	pos-pos	If a card shows a tool, then the opposite side contains a word describing texture.	Hammer	Friend	Rough	Shiny	1	4
+6	epistemic	pos-pos	If a shape has curved lines, then the opposite side displays an emotion.	Circle	Square	Joy	Tree	1	4
+7	epistemic	pos-pos	If a card has a mammal, then the opposite side shows a type of weather.	Dog	Lizard	Sunny	Clock	1	4
+8	epistemic	pos-pos	If a word is a verb, then the opposite side has a plant.	Jump	Chair	Rose	Cloud	1	4
+9	epistemic	pos-pos	If a number is a multiple of 3, then the opposite side shows a musical instrument.	9	11	Violin	Bicycle	1	4
+10	epistemic	pos-pos	If a card shows a container, then the opposite side has a human body part.	Box	Spoon	Hand	Rain	1	4
+11	epistemic	pos-pos	If a symbol is an arrow, then the opposite side contains a word describing taste.	↑	☐	Sour	Loud	1	4
+12	epistemic	pos-pos	If a card has an insect, then the opposite side shows a mode of transportation.	Butterfly	Snake	Airplane	Scissors	1	4
+13	epistemic	pos-pos	If a word is an adjective, then the opposite side has a building.	Beautiful	Run	House	Mountain	1	4
+14	epistemic	pos-pos	If a number is negative, then the opposite side shows a piece of furniture.	-5	8	Chair	Rainbow	1	4
+15	epistemic	pos-pos	If a card shows a liquid, then the opposite side contains a word describing temperature.	Water	Rock	Cold	Happy	1	4
+16	epistemic	pos-pos	If a shape is symmetrical, then the opposite side shows a type of food.	Heart	Blob	Apple	Shoe	1	4
+17	epistemic	pos-pos	If a card has a bird, then the opposite side shows a direction.	Robin	Squirrel	North	Happy	1	4
+18	epistemic	pos-pos	If a word is a preposition, then the opposite side has a tool.	Under	Happy	Hammer	Cloud	1	4
+19	epistemic	pos-pos	If a number is a fraction, then the opposite side shows a type of clothing.	1/2	4	Shirt	Tree	1	4
+20	epistemic	pos-pos	If a card shows a musical note, then the opposite side contains a word describing a feeling.	♪	%	Sad	Fast	1	4
+21	deontic	pos-pos	If the lamp is on, then the visitor must enter the room.	Lamp on	Lamp off	Visitor entering	Visitor waiting	1	4
+22	deontic	pos-pos	If the flag is red, then the runner must start the race.	Red flag	Blue flag	Runner starting	Runner waiting	1	4
+23	deontic	pos-pos	If the button is round, then the technician needs to shut down the machine.	Round button	Square button	Technician shutting down	Machine running	1	4
+24	deontic	pos-pos	If it is between 3 p.m. to 5 p.m., then the singer is required to sing a song.	3 p.m.	10 a.m.	Singer singing	Singer silent	1	4
+25	deontic	pos-pos	If it is sunny, then the guard is obliged to unlock the door.	Sunny	Rainy	Guard unlocking the door	Guard leaving	1	4
+26	deontic	pos-pos	If the door is open, then the student has to read aloud a passage.	Door open	Door closed	Student reading aloud	Student silent	1	4
+27	deontic	pos-pos	If the clock is chiming, then the dancer is obligated to begin their dance.	Clock chiming	Clock silent	Dancer dancing	Dancer waiting	1	4
+28	deontic	pos-pos	If the candle is lit, then the artist has to paint a portrait.	Candle lit	Candle unlit	Artist painting	Artist waiting	1	4
+29	deontic	pos-pos	If the music box is playing, then the child has to open a present.	Music box playing	Music box silent	Child opening present	Present unopened	1	4
+30	deontic	pos-pos	If it is cold outside, then the astronomer has to observe the stars.	Cold	Humid	Astronomer observing	Astronomer waiting	1	4
+31	deontic	pos-pos	If there are more than three people on board, then the driver is required to start the car.	5 people on board	2 people on board	Driver starting car	Car off	1	4
+32	deontic	pos-pos	If the whistle blows, then the players are obliged to leave the field.	Whistle blowing	Whistle silent	Players leaving	Players on field	1	4
+33	deontic	pos-pos	If it is fully booked, then the audience needs to watch the play.	Fully booked	Seats available	Audience watching	Audience waiting	1	4
+34	deontic	pos-pos	If the coin is flipped, then the magician must perform a trick.	Coin flipped	Coin not flipped	Magician performing	Magician waiting	1	4
+35	deontic	pos-pos	If the window is open, then the explorer must begin their journey.	Window open	Window closed	Explorer starting	Explorer waiting	1	4
+36	deontic	pos-pos	If the car is in front of the building, then the lawyer needs to file the document with the court.	Car in front of the building	Car in the parking lot	Lawyer filing	Document not filed	1	4
+37	deontic	pos-pos	If the button is green, then the pilot is required to land the plane.	Button green	Button red	Pilot landing	Plane circling	1	4
+38	deontic	pos-pos	If the bell is ringing, then the student has an obligation to leave the classroom.	Bell ringing	Bell silent	Student leaving	Student in class	1	4
+39	deontic	pos-pos	If the dog is barking, then the photographer has to take a picture.	Dog barking	Dog silent	Photographer taking picture	Photographer waiting	1	4
+40	deontic	pos-pos	If the building has more than 10 floors, then the visitor needs to enter the building.	Building with 15 floors	Building with 3 floors	Visitor entering	Visitor outside	1	4
+41	epistemic	pos-neg	If a symbol is a spiral, then the opposite side is not a primary color.	Spiral	Triangle	Red	Green	1	3
+42	epistemic	pos-neg	If a word has more than 5 letters, then the opposite side does not show a geometric shape.	Elephant	Cat	Circle	Squiggle	1	3
+43	epistemic	pos-neg	If a card has a solid color, then the opposite side does not show a word describing a celestial body.	Blue	Striped	Moon	Flower	1	3
+44	epistemic	pos-neg	If a number is prime, then the opposite side does not have a lowercase letter.	7	12	f	F	1	3
+45	epistemic	pos-neg	If a card shows a tool, then the opposite side does not contain a word describing texture.	Hammer	Friend	Rough	Shiny	1	3
+46	epistemic	pos-neg	If a shape has curved lines, then the opposite side does not display an emotion.	Circle	Square	Joy	Tree	1	3
+47	epistemic	pos-neg	If a card has a mammal, then the opposite side does not show a type of weather.	Dog	Lizard	Sunny	Clock	1	3
+48	epistemic	pos-neg	If a word is a verb, then the opposite side has no plant.	Jump	Chair	Rose	Cloud	1	3
+49	epistemic	pos-neg	If a number is a multiple of 3, then the opposite side does not show a musical instrument.	9	11	Violin	Bicycle	1	3
+50	epistemic	pos-neg	If a card shows a container, then the opposite side has no human body part.	Box	Spoon	Hand	Rain	1	3
+51	epistemic	pos-neg	If a symbol is an arrow, then the opposite side does not contain a word describing taste.	↑	☐	Sour	Loud	1	3
+52	epistemic	pos-neg	If a card has an insect, then the opposite side does not show a mode of transportation.	Butterfly	Snake	Airplane	Scissors	1	3
+53	epistemic	pos-neg	If a word is an adjective, then the opposite side does not have a building.	Beautiful	Run	House	Mountain	1	3
+54	epistemic	pos-neg	If a number is negative, then the opposite side shows no piece of furniture.	-5	8	Chair	Rainbow	1	3
+55	epistemic	pos-neg	If a card shows a liquid, then the opposite side does not contain a word describing temperature.	Water	Rock	Cold	Happy	1	3
+56	epistemic	pos-neg	If a shape is symmetrical, then the opposite side does not show a type of food.	Heart	Blob	Apple	Shoe	1	3
+57	epistemic	pos-neg	If a card has a bird, then the opposite side does not show a direction.	Robin	Squirrel	North	Happy	1	3
+58	epistemic	pos-neg	If a word is a preposition, then the opposite side has no tool.	Under	Happy	Hammer	Cloud	1	3
+59	epistemic	pos-neg	If a number is a fraction, then the opposite side does not show a type of clothing.	1/2	4	Shirt	Tree	1	3
+60	epistemic	pos-neg	If a card shows a musical note, then the opposite side does not contain a word describing a feeling.	♪	%	Sad	Fast	1	3
+61	deontic	pos-neg	If the lamp is on, then the visitor must not enter the room.	Lamp on	Lamp off	Visitor entering	Visitor waiting	1	3
+62	deontic	pos-neg	If the flag is red, then the runner must not start the race.	Red flag	Blue flag	Runner starting	Runner waiting	1	3
+63	deontic	pos-neg	If the button is round, then the technician must not shut down the machine.	Round button	Square button	Technician shutting down	Machine running	1	3
+64	deontic	pos-neg	If it is between 3 p.m. to 5 p.m., then the singer is prohibited to sing a song.	3 p.m.	10 a.m.	Singer singing	Singer silent	1	3
+65	deontic	pos-neg	If it is sunny, then the guard is prohibited to unlock the door.	Sunny	Rainy	Guard unlocking the door	Guard leaving	1	3
+66	deontic	pos-neg	If the door is open, then the student is not allowed to read aloud a passage.	Door open	Door closed	Student reading aloud	Student silent	1	3
+67	deontic	pos-neg	If the clock is chiming, then the dancer is not permitted to begin their dance.	Clock chiming	Clock silent	Dancer dancing	Dancer waiting	1	3
+68	deontic	pos-neg	If the candle is lit, then the artist is not allowed to paint a portrait.	Candle lit	Candle unlit	Artist painting	Artist waiting	1	3
+69	deontic	pos-neg	If the music box is playing, then the child is not allowed to open a present.	Music box playing	Music box silent	Child opening present	Present unopened	1	3
+70	deontic	pos-neg	If it is cold outside, then the astronomer is not allowed to observe the stars.	Cold	Humid	Astronomer observing	Astronomer waiting	1	3
+71	deontic	pos-neg	If there are more than three people on board, then the driver is not permitted to start the car.	5 people on board	2 people on board	Driver starting car	Car off	1	3
+72	deontic	pos-neg	If the whistle blows, then the players cannot leave the field.	Whistle blowing	Whistle silent	Players leaving	Players on field	1	3
+73	deontic	pos-neg	If it is fully booked, then the audience cannot watch the play.	Fully booked	Seats available	Audience watching	Audience waiting	1	3
+74	deontic	pos-neg	If the coin is flipped, then the magician must not perform a trick.	Coin flipped	Coin not flipped	Magician performing	Magician waiting	1	3
+75	deontic	pos-neg	If the window is open, then the explorer must not begin their journey.	Window open	Window closed	Explorer starting	Explorer waiting	1	3
+76	deontic	pos-neg	If the car is in front of the building, then the lawyer is not allowed to file the document with the court.	Car in front of the building	Car in the parking lot	Lawyer filing	Document not filed	1	3
+77	deontic	pos-neg	If the button is green, then the pilot is prohibited to land the plane.	Button green	Button red	Pilot landing	Plane circling	1	3
+78	deontic	pos-neg	If the bell is ringing, then the student is not permitted to leave the classroom.	Bell ringing	Bell silent	Student leaving	Student in class	1	3
+79	deontic	pos-neg	If the dog is barking, then the photographer cannot take a picture.	Dog barking	Dog silent	Photographer taking picture	Photographer waiting	1	3
+80	deontic	pos-neg	If the building has more than 10 floors, then the visitor is not allowed to enter the building.	Building with 15 floors	Building with 3 floors	Visitor entering	Visitor outside	1	3
+81	epistemic	neg-pos	If a symbol is not a spiral, then the opposite side is a primary color.	Spiral	Triangle	Red	Green	2	4
+82	epistemic	neg-pos	If a word does not have more than 5 letters, then the opposite side shows a geometric shape.	Elephant	Cat	Circle	Squiggle	2	4
+83	epistemic	neg-pos	If a card does not have a solid color, then the opposite side shows a word describing a celestial body.	Blue	Striped	Moon	Flower	2	4
+84	epistemic	neg-pos	If a number is not prime, then the opposite side has a lowercase letter.	7	12	f	F	2	4
+85	epistemic	neg-pos	If a card does not show a tool, then the opposite side contains a word describing texture.	Hammer	Friend	Rough	Shiny	2	4
+86	epistemic	neg-pos	If a shape has no curved line, then the opposite side displays an emotion.	Circle	Square	Joy	Tree	2	4
+87	epistemic	neg-pos	If a card does not have a mammal, then the opposite side shows a type of weather.	Dog	Lizard	Sunny	Clock	2	4
+88	epistemic	neg-pos	If a word is not a verb, then the opposite side has a plant.	Jump	Chair	Rose	Cloud	2	4
+89	epistemic	neg-pos	If a number is not a multiple of 3, then the opposite side shows a musical instrument.	9	11	Violin	Bicycle	2	4
+90	epistemic	neg-pos	If a card does not show a container, then the opposite side has a human body part.	Box	Spoon	Hand	Rain	2	4
+91	epistemic	neg-pos	If a symbol is not an arrow, then the opposite side contains a word describing taste.	↑	☐	Sour	Loud	2	4
+92	epistemic	neg-pos	If a card does not have an insect, then the opposite side shows a mode of transportation.	Butterfly	Snake	Airplane	Scissors	2	4
+93	epistemic	neg-pos	If a word is not an adjective, then the opposite side has a building.	Beautiful	Run	House	Mountain	2	4
+94	epistemic	neg-pos	If a number is not negative, then the opposite side shows a piece of furniture.	-5	8	Chair	Rainbow	2	4
+95	epistemic	neg-pos	If a card does not show a liquid, then the opposite side contains a word describing temperature.	Water	Rock	Cold	Happy	2	4
+96	epistemic	neg-pos	If a shape is not symmetrical, then the opposite side shows a type of food.	Heart	Blob	Apple	Shoe	2	4
+97	epistemic	neg-pos	If a card has no bird, then the opposite side shows a direction.	Robin	Squirrel	North	Happy	2	4
+98	epistemic	neg-pos	If a word is not a preposition, then the opposite side has a tool.	Under	Happy	Hammer	Cloud	2	4
+99	epistemic	neg-pos	If a number is not a fraction, then the opposite side shows a type of clothing.	1/2	4	Shirt	Tree	2	4
+100	epistemic	neg-pos	If a card does not show a musical note, then the opposite side contains a word describing a feeling.	♪	%	Sad	Fast	2	4
+101	deontic	neg-pos	If the lamp is not on, then the visitor must enter the room.	Lamp on	Lamp off	Visitor entering	Visitor waiting	2	4
+102	deontic	neg-pos	If the flag is not red, then the runner must start the race.	Red flag	Blue flag	Runner starting	Runner waiting	2	4
+103	deontic	neg-pos	If the button is not round, then the technician needs to shut down the machine.	Round button	Square button	Technician shutting down	Machine running	2	4
+104	deontic	neg-pos	If it is not between 3 p.m. to 5 p.m., then the singer is required to sing a song.	3 p.m.	10 a.m.	Singer singing	Singer silent	2	4
+105	deontic	neg-pos	If it is not sunny, then the guard is obliged to unlock the door.	Sunny	Rainy	Guard unlocking the door	Guard leaving	2	4
+106	deontic	neg-pos	If the door is not open, then the student has to read aloud a passage.	Door open	Door closed	Student reading aloud	Student silent	2	4
+107	deontic	neg-pos	If the clock is not chiming, then the dancer is obligated to begin their dance.	Clock chiming	Clock silent	Dancer dancing	Dancer waiting	2	4
+108	deontic	neg-pos	If the candle is not lit, then the artist has to paint a portrait.	Candle lit	Candle unlit	Artist painting	Artist waiting	2	4
+109	deontic	neg-pos	If the music box is not playing, then the child has to open a present.	Music box playing	Music box silent	Child opening present	Present unopened	2	4
+110	deontic	neg-pos	If it is not cold outside, then the astronomer has to observe the stars.	Cold	Humid	Astronomer observing	Astronomer waiting	2	4
+111	deontic	neg-pos	If there are three or fewer people on board, then the driver is required to start the car.	5 people on board	2 people on board	Driver starting car	Car off	2	4
+112	deontic	neg-pos	If the whistle does not blow, then the players are obliged to leave the field.	Whistle blowing	Whistle silent	Players leaving	Players on field	2	4
+113	deontic	neg-pos	If it is not fully booked, then the audience needs to watch the play.	Fully booked	Seats available	Audience watching	Audience waiting	2	4
+114	deontic	neg-pos	If the coin is not flipped, then the magician must perform a trick.	Coin flipped	Coin not flipped	Magician performing	Magician waiting	2	4
+115	deontic	neg-pos	If the window is not open, then the explorer must begin their journey.	Window open	Window closed	Explorer starting	Explorer waiting	2	4
+116	deontic	neg-pos	If the car is not in front of the building, then the lawyer needs to file the document with the court.	Car in front of the building	Car in the parking lot	Lawyer filing	Document not filed	2	4
+117	deontic	neg-pos	If the button is not green, then the pilot is required to land the plane.	Button green	Button red	Pilot landing	Plane circling	2	4
+118	deontic	neg-pos	If the bell is not ringing, then the student has an obligation to leave the classroom.	Bell ringing	Bell silent	Student leaving	Student in class	2	4
+119	deontic	neg-pos	If the dog is not barking, then the photographer has to take a picture.	Dog barking	Dog silent	Photographer taking picture	Photographer waiting	2	4
+120	deontic	neg-pos	If the building has 10 or fewer floors, then the visitor needs to enter the building.	Building with 15 floors	Building with 3 floors	Visitor entering	Visitor outside	2	4
+121	epistemic	neg-neg	If a symbol is not a spiral, then the opposite side is not a primary color.	Spiral	Triangle	Red	Green	2	3
+122	epistemic	neg-neg	If a word does not have more than 5 letters, then the opposite side does not show a geometric shape.	Elephant	Cat	Circle	Squiggle	2	3
+123	epistemic	neg-neg	If a card does not have a solid color, then the opposite side does not show a word describing a celestial body.	Blue	Striped	Moon	Flower	2	3
+124	epistemic	neg-neg	If a number is not prime, then the opposite side does not have a lowercase letter.	7	12	f	F	2	3
+125	epistemic	neg-neg	If a card does not show a tool, then the opposite side does not contain a word describing texture.	Hammer	Friend	Rough	Shiny	2	3
+126	epistemic	neg-neg	If a shape has no curved line, then the opposite side does not display an emotion.	Circle	Square	Joy	Tree	2	3
+127	epistemic	neg-neg	If a card does not have a mammal, then the opposite side does not show a type of weather.	Dog	Lizard	Sunny	Clock	2	3
+128	epistemic	neg-neg	If a word is not a verb, then the opposite side has no plant.	Jump	Chair	Rose	Cloud	2	3
+129	epistemic	neg-neg	If a number is not a multiple of 3, then the opposite side does not show a musical instrument.	9	11	Violin	Bicycle	2	3
+130	epistemic	neg-neg	If a card does not show a container, then the opposite side has no human body part.	Box	Spoon	Hand	Rain	2	3
+131	epistemic	neg-neg	If a symbol is not an arrow, then the opposite side does not contain a word describing taste.	↑	☐	Sour	Loud	2	3
+132	epistemic	neg-neg	If a card does not have an insect, then the opposite side does not show a mode of transportation.	Butterfly	Snake	Airplane	Scissors	2	3
+133	epistemic	neg-neg	If a word is not an adjective, then the opposite side does not have a building.	Beautiful	Run	House	Mountain	2	3
+134	epistemic	neg-neg	If a number is not negative, then the opposite side shows no piece of furniture.	-5	8	Chair	Rainbow	2	3
+135	epistemic	neg-neg	If a card does not show a liquid, then the opposite side does not contain a word describing temperature.	Water	Rock	Cold	Happy	2	3
+136	epistemic	neg-neg	If a shape is not symmetrical, then the opposite side does not show a type of food.	Heart	Blob	Apple	Shoe	2	3
+137	epistemic	neg-neg	If a card has no bird, then the opposite side does not show a direction.	Robin	Squirrel	North	Happy	2	3
+138	epistemic	neg-neg	If a word is not a preposition, then the opposite side has no tool.	Under	Happy	Hammer	Cloud	2	3
+139	epistemic	neg-neg	If a number is not a fraction, then the opposite side does not show a type of clothing.	1/2	4	Shirt	Tree	2	3
+140	epistemic	neg-neg	If a card does not show a musical note, then the opposite side does not contain a word describing a feeling.	♪	%	Sad	Fast	2	3
+141	deontic	neg-neg	If the lamp is not on, then the visitor must not enter the room.	Lamp on	Lamp off	Visitor entering	Visitor waiting	2	3
+142	deontic	neg-neg	If the flag is not red, then the runner must not start the race.	Red flag	Blue flag	Runner starting	Runner waiting	2	3
+143	deontic	neg-neg	If the button is not round, then the technician must not shut down the machine.	Round button	Square button	Technician shutting down	Machine running	2	3
+144	deontic	neg-neg	If it is not between 3 p.m. to 5 p.m., then the singer is prohibited to sing a song.	3 p.m.	10 a.m.	Singer singing	Singer silent	2	3
+145	deontic	neg-neg	If it is not sunny, then the guard is prohibited to unlock the door.	Sunny	Rainy	Guard unlocking the door	Guard leaving	2	3
+146	deontic	neg-neg	If the door is not open, then the student is not allowed to read aloud a passage.	Door open	Door closed	Student reading aloud	Student silent	2	3
+147	deontic	neg-neg	If the clock is not chiming, then the dancer is not permitted to begin their dance.	Clock chiming	Clock silent	Dancer dancing	Dancer waiting	2	3
+148	deontic	neg-neg	If the candle is not lit, then the artist is not allowed to paint a portrait.	Candle lit	Candle unlit	Artist painting	Artist waiting	2	3
+149	deontic	neg-neg	If the music box is not playing, then the child is not allowed to open a present.	Music box playing	Music box silent	Child opening present	Present unopened	2	3
+150	deontic	neg-neg	If it is not cold outside, then the astronomer is not allowed to observe the stars.	Cold	Humid	Astronomer observing	Astronomer waiting	2	3
+151	deontic	neg-neg	If there are three or fewer people on board, then the driver is not permitted to start the car.	5 people on board	2 people on board	Driver starting car	Car off	2	3
+152	deontic	neg-neg	If the whistle does not blow, then the players cannot leave the field.	Whistle blowing	Whistle silent	Players leaving	Players on field	2	3
+153	deontic	neg-neg	If it is not fully booked, then the audience cannot watch the play.	Fully booked	Seats available	Audience watching	Audience waiting	2	3
+154	deontic	neg-neg	If the coin is not flipped, then the magician must not perform a trick.	Coin flipped	Coin not flipped	Magician performing	Magician waiting	2	3
+155	deontic	neg-neg	If the window is not open, then the explorer must not begin their journey.	Window open	Window closed	Explorer starting	Explorer waiting	2	3
+156	deontic	neg-neg	If the car is not in front of the building, then the lawyer is not allowed to file the document with the court.	Car in front of the building	Car in the parking lot	Lawyer filing	Document not filed	2	3
+157	deontic	neg-neg	If the button is not green, then the pilot is prohibited to land the plane.	Button green	Button red	Pilot landing	Plane circling	2	3
+158	deontic	neg-neg	If the bell is not ringing, then the student is not permitted to leave the classroom.	Bell ringing	Bell silent	Student leaving	Student in class	2	3
+159	deontic	neg-neg	If the dog is not barking, then the photographer cannot take a picture.	Dog barking	Dog silent	Photographer taking picture	Photographer waiting	2	3
+160	deontic	neg-neg	If the building has 10 or fewer floors, then the visitor is not allowed to enter the building.	Building with 15 floors	Building with 3 floors	Visitor entering	Visitor outside	2	3
