@@ -4,7 +4,7 @@ Datasets and scripts for the following paper(s). See the respective links for mo
 
 - "Normative Reasoning in Large Language Models: A Comparative Benchmark from Logical and Modal Perspectives" (BlackboxNLP 2025)
   - [Datasets and scripts](https://github.com/kmineshima/NeuBAROCO/tree/main/blackboxnlp2025)
-  - [Paper](#)
+  - [Paper](https://aclanthology.org/2025.blackboxnlp-1.17/)
 - "Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset" (ACL2024 Findings)
   - [Datasets and scripts](https://github.com/kmineshima/NeuBAROCO/tree/main/acl2024)
   - [Paper](https://aclanthology.org/2024.findings-acl.950/)
